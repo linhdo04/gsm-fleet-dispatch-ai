@@ -1,0 +1,49 @@
+name: Terraform security
+
+on:
+  pull_request:
+    paths:
+      - "infra/**"
+      - ".github/workflows/terraform-security.yml"
+  push:
+    branches: [main]
+    paths:
+      - "infra/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.15.8"
+
+      - uses: terraform-linters/setup-tflint@v6
+        with:
+          tflint_version: v0.59.1
+
+      - name: Terraform formatting
+        run: terraform fmt -check -recursive infra
+
+      - name: Terraform validation
+        run: |
+          terraform -chdir=infra/terraform init -backend=false
+          terraform -chdir=infra/terraform validate
+
+      - name: TFLint
+        working-directory: infra
+        run: |
+          tflint --chdir=terraform --init
+          tflint --chdir=terraform --recursive
+
+      - uses: aquasecurity/trivy-action@v0.36.0
+        with:
+          scan-type: config
+          scan-ref: infra
+          severity: HIGH,CRITICAL
+          exit-code: "1"
