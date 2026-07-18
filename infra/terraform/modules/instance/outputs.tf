@@ -17,3 +17,8 @@ output "data_disk_id" {
   description = "ID of the attached persistent data disk"
   value       = try(google_compute_disk.data[0].id, null)
 }
+
+output "service_account_email" {
+  description = "Email address of the dedicated VM service account"
+  value       = google_service_account.vm.email
+}

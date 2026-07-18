@@ -1,3 +1,20 @@
+resource "google_service_account" "vm" {
+  account_id   = substr("${var.instance_name}-vm", 0, 30)
+  display_name = "Service account for ${var.instance_name}"
+  project      = var.project_id
+}
+
+resource "google_project_iam_member" "vm" {
+  for_each = toset([
+    "roles/logging.logWriter",
+    "roles/monitoring.metricWriter",
+  ])
+
+  project = var.project_id
+  role    = each.value
+  member  = google_service_account.vm.member
+}
+
 resource "google_compute_disk" "data" {
   count = var.data_disk_size > 0 ? 1 : 0
 
@@ -42,6 +59,7 @@ resource "google_compute_instance" "vm_instance" {
   }
 
   service_account {
+    email  = google_service_account.vm.email
     scopes = ["logging-write", "monitoring-write"]
   }
 
