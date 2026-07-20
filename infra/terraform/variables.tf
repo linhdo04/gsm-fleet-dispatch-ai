@@ -65,3 +65,9 @@ variable "database_point_in_time_recovery" {
   type        = bool
   default     = true
 }
+
+variable "instance_data_disk_size" {
+  description = "Size of the data disk for the Compute Engine instance"
+  type        = number
+  default     = 100
+}
