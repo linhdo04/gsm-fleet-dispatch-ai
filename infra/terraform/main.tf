@@ -57,3 +57,10 @@ module "registry" {
   project_id = var.project_id
   region     = var.region
 }
+
+module "bucket" {
+  source     = "./modules/bucket"
+  project_id = var.project_id
+  name       = "${var.project_id}-${var.common_name}"
+  location   = var.region
+}
