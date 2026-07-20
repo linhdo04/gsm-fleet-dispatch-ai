@@ -1,4 +1,4 @@
-FROM node:24-alpine AS builder
+FROM dhi.io/node:24-dev AS builder
 
 WORKDIR /app
 
@@ -12,10 +12,10 @@ COPY . .
 
 RUN pnpm build
 
-FROM nginx:1.29-alpine
+FROM dhi.io/nginx:1.30-alpine
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder --chown=nginx:nginx /app/dist /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["-g", "daemon off;"]
