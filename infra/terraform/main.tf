@@ -30,7 +30,7 @@ module "instance" {
 
   network_tags     = ["web-traffic", "ssh-traffic"]
   enable_public_ip = false
-  data_disk_size   = 100
+  data_disk_size   = var.instance_data_disk_size
 }
 
 module "database" {
