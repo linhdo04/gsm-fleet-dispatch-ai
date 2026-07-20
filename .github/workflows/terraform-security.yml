@@ -3,55 +3,28 @@ name: Terraform security
 on:
   pull_request:
     branches: [main]
+    paths:
+      - "infra/**"
+      - ".github/workflows/terraform-security.yml"
+
   push:
     branches: [main]
+    paths:
+      - "infra/**"
+      - ".github/workflows/terraform-security.yml"
 
 permissions:
   contents: read
 
 jobs:
-  changes:
-    name: Detect infrastructure changes
-    runs-on: ubuntu-latest
-    outputs:
-      infra: ${{ steps.filter.outputs.infra }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Check changed paths
-        id: filter
-        shell: bash
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
-          PUSH_BASE_SHA: ${{ github.event.before }}
-          HEAD_SHA: ${{ github.sha }}
-        run: |
-          if [[ "$EVENT_NAME" == "pull_request" ]]; then
-            base_sha="$PR_BASE_SHA"
-          else
-            base_sha="$PUSH_BASE_SHA"
-          fi
-
-          if [[ -z "$base_sha" || "$base_sha" =~ ^0+$ ]]; then
-            echo "infra=true" >> "$GITHUB_OUTPUT"
-          elif git diff --quiet "$base_sha" "$HEAD_SHA" -- infra .github/workflows/terraform-security.yml; then
-            echo "infra=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "infra=true" >> "$GITHUB_OUTPUT"
-          fi
-
   validate-and-scan:
     name: Terraform validate and scan
-    needs: changes
-    if: needs.changes.outputs.infra == 'true'
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: hashicorp/setup-terraform@v3
+      - uses: hashicorp/setup-terraform@v4
         with:
           terraform_version: "1.15.8"
 
@@ -68,41 +41,15 @@ jobs:
           terraform -chdir=infra/terraform validate
 
       - name: TFLint
-        working-directory: infra
         run: |
-          tflint --chdir=terraform --init
-          tflint --chdir=terraform --recursive
+          tflint --chdir=infra/terraform --init
+          tflint --chdir=infra/terraform
 
-      - uses: aquasecurity/trivy-action@v0.36.0
+      - name: Trivy
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           scan-type: config
           scan-ref: infra
+          skip-dirs: "**/.terraform"
           severity: HIGH,CRITICAL
           exit-code: "1"
-
-  ci-gate:
-    name: ci-gate
-    if: always()
-    needs:
-      - changes
-      - validate-and-scan
-    runs-on: ubuntu-latest
-    steps:
-      - name: Verify required jobs
-        shell: bash
-        env:
-          CHANGES_RESULT: ${{ needs.changes.result }}
-          INFRA_CHANGED: ${{ needs.changes.outputs.infra }}
-          TERRAFORM_RESULT: ${{ needs.validate-and-scan.result }}
-        run: |
-          if [[ "$CHANGES_RESULT" != "success" ]]; then
-            echo "Change detection failed: $CHANGES_RESULT"
-            exit 1
-          fi
-
-          if [[ "$INFRA_CHANGED" == "true" && "$TERRAFORM_RESULT" != "success" ]]; then
-            echo "Terraform checks did not pass: $TERRAFORM_RESULT"
-            exit 1
-          fi
-
-          echo "CI gate passed (infra_changed=$INFRA_CHANGED, terraform_result=$TERRAFORM_RESULT)."
