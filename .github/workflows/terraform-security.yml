@@ -2,13 +2,15 @@ name: Terraform security
 
 on:
   pull_request:
-    branches: [main]
+    branches: 
+      - main
     paths:
       - "infra/**"
       - ".github/workflows/terraform-security.yml"
 
   push:
-    branches: [main]
+    branches: 
+      - main
     paths:
       - "infra/**"
       - ".github/workflows/terraform-security.yml"
