@@ -1,0 +1,60 @@
+[project]
+name = "fleet-dispatch-backend"
+version = "0.1.0"
+description = "Backend API for GSM Fleet Dispatch AI"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "fastapi>=0.116.0,<1",
+  "opentelemetry-api>=1.35.0,<2",
+  "opentelemetry-exporter-otlp-proto-grpc>=1.35.0,<2",
+  "opentelemetry-instrumentation-fastapi>=0.56b0,<1",
+  "opentelemetry-sdk>=1.35.0,<2",
+  "prometheus-client>=0.22.0,<1",
+  "pydantic-settings>=2.10.0,<3",
+  "structlog>=25.4.0,<26",
+  "uvicorn[standard]>=0.35.0,<1",
+]
+
+[dependency-groups]
+dev = [
+  "httpx>=0.28.0,<1",
+  "mypy>=1.16.0,<2",
+  "pytest>=8.4.0,<9",
+  "pytest-cov>=6.2.0,<8",
+  "ruff>=0.12.0,<1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fleet_dispatch"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --strict-config --cov=fleet_dispatch --cov-report=term-missing --cov-fail-under=85"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ASYNC", "RUF"]
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["src", "tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["fleet_dispatch"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "if TYPE_CHECKING:",
+  "if __name__ == .__main__.:",
+]
