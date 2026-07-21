@@ -29,7 +29,7 @@ module "instance" {
   subnet_id = module.network.subnet_ids["${var.common_name}-subnet"]
 
   network_tags     = ["web-traffic", "ssh-traffic"]
-  enable_public_ip = false
+  enable_public_ip = var.enable_public_ip
   data_disk_size   = var.instance_data_disk_size
 }
 
