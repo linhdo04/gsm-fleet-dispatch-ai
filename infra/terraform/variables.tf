@@ -71,3 +71,9 @@ variable "instance_data_disk_size" {
   type        = number
   default     = 100
 }
+
+variable "enable_public_ip" {
+  type        = bool
+  description = "Enable/disable public IP for the VM"
+  default     = false
+}
