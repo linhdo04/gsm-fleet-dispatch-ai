@@ -1,6 +1,13 @@
 name: Frontend CI
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "frontend/**"
+      - ".github/workflows/frontend-ci.yml"
+
   pull_request:
     branches:
       - main
@@ -16,14 +23,18 @@ concurrency:
 
 permissions:
   contents: read
+  id-token: write
 
 env:
   NODE_VERSION: "24"
   PNPM_VERSION: "10.6.5"
+  GAR_REGISTRY: asia-southeast1-docker.pkg.dev
+  GAR_IMAGE: asia-southeast1-docker.pkg.dev/c2-app-501203/fleet-dispatch-images/frontend
 
 jobs:
   quality:
     name: Lint and build
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
 
     defaults:
@@ -57,6 +68,7 @@ jobs:
 
   source-security:
     name: Scan source code
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
 
     steps:
@@ -98,17 +110,43 @@ jobs:
       - name: Build container image
         run: |
           docker build \
-            --tag frontend:${{ github.sha }} \
+            --tag "${{ env.GAR_IMAGE }}:${{ github.sha }}" \
             frontend
 
       - name: Scan image with Trivy
         uses: aquasecurity/trivy-action@v0.36.0
         with:
           scan-type: image
-          image-ref: frontend:${{ github.sha }}
+          image-ref: ${{ env.GAR_IMAGE }}:${{ github.sha }}
           scanners: vuln
           format: table
           exit-code: "1"
           ignore-unfixed: true
           vuln-type: os,library
           severity: HIGH,CRITICAL
+
+      - name: Authenticate to Google Cloud
+        if: github.event_name != 'pull_request'
+        id: google-auth
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+
+      - name: Authenticate to Artifact Registry
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v4
+        with:
+          registry: ${{ env.GAR_REGISTRY }}
+          username: oauth2accesstoken
+          password: ${{ steps.google-auth.outputs.access_token }}
+
+      - name: Push image
+        if: github.event_name != 'pull_request'
+        run: |
+          docker push "${{ env.GAR_IMAGE }}:${{ github.sha }}"
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            docker tag "${{ env.GAR_IMAGE }}:${{ github.sha }}" "${{ env.GAR_IMAGE }}:latest"
+            docker push "${{ env.GAR_IMAGE }}:latest"
+          fi
