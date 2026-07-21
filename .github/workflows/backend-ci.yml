@@ -91,10 +91,6 @@ jobs:
     name: Build and scan container
     runs-on: ubuntu-latest
 
-    needs:
-      - quality
-      - source-security
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
