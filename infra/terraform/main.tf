@@ -33,18 +33,18 @@ module "instance" {
   data_disk_size   = var.instance_data_disk_size
 }
 
-module "database" {
-  source                 = "./modules/database"
-  project_id             = var.project_id
-  region                 = var.region
-  common_name            = var.common_name
-  vpc_id                 = module.network.vpc_id
-  deletion_protection    = var.database_deletion_protection
-  availability_type      = var.database_availability_type
-  disk_type              = var.database_disk_type
-  backup_enabled         = var.database_backup_enabled
-  point_in_time_recovery = var.database_point_in_time_recovery
-}
+# module "database" {
+#   source                 = "./modules/database"
+#   project_id             = var.project_id
+#   region                 = var.region
+#   common_name            = var.common_name
+#   vpc_id                 = module.network.vpc_id
+#   deletion_protection    = var.database_deletion_protection
+#   availability_type      = var.database_availability_type
+#   disk_type              = var.database_disk_type
+#   backup_enabled         = var.database_backup_enabled
+#   point_in_time_recovery = var.database_point_in_time_recovery
+# }
 
 module "firewall" {
   source     = "./modules/firewall"
