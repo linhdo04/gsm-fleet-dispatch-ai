@@ -1,0 +1,1999 @@
+{
+  "scenario": "rain",
+  "source_tick": {
+    "timestamp": "2026-01-11 06:35:00+00:00",
+    "weather": "heavy_rain",
+    "hour_local": 13,
+    "is_weekend": true,
+    "is_holiday": false
+  },
+  "zone_states": [
+    {
+      "zone_id": "HN-Z001",
+      "idle_drivers": 1,
+      "incoming_drivers": 4,
+      "outgoing_drivers": 1,
+      "predicted_supply": 4.0,
+      "predicted_demand": 0,
+      "deficit": -4.0
+    },
+    {
+      "zone_id": "HN-Z002",
+      "idle_drivers": 0,
+      "incoming_drivers": 7,
+      "outgoing_drivers": 0,
+      "predicted_supply": 7.0,
+      "predicted_demand": 1,
+      "deficit": -6.0
+    },
+    {
+      "zone_id": "HN-Z003",
+      "idle_drivers": 1,
+      "incoming_drivers": 4,
+      "outgoing_drivers": 0,
+      "predicted_supply": 5.0,
+      "predicted_demand": 0,
+      "deficit": -5.0
+    },
+    {
+      "zone_id": "HN-Z004",
+      "idle_drivers": 5,
+      "incoming_drivers": 7,
+      "outgoing_drivers": 0,
+      "predicted_supply": 12.0,
+      "predicted_demand": 0,
+      "deficit": -12.0
+    },
+    {
+      "zone_id": "HN-Z005",
+      "idle_drivers": 0,
+      "incoming_drivers": 4,
+      "outgoing_drivers": 1,
+      "predicted_supply": 3.0,
+      "predicted_demand": 0,
+      "deficit": -3.0
+    },
+    {
+      "zone_id": "HN-Z006",
+      "idle_drivers": 1,
+      "incoming_drivers": 5,
+      "outgoing_drivers": 0,
+      "predicted_supply": 6.0,
+      "predicted_demand": 0,
+      "deficit": -6.0
+    },
+    {
+      "zone_id": "HN-Z007",
+      "idle_drivers": 2,
+      "incoming_drivers": 5,
+      "outgoing_drivers": 1,
+      "predicted_supply": 6.0,
+      "predicted_demand": 1,
+      "deficit": -5.0
+    },
+    {
+      "zone_id": "HN-Z008",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 1,
+      "predicted_supply": 1.0,
+      "predicted_demand": 1,
+      "deficit": 0.0
+    },
+    {
+      "zone_id": "HN-Z009",
+      "idle_drivers": 0,
+      "incoming_drivers": 7,
+      "outgoing_drivers": 1,
+      "predicted_supply": 6.0,
+      "predicted_demand": 1,
+      "deficit": -5.0
+    },
+    {
+      "zone_id": "HN-Z010",
+      "idle_drivers": 1,
+      "incoming_drivers": 7,
+      "outgoing_drivers": 2,
+      "predicted_supply": 6.0,
+      "predicted_demand": 2,
+      "deficit": -4.0
+    },
+    {
+      "zone_id": "HN-Z011",
+      "idle_drivers": 0,
+      "incoming_drivers": 6,
+      "outgoing_drivers": 6,
+      "predicted_supply": 0.0,
+      "predicted_demand": 2,
+      "deficit": 2.0
+    },
+    {
+      "zone_id": "HN-Z012",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 0,
+      "predicted_supply": 2.0,
+      "predicted_demand": 2,
+      "deficit": 0.0
+    },
+    {
+      "zone_id": "HN-Z013",
+      "idle_drivers": 0,
+      "incoming_drivers": 4,
+      "outgoing_drivers": 0,
+      "predicted_supply": 4.0,
+      "predicted_demand": 2,
+      "deficit": -2.0
+    },
+    {
+      "zone_id": "HN-Z014",
+      "idle_drivers": 0,
+      "incoming_drivers": 0,
+      "outgoing_drivers": 3,
+      "predicted_supply": -3.0,
+      "predicted_demand": 3,
+      "deficit": 6.0
+    },
+    {
+      "zone_id": "HN-Z015",
+      "idle_drivers": 1,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 1,
+      "predicted_supply": 3.0,
+      "predicted_demand": 0,
+      "deficit": -3.0
+    },
+    {
+      "zone_id": "HN-Z016",
+      "idle_drivers": 1,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 1,
+      "predicted_supply": 3.0,
+      "predicted_demand": 1,
+      "deficit": -2.0
+    },
+    {
+      "zone_id": "HN-Z017",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 2,
+      "predicted_supply": 0.0,
+      "predicted_demand": 3,
+      "deficit": 3.0
+    },
+    {
+      "zone_id": "HN-Z018",
+      "idle_drivers": 0,
+      "incoming_drivers": 4,
+      "outgoing_drivers": 2,
+      "predicted_supply": 2.0,
+      "predicted_demand": 0,
+      "deficit": -2.0
+    },
+    {
+      "zone_id": "HN-Z019",
+      "idle_drivers": 0,
+      "incoming_drivers": 6,
+      "outgoing_drivers": 2,
+      "predicted_supply": 4.0,
+      "predicted_demand": 0,
+      "deficit": -4.0
+    },
+    {
+      "zone_id": "HN-Z020",
+      "idle_drivers": 21,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 0,
+      "predicted_supply": 24.0,
+      "predicted_demand": 0,
+      "deficit": -24.0
+    },
+    {
+      "zone_id": "HN-Z021",
+      "idle_drivers": 1,
+      "incoming_drivers": 1,
+      "outgoing_drivers": 2,
+      "predicted_supply": 0.0,
+      "predicted_demand": 2,
+      "deficit": 2.0
+    },
+    {
+      "zone_id": "HN-Z022",
+      "idle_drivers": 8,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 1,
+      "predicted_supply": 10.0,
+      "predicted_demand": 1,
+      "deficit": -9.0
+    },
+    {
+      "zone_id": "HN-Z023",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 1,
+      "predicted_supply": 1.0,
+      "predicted_demand": 2,
+      "deficit": 1.0
+    },
+    {
+      "zone_id": "HN-Z024",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 1,
+      "predicted_supply": 1.0,
+      "predicted_demand": 2,
+      "deficit": 1.0
+    },
+    {
+      "zone_id": "HN-Z025",
+      "idle_drivers": 0,
+      "incoming_drivers": 10,
+      "outgoing_drivers": 1,
+      "predicted_supply": 9.0,
+      "predicted_demand": 3,
+      "deficit": -6.0
+    },
+    {
+      "zone_id": "HN-Z026",
+      "idle_drivers": 12,
+      "incoming_drivers": 6,
+      "outgoing_drivers": 1,
+      "predicted_supply": 17.0,
+      "predicted_demand": 1,
+      "deficit": -16.0
+    },
+    {
+      "zone_id": "HN-Z027",
+      "idle_drivers": 8,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 0,
+      "predicted_supply": 11.0,
+      "predicted_demand": 0,
+      "deficit": -11.0
+    },
+    {
+      "zone_id": "HN-Z028",
+      "idle_drivers": 0,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 1,
+      "predicted_supply": 1.0,
+      "predicted_demand": 2,
+      "deficit": 1.0
+    },
+    {
+      "zone_id": "HN-Z029",
+      "idle_drivers": 0,
+      "incoming_drivers": 3,
+      "outgoing_drivers": 4,
+      "predicted_supply": -1.0,
+      "predicted_demand": 4,
+      "deficit": 5.0
+    },
+    {
+      "zone_id": "HN-Z030",
+      "idle_drivers": 4,
+      "incoming_drivers": 2,
+      "outgoing_drivers": 1,
+      "predicted_supply": 5.0,
+      "predicted_demand": 1,
+      "deficit": -4.0
+    }
+  ],
+  "driver_points": [
+    {
+      "driver_id": "R0001",
+      "zone_id": "HN-Z001",
+      "lat": 21.030141303158175,
+      "lng": 105.80226212094148,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0002",
+      "zone_id": "HN-Z001",
+      "lat": 21.03859866288106,
+      "lng": 105.80828854999729,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0003",
+      "zone_id": "HN-Z001",
+      "lat": 21.037527896035705,
+      "lng": 105.80081583804797,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0004",
+      "zone_id": "HN-Z001",
+      "lat": 21.030875795608573,
+      "lng": 105.80847711746631,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0005",
+      "zone_id": "HN-Z001",
+      "lat": 21.038957169007176,
+      "lng": 105.80665311413107,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0006",
+      "zone_id": "HN-Z002",
+      "lat": 21.015948726070413,
+      "lng": 105.79252488600561,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0007",
+      "zone_id": "HN-Z002",
+      "lat": 21.01617330930965,
+      "lng": 105.79381833390914,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0008",
+      "zone_id": "HN-Z002",
+      "lat": 21.01660340529302,
+      "lng": 105.79821450461317,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0009",
+      "zone_id": "HN-Z002",
+      "lat": 21.01793896146067,
+      "lng": 105.79431010892465,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0010",
+      "zone_id": "HN-Z002",
+      "lat": 21.013407458901728,
+      "lng": 105.80348073392885,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0011",
+      "zone_id": "HN-Z002",
+      "lat": 21.011270322786256,
+      "lng": 105.79688019141828,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0012",
+      "zone_id": "HN-Z002",
+      "lat": 21.016138879712905,
+      "lng": 105.80313063123566,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0013",
+      "zone_id": "HN-Z003",
+      "lat": 21.019468870559077,
+      "lng": 105.8258210241268,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0014",
+      "zone_id": "HN-Z003",
+      "lat": 21.019060464568412,
+      "lng": 105.82556306003322,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0015",
+      "zone_id": "HN-Z003",
+      "lat": 21.023392952378895,
+      "lng": 105.82786982517797,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0016",
+      "zone_id": "HN-Z003",
+      "lat": 21.02190531366414,
+      "lng": 105.8254936158187,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0017",
+      "zone_id": "HN-Z003",
+      "lat": 21.01619762130568,
+      "lng": 105.81823052317237,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0018",
+      "zone_id": "HN-Z004",
+      "lat": 21.035561347029432,
+      "lng": 105.77526166712424,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0019",
+      "zone_id": "HN-Z004",
+      "lat": 21.035271383424746,
+      "lng": 105.77752730146564,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0020",
+      "zone_id": "HN-Z004",
+      "lat": 21.034151817518854,
+      "lng": 105.77556984753502,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0021",
+      "zone_id": "HN-Z004",
+      "lat": 21.034750020952583,
+      "lng": 105.77816202356281,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0022",
+      "zone_id": "HN-Z004",
+      "lat": 21.035509961487282,
+      "lng": 105.7784780138752,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0023",
+      "zone_id": "HN-Z004",
+      "lat": 21.02983237200769,
+      "lng": 105.77649716970222,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0024",
+      "zone_id": "HN-Z004",
+      "lat": 21.033265003341214,
+      "lng": 105.78558574590865,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0025",
+      "zone_id": "HN-Z004",
+      "lat": 21.02545837793233,
+      "lng": 105.78169927424254,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0026",
+      "zone_id": "HN-Z004",
+      "lat": 21.025753463360054,
+      "lng": 105.77972710948882,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0027",
+      "zone_id": "HN-Z004",
+      "lat": 21.026020909341998,
+      "lng": 105.7750952381845,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0028",
+      "zone_id": "HN-Z004",
+      "lat": 21.0295041994848,
+      "lng": 105.7842198895864,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0029",
+      "zone_id": "HN-Z004",
+      "lat": 21.028623572949734,
+      "lng": 105.77620662880868,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0030",
+      "zone_id": "HN-Z005",
+      "lat": 21.045300862776305,
+      "lng": 105.82872083440438,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0031",
+      "zone_id": "HN-Z005",
+      "lat": 21.042715494470364,
+      "lng": 105.82642929622943,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0032",
+      "zone_id": "HN-Z005",
+      "lat": 21.040845315426488,
+      "lng": 105.83192213144481,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0033",
+      "zone_id": "HN-Z005",
+      "lat": 21.045548659132297,
+      "lng": 105.83280089697891,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0034",
+      "zone_id": "HN-Z006",
+      "lat": 21.056368943360784,
+      "lng": 105.79329087421769,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0035",
+      "zone_id": "HN-Z006",
+      "lat": 21.054797675558408,
+      "lng": 105.79102836289239,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0036",
+      "zone_id": "HN-Z006",
+      "lat": 21.047185884235784,
+      "lng": 105.79080961286982,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0037",
+      "zone_id": "HN-Z006",
+      "lat": 21.051497804998927,
+      "lng": 105.7825130122481,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0038",
+      "zone_id": "HN-Z006",
+      "lat": 21.05824437142771,
+      "lng": 105.78372893609026,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0039",
+      "zone_id": "HN-Z006",
+      "lat": 21.05234668445706,
+      "lng": 105.7938746030457,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0040",
+      "zone_id": "HN-Z007",
+      "lat": 21.058854588527126,
+      "lng": 105.81766806736337,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0041",
+      "zone_id": "HN-Z007",
+      "lat": 21.055885503720848,
+      "lng": 105.81093096931234,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0042",
+      "zone_id": "HN-Z007",
+      "lat": 21.06323820794017,
+      "lng": 105.8150861292053,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0043",
+      "zone_id": "HN-Z007",
+      "lat": 21.06277628032013,
+      "lng": 105.81514946987343,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0044",
+      "zone_id": "HN-Z007",
+      "lat": 21.051717050249938,
+      "lng": 105.80954326505488,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0045",
+      "zone_id": "HN-Z007",
+      "lat": 21.059341882875373,
+      "lng": 105.80685968576783,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0046",
+      "zone_id": "HN-Z007",
+      "lat": 21.05468879067004,
+      "lng": 105.80770748095483,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0047",
+      "zone_id": "HN-Z008",
+      "lat": 21.001981385761155,
+      "lng": 105.81653226741014,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0048",
+      "zone_id": "HN-Z008",
+      "lat": 20.992881103395852,
+      "lng": 105.81879152900687,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0049",
+      "zone_id": "HN-Z009",
+      "lat": 21.012324376985138,
+      "lng": 105.77162643065572,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0050",
+      "zone_id": "HN-Z009",
+      "lat": 21.008400305813687,
+      "lng": 105.76913523513194,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0051",
+      "zone_id": "HN-Z009",
+      "lat": 21.00456216777584,
+      "lng": 105.77351584805687,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0052",
+      "zone_id": "HN-Z009",
+      "lat": 21.003725350700073,
+      "lng": 105.77296570373832,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0053",
+      "zone_id": "HN-Z009",
+      "lat": 21.014214003567794,
+      "lng": 105.7747280896376,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0054",
+      "zone_id": "HN-Z009",
+      "lat": 21.008708768297357,
+      "lng": 105.77564975671247,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0055",
+      "zone_id": "HN-Z009",
+      "lat": 21.01224071658266,
+      "lng": 105.76967595247956,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0056",
+      "zone_id": "HN-Z010",
+      "lat": 20.988228018210975,
+      "lng": 105.79512258859145,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0057",
+      "zone_id": "HN-Z010",
+      "lat": 20.992563953963,
+      "lng": 105.78583265392494,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0058",
+      "zone_id": "HN-Z010",
+      "lat": 20.989411984252303,
+      "lng": 105.79079716837718,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0059",
+      "zone_id": "HN-Z010",
+      "lat": 20.989114496157352,
+      "lng": 105.78967626575414,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0060",
+      "zone_id": "HN-Z010",
+      "lat": 20.988743573831474,
+      "lng": 105.79433547565755,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0061",
+      "zone_id": "HN-Z010",
+      "lat": 20.987025838522857,
+      "lng": 105.79379290935614,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0062",
+      "zone_id": "HN-Z010",
+      "lat": 20.995738989977017,
+      "lng": 105.78886736995933,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0063",
+      "zone_id": "HN-Z010",
+      "lat": 20.9963880305991,
+      "lng": 105.79239552637588,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0064",
+      "zone_id": "HN-Z011",
+      "lat": 21.02724493046216,
+      "lng": 105.84779151204923,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0065",
+      "zone_id": "HN-Z011",
+      "lat": 21.02390829681977,
+      "lng": 105.84835585358353,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0066",
+      "zone_id": "HN-Z011",
+      "lat": 21.017980955755508,
+      "lng": 105.84397833985277,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0067",
+      "zone_id": "HN-Z011",
+      "lat": 21.01908295934025,
+      "lng": 105.84697702454663,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0068",
+      "zone_id": "HN-Z011",
+      "lat": 21.02141450515701,
+      "lng": 105.84436530229341,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0069",
+      "zone_id": "HN-Z011",
+      "lat": 21.018238041179355,
+      "lng": 105.84518464145592,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0070",
+      "zone_id": "HN-Z012",
+      "lat": 20.997039943651554,
+      "lng": 105.8385771295134,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0071",
+      "zone_id": "HN-Z012",
+      "lat": 21.001283674077968,
+      "lng": 105.83600678472668,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0072",
+      "zone_id": "HN-Z013",
+      "lat": 21.047299767994364,
+      "lng": 105.76724808862342,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0073",
+      "zone_id": "HN-Z013",
+      "lat": 21.054083794545235,
+      "lng": 105.76811321972076,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0074",
+      "zone_id": "HN-Z013",
+      "lat": 21.04720998123408,
+      "lng": 105.76495305669735,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0075",
+      "zone_id": "HN-Z013",
+      "lat": 21.050946253346623,
+      "lng": 105.77007655638478,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0076",
+      "zone_id": "HN-Z015",
+      "lat": 21.024107173986707,
+      "lng": 105.76106075552146,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0077",
+      "zone_id": "HN-Z015",
+      "lat": 21.029208505859973,
+      "lng": 105.75703971282611,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0078",
+      "zone_id": "HN-Z015",
+      "lat": 21.020807660263767,
+      "lng": 105.761862944475,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0079",
+      "zone_id": "HN-Z015",
+      "lat": 21.028804281162635,
+      "lng": 105.76290125094033,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0080",
+      "zone_id": "HN-Z016",
+      "lat": 21.080395042060427,
+      "lng": 105.80025491210101,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0081",
+      "zone_id": "HN-Z016",
+      "lat": 21.07790574554437,
+      "lng": 105.79762564953842,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0082",
+      "zone_id": "HN-Z016",
+      "lat": 21.08034511872488,
+      "lng": 105.7937406877651,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0083",
+      "zone_id": "HN-Z016",
+      "lat": 21.07978487286584,
+      "lng": 105.80030611310572,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0084",
+      "zone_id": "HN-Z017",
+      "lat": 21.039019866806466,
+      "lng": 105.85101172002497,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0085",
+      "zone_id": "HN-Z017",
+      "lat": 21.043654504034798,
+      "lng": 105.85470690122874,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0086",
+      "zone_id": "HN-Z018",
+      "lat": 21.06876105956259,
+      "lng": 105.77597296492698,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0087",
+      "zone_id": "HN-Z018",
+      "lat": 21.069569629775817,
+      "lng": 105.77478416503817,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0088",
+      "zone_id": "HN-Z018",
+      "lat": 21.069121068087863,
+      "lng": 105.7654656990655,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0089",
+      "zone_id": "HN-Z018",
+      "lat": 21.071250464693637,
+      "lng": 105.771486169551,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0090",
+      "zone_id": "HN-Z019",
+      "lat": 21.082850456995022,
+      "lng": 105.81776364319657,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0091",
+      "zone_id": "HN-Z019",
+      "lat": 21.076865288105406,
+      "lng": 105.81626213985658,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0092",
+      "zone_id": "HN-Z019",
+      "lat": 21.078588471519584,
+      "lng": 105.82494936139175,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0093",
+      "zone_id": "HN-Z019",
+      "lat": 21.074413156189788,
+      "lng": 105.81818111561293,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0094",
+      "zone_id": "HN-Z019",
+      "lat": 21.075521388194364,
+      "lng": 105.81479100729698,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0095",
+      "zone_id": "HN-Z019",
+      "lat": 21.07800450244238,
+      "lng": 105.8171148446619,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0096",
+      "zone_id": "HN-Z020",
+      "lat": 20.977940564594665,
+      "lng": 105.80650160999164,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0097",
+      "zone_id": "HN-Z020",
+      "lat": 20.97792511317194,
+      "lng": 105.81176657638554,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0098",
+      "zone_id": "HN-Z020",
+      "lat": 20.980928215214014,
+      "lng": 105.80384481717189,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0099",
+      "zone_id": "HN-Z020",
+      "lat": 20.97357057764211,
+      "lng": 105.80789433660226,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0100",
+      "zone_id": "HN-Z020",
+      "lat": 20.97380082486648,
+      "lng": 105.8110338893869,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0101",
+      "zone_id": "HN-Z020",
+      "lat": 20.97252257940215,
+      "lng": 105.80284219218326,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0102",
+      "zone_id": "HN-Z020",
+      "lat": 20.97916599457055,
+      "lng": 105.80181759855661,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0103",
+      "zone_id": "HN-Z020",
+      "lat": 20.9729756762543,
+      "lng": 105.80405366124457,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0104",
+      "zone_id": "HN-Z020",
+      "lat": 20.974810875375173,
+      "lng": 105.80826841083332,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0105",
+      "zone_id": "HN-Z020",
+      "lat": 20.980609386744764,
+      "lng": 105.81124596112224,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0106",
+      "zone_id": "HN-Z020",
+      "lat": 20.97284513584726,
+      "lng": 105.81159044419225,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0107",
+      "zone_id": "HN-Z020",
+      "lat": 20.97729570180188,
+      "lng": 105.80960048915607,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0108",
+      "zone_id": "HN-Z020",
+      "lat": 20.970983716384463,
+      "lng": 105.80593973223408,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0109",
+      "zone_id": "HN-Z020",
+      "lat": 20.974163587855855,
+      "lng": 105.80582453522021,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0110",
+      "zone_id": "HN-Z020",
+      "lat": 20.978716059732964,
+      "lng": 105.80238526549294,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0111",
+      "zone_id": "HN-Z020",
+      "lat": 20.977405706270982,
+      "lng": 105.80199184643087,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0112",
+      "zone_id": "HN-Z020",
+      "lat": 20.97860504015633,
+      "lng": 105.80775053073106,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0113",
+      "zone_id": "HN-Z020",
+      "lat": 20.980987564091162,
+      "lng": 105.80506058923186,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0114",
+      "zone_id": "HN-Z020",
+      "lat": 20.973333861628436,
+      "lng": 105.80606158830545,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0115",
+      "zone_id": "HN-Z020",
+      "lat": 20.973918153220676,
+      "lng": 105.81277666999001,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0116",
+      "zone_id": "HN-Z020",
+      "lat": 20.969221712680113,
+      "lng": 105.80431021035393,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0117",
+      "zone_id": "HN-Z020",
+      "lat": 20.97234757883747,
+      "lng": 105.8076071066891,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0118",
+      "zone_id": "HN-Z020",
+      "lat": 20.977811457118452,
+      "lng": 105.81202103513105,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0119",
+      "zone_id": "HN-Z020",
+      "lat": 20.979969614302565,
+      "lng": 105.80898261216308,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0120",
+      "zone_id": "HN-Z021",
+      "lat": 20.984474243227883,
+      "lng": 105.76732873447486,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0121",
+      "zone_id": "HN-Z021",
+      "lat": 20.99218109431862,
+      "lng": 105.76810768701365,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0122",
+      "zone_id": "HN-Z022",
+      "lat": 20.984939658970394,
+      "lng": 105.8371327357502,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0123",
+      "zone_id": "HN-Z022",
+      "lat": 20.974624344636776,
+      "lng": 105.83607338596202,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0124",
+      "zone_id": "HN-Z022",
+      "lat": 20.983083908767576,
+      "lng": 105.83528504384809,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0125",
+      "zone_id": "HN-Z022",
+      "lat": 20.981689056388277,
+      "lng": 105.8267496144913,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0126",
+      "zone_id": "HN-Z022",
+      "lat": 20.976855275654845,
+      "lng": 105.83021467638947,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0127",
+      "zone_id": "HN-Z022",
+      "lat": 20.978695174377176,
+      "lng": 105.83036171127563,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0128",
+      "zone_id": "HN-Z022",
+      "lat": 20.983241223902507,
+      "lng": 105.82984397510187,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0129",
+      "zone_id": "HN-Z022",
+      "lat": 20.98347124212721,
+      "lng": 105.83373847962909,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0130",
+      "zone_id": "HN-Z022",
+      "lat": 20.983909000590526,
+      "lng": 105.83123240902046,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0131",
+      "zone_id": "HN-Z022",
+      "lat": 20.98077367927469,
+      "lng": 105.83045828520169,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0132",
+      "zone_id": "HN-Z022",
+      "lat": 20.97810618102483,
+      "lng": 105.82591034951236,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0133",
+      "zone_id": "HN-Z023",
+      "lat": 21.005862495878425,
+      "lng": 105.7455361264151,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0134",
+      "zone_id": "HN-Z023",
+      "lat": 21.004211086566613,
+      "lng": 105.74625823784972,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0135",
+      "zone_id": "HN-Z024",
+      "lat": 21.00720224407926,
+      "lng": 105.86365331932222,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0136",
+      "zone_id": "HN-Z024",
+      "lat": 21.010005975252593,
+      "lng": 105.86404377922452,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0137",
+      "zone_id": "HN-Z025",
+      "lat": 21.0230394264355,
+      "lng": 105.8669501720874,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0138",
+      "zone_id": "HN-Z025",
+      "lat": 21.026685731733476,
+      "lng": 105.87445382362027,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0139",
+      "zone_id": "HN-Z025",
+      "lat": 21.021674981782176,
+      "lng": 105.86912866434007,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0140",
+      "zone_id": "HN-Z025",
+      "lat": 21.023233940388426,
+      "lng": 105.87460294241444,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0141",
+      "zone_id": "HN-Z025",
+      "lat": 21.026010128414203,
+      "lng": 105.86690235994318,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0142",
+      "zone_id": "HN-Z025",
+      "lat": 21.03130132009509,
+      "lng": 105.8691111926456,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0143",
+      "zone_id": "HN-Z025",
+      "lat": 21.025155807530695,
+      "lng": 105.86865262221347,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0144",
+      "zone_id": "HN-Z025",
+      "lat": 21.031843424777264,
+      "lng": 105.87128371597603,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0145",
+      "zone_id": "HN-Z025",
+      "lat": 21.0317143890081,
+      "lng": 105.87387722215188,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0146",
+      "zone_id": "HN-Z025",
+      "lat": 21.02425112709964,
+      "lng": 105.86914338115452,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0147",
+      "zone_id": "HN-Z026",
+      "lat": 20.971881728122565,
+      "lng": 105.78178515918727,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0148",
+      "zone_id": "HN-Z026",
+      "lat": 20.971713094395888,
+      "lng": 105.78543722222264,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0149",
+      "zone_id": "HN-Z026",
+      "lat": 20.969149693641654,
+      "lng": 105.78787842280609,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0150",
+      "zone_id": "HN-Z026",
+      "lat": 20.966425378691184,
+      "lng": 105.78576286916234,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0151",
+      "zone_id": "HN-Z026",
+      "lat": 20.969139137921545,
+      "lng": 105.7804954859036,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0152",
+      "zone_id": "HN-Z026",
+      "lat": 20.97153023514442,
+      "lng": 105.77929404331675,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0153",
+      "zone_id": "HN-Z026",
+      "lat": 20.966939447053225,
+      "lng": 105.77986702786448,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0154",
+      "zone_id": "HN-Z026",
+      "lat": 20.971744660434183,
+      "lng": 105.78610886084674,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0155",
+      "zone_id": "HN-Z026",
+      "lat": 20.975948881271606,
+      "lng": 105.78657922344945,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0156",
+      "zone_id": "HN-Z026",
+      "lat": 20.971095993222395,
+      "lng": 105.78322226726725,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0157",
+      "zone_id": "HN-Z026",
+      "lat": 20.9750942149964,
+      "lng": 105.7779434395334,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0158",
+      "zone_id": "HN-Z026",
+      "lat": 20.968664002054876,
+      "lng": 105.78372457859615,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0159",
+      "zone_id": "HN-Z026",
+      "lat": 20.969924413329213,
+      "lng": 105.78688615732138,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0160",
+      "zone_id": "HN-Z026",
+      "lat": 20.975133790169174,
+      "lng": 105.77835814933323,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0161",
+      "zone_id": "HN-Z026",
+      "lat": 20.96941508940216,
+      "lng": 105.78466186942212,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0162",
+      "zone_id": "HN-Z026",
+      "lat": 20.96899210494578,
+      "lng": 105.78094278453413,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0163",
+      "zone_id": "HN-Z026",
+      "lat": 20.974983061818488,
+      "lng": 105.78682295946253,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0164",
+      "zone_id": "HN-Z026",
+      "lat": 20.97157810306894,
+      "lng": 105.78197124934783,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0165",
+      "zone_id": "HN-Z027",
+      "lat": 21.04382057663803,
+      "lng": 105.73429018078211,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0166",
+      "zone_id": "HN-Z027",
+      "lat": 21.039630612420257,
+      "lng": 105.73821501227114,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0167",
+      "zone_id": "HN-Z027",
+      "lat": 21.038947147457332,
+      "lng": 105.7369597729145,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0168",
+      "zone_id": "HN-Z027",
+      "lat": 21.046138887014294,
+      "lng": 105.74030661747862,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0169",
+      "zone_id": "HN-Z027",
+      "lat": 21.04996592376242,
+      "lng": 105.73487077204102,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0170",
+      "zone_id": "HN-Z027",
+      "lat": 21.042243726103084,
+      "lng": 105.7429120061722,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0171",
+      "zone_id": "HN-Z027",
+      "lat": 21.047922542766717,
+      "lng": 105.740097007435,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0172",
+      "zone_id": "HN-Z027",
+      "lat": 21.039569685807525,
+      "lng": 105.74187925790876,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0173",
+      "zone_id": "HN-Z027",
+      "lat": 21.04083369051679,
+      "lng": 105.74454105107368,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0174",
+      "zone_id": "HN-Z027",
+      "lat": 21.043506835081956,
+      "lng": 105.74344900455145,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0175",
+      "zone_id": "HN-Z027",
+      "lat": 21.044897138370718,
+      "lng": 105.74160857466346,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0176",
+      "zone_id": "HN-Z028",
+      "lat": 21.072040051876687,
+      "lng": 105.86297370399946,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0177",
+      "zone_id": "HN-Z028",
+      "lat": 21.06372697749685,
+      "lng": 105.86043088291513,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0178",
+      "zone_id": "HN-Z029",
+      "lat": 20.986597941760955,
+      "lng": 105.86122152976706,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0179",
+      "zone_id": "HN-Z029",
+      "lat": 20.98524802880593,
+      "lng": 105.85704782696246,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0180",
+      "zone_id": "HN-Z029",
+      "lat": 20.978416911897636,
+      "lng": 105.85425238138441,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0181",
+      "zone_id": "HN-Z030",
+      "lat": 21.070516448847737,
+      "lng": 105.75019608500553,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0182",
+      "zone_id": "HN-Z030",
+      "lat": 21.071301804915226,
+      "lng": 105.75181891651762,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0183",
+      "zone_id": "HN-Z030",
+      "lat": 21.06149231660826,
+      "lng": 105.74228206613577,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0184",
+      "zone_id": "HN-Z030",
+      "lat": 21.071137067460366,
+      "lng": 105.74276946075337,
+      "battery_level": null,
+      "status": "idle"
+    },
+    {
+      "driver_id": "R0185",
+      "zone_id": "HN-Z030",
+      "lat": 21.063356066550277,
+      "lng": 105.74767650610445,
+      "battery_level": null,
+      "status": "busy"
+    },
+    {
+      "driver_id": "R0186",
+      "zone_id": "HN-Z030",
+      "lat": 21.06270218485222,
+      "lng": 105.74475135651113,
+      "battery_level": null,
+      "status": "busy"
+    }
+  ],
+  "suggestions": [
+    {
+      "suggestion_id": "S-rain-HN-Z014-D0046",
+      "driver_id": "D0046",
+      "from_zone_id": "HN-Z005",
+      "from_zone_name": "Hà Nội Zone 005",
+      "from": [
+        21.0402855,
+        105.8290428
+      ],
+      "target_zone_id": "HN-Z014",
+      "target_zone_name": "Hà Nội Zone 014",
+      "to": [
+        21.0620005,
+        105.836199
+      ],
+      "acceptance_probability": 0.6885,
+      "reason": "deficit dự báo +6.0 xe",
+      "explanation": "Hà Nội Zone 014 dự kiến thiếu khoảng 6.0 xe. Tài xế D0046 đang rảnh gần Hà Nội Zone 005, cách 3284m, Acceptance Model dự đoán xác suất chấp nhận 69%. Gợi ý: di chuyển đến Hà Nội Zone 014."
+    },
+    {
+      "suggestion_id": "S-rain-HN-Z014-D0035",
+      "driver_id": "D0035",
+      "from_zone_id": "HN-Z005",
+      "from_zone_name": "Hà Nội Zone 005",
+      "from": [
+        21.0402855,
+        105.8290428
+      ],
+      "target_zone_id": "HN-Z014",
+      "target_zone_name": "Hà Nội Zone 014",
+      "to": [
+        21.0620005,
+        105.836199
+      ],
+      "acceptance_probability": 0.6829,
+      "reason": "deficit dự báo +6.0 xe",
+      "explanation": "Hà Nội Zone 014 dự kiến thiếu khoảng 6.0 xe. Tài xế D0035 đang rảnh gần Hà Nội Zone 005, cách 3284m, Acceptance Model dự đoán xác suất chấp nhận 68%. Gợi ý: di chuyển đến Hà Nội Zone 014."
+    },
+    {
+      "suggestion_id": "S-rain-HN-Z014-D0227",
+      "driver_id": "D0227",
+      "from_zone_id": "HN-Z005",
+      "from_zone_name": "Hà Nội Zone 005",
+      "from": [
+        21.0402855,
+        105.8290428
+      ],
+      "target_zone_id": "HN-Z014",
+      "target_zone_name": "Hà Nội Zone 014",
+      "to": [
+        21.0620005,
+        105.836199
+      ],
+      "acceptance_probability": 0.6772,
+      "reason": "deficit dự báo +6.0 xe",
+      "explanation": "Hà Nội Zone 014 dự kiến thiếu khoảng 6.0 xe. Tài xế D0227 đang rảnh gần Hà Nội Zone 005, cách 3284m, Acceptance Model dự đoán xác suất chấp nhận 68%. Gợi ý: di chuyển đến Hà Nội Zone 014."
+    },
+    {
+      "suggestion_id": "S-rain-HN-Z014-D0216",
+      "driver_id": "D0216",
+      "from_zone_id": "HN-Z005",
+      "from_zone_name": "Hà Nội Zone 005",
+      "from": [
+        21.0402855,
+        105.8290428
+      ],
+      "target_zone_id": "HN-Z014",
+      "target_zone_name": "Hà Nội Zone 014",
+      "to": [
+        21.0620005,
+        105.836199
+      ],
+      "acceptance_probability": 0.6716,
+      "reason": "deficit dự báo +6.0 xe",
+      "explanation": "Hà Nội Zone 014 dự kiến thiếu khoảng 6.0 xe. Tài xế D0216 đang rảnh gần Hà Nội Zone 005, cách 3284m, Acceptance Model dự đoán xác suất chấp nhận 67%. Gợi ý: di chuyển đến Hà Nội Zone 014."
+    },
+    {
+      "suggestion_id": "S-rain-HN-Z014-D0221",
+      "driver_id": "D0221",
+      "from_zone_id": "HN-Z005",
+      "from_zone_name": "Hà Nội Zone 005",
+      "from": [
+        21.0402855,
+        105.8290428
+      ],
+      "target_zone_id": "HN-Z014",
+      "target_zone_name": "Hà Nội Zone 014",
+      "to": [
+        21.0620005,
+        105.836199
+      ],
+      "acceptance_probability": 0.6659,
+      "reason": "deficit dự báo +6.0 xe",
+      "explanation": "Hà Nội Zone 014 dự kiến thiếu khoảng 6.0 xe. Tài xế D0221 đang rảnh gần Hà Nội Zone 005, cách 3284m, Acceptance Model dự đoán xác suất chấp nhận 67%. Gợi ý: di chuyển đến Hà Nội Zone 014."
+    }
+  ],
+  "matching": {
+    "requests": 30,
+    "action_breakdown": {
+      "pooled_insertion": 20,
+      "queued_waiting_for_incoming": 10
+    },
+    "avg_direct_assign_eta_seconds": null,
+    "avg_pooled_insertion_cost": 1280.18,
+    "pooled_routes": [
+      {
+        "driver_id": "D0001",
+        "passengers": 3,
+        "total_distance_m": 12273.9,
+        "stops": [
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z019",
+            "zone_name": "Hà Nội Zone 019",
+            "lat": 21.0792256,
+            "lng": 105.8193305
+          },
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z019",
+            "zone_name": "Hà Nội Zone 019",
+            "lat": 21.0792256,
+            "lng": 105.8193305
+          },
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z019",
+            "zone_name": "Hà Nội Zone 019",
+            "lat": 21.0792256,
+            "lng": 105.8193305
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z006",
+            "zone_name": "Hà Nội Zone 006",
+            "lat": 21.053019,
+            "lng": 105.7881474
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z013",
+            "zone_name": "Hà Nội Zone 013",
+            "lat": 21.048522,
+            "lng": 105.7641178
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z027",
+            "zone_name": "Hà Nội Zone 027",
+            "lat": 21.0440209,
+            "lng": 105.7400858
+          }
+        ]
+      },
+      {
+        "driver_id": "D0030",
+        "passengers": 2,
+        "total_distance_m": 9033.2,
+        "stops": [
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z028",
+            "zone_name": "Hà Nội Zone 028",
+            "lat": 21.0664851,
+            "lng": 105.8602211
+          },
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z028",
+            "zone_name": "Hà Nội Zone 028",
+            "lat": 21.0664851,
+            "lng": 105.8602211
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z005",
+            "zone_name": "Hà Nội Zone 005",
+            "lat": 21.0402855,
+            "lng": 105.8290428
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z007",
+            "zone_name": "Hà Nội Zone 007",
+            "lat": 21.0575118,
+            "lng": 105.8121744
+          }
+        ]
+      },
+      {
+        "driver_id": "D0041",
+        "passengers": 2,
+        "total_distance_m": 15483.5,
+        "stops": [
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z006",
+            "zone_name": "Hà Nội Zone 006",
+            "lat": 21.053019,
+            "lng": 105.7881474
+          },
+          {
+            "type": "pickup",
+            "zone_id": "HN-Z006",
+            "zone_name": "Hà Nội Zone 006",
+            "lat": 21.053019,
+            "lng": 105.7881474
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z011",
+            "zone_name": "Hà Nội Zone 011",
+            "lat": 21.0230572,
+            "lng": 105.8459077
+          },
+          {
+            "type": "dropoff",
+            "zone_id": "HN-Z028",
+            "zone_name": "Hà Nội Zone 028",
+            "lat": 21.0664851,
+            "lng": 105.8602211
+          }
+        ]
+      }
+    ]
+  }
+}

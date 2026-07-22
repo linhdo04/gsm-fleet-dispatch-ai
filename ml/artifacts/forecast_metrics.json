@@ -1,0 +1,30 @@
+{
+  "model": "HistGradientBoostingRegressor (scikit-learn — thay thế XGBoost do môi trường chưa cài được xgboost)",
+  "target": "request_count_per_zone_per_5_minutes",
+  "features": [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_holiday",
+    "base_demand_weight",
+    "zone_id",
+    "zone_type",
+    "weather",
+    "peak_profile"
+  ],
+  "train": {
+    "mae": 0.6613,
+    "rmse": 0.8693,
+    "rows": 362880
+  },
+  "validation": {
+    "mae": 0.7031,
+    "rmse": 0.9441,
+    "rows": 60480
+  },
+  "test": {
+    "mae": 0.664,
+    "rmse": 0.8747,
+    "rows": 60480
+  }
+}

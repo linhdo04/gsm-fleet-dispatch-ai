@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "seed": 20260717,
+  "start_date": "2026-01-05",
+  "days": 7,
+  "zone_count": 30,
+  "driver_count": 300,
+  "scenario": "B_REPOSITION_NO_RESERVE",
+  "generated_requests": 46759,
+  "matched_requests": 45741,
+  "cancelled_requests": 1018,
+  "acceptance_samples": 8184,
+  "repositioned_drivers": 6771,
+  "deadhead_m": 74688093.7,
+  "wait_seconds_total": 285000.0,
+  "wait_count": 45741
+}

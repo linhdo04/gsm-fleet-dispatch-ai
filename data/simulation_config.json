@@ -1,0 +1,98 @@
+{
+  "config_version": "1.0.0",
+  "scope": "Hanoi urban core controlled PoC",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "storage_timestamp_standard": "UTC_ISO_8601",
+  "random_seed": 20260717,
+  "simulation": {
+    "zone_count": 30,
+    "initial_driver_count": 300,
+    "planning_tick_seconds": 300,
+    "simulation_duration_hours": 24,
+    "warmup_minutes": 60
+  },
+  "demand": {
+    "normal_requests_per_hour": 300,
+    "morning_peak_multiplier": 1.6,
+    "evening_peak_multiplier": 1.8,
+    "rain_multiplier": 1.25,
+    "holiday_multiplier": 1.2,
+    "generation_distribution": "poisson",
+    "customer_cancellation_after_seconds": 600
+  },
+  "forecast": {
+    "horizon_seconds": 1200,
+    "history_window_days": 56,
+    "target": "request_count_per_zone_per_5_minutes"
+  },
+  "battery": {
+    "low_battery_threshold_percent": 20,
+    "critical_battery_threshold_percent": 10,
+    "charging_target_percent": 80,
+    "minimum_trip_reserve_percent": 8
+  },
+  "repositioning": {
+    "soft_reserve_ttl_seconds": 60,
+    "max_suggestions_per_driver_per_hour": 3,
+    "candidate_radius_m": 5000,
+    "idle_timeout_seconds_before_reposition_check": 900
+  },
+  "matching": {
+    "vehicle_capacity": 4,
+    "eta_fast_threshold_seconds": 300,
+    "urgent_threshold_seconds": 360,
+    "urgent_priority_boost": 100000,
+    "batch_window_seconds": {
+      "normal": 30,
+      "high_deficit": 15
+    },
+    "max_detour_ratio": {
+      "default": 0.20,
+      "rain": 0.15
+    },
+    "pickup_eta_max_minutes": {
+      "default": 10,
+      "rain": 12
+    },
+    "cost_weights": {
+      "w1_wait_time": 1.0,
+      "w2_existing_passenger_extra_time": 0.5,
+      "w3_fill_rate": 2.0,
+      "w4_detour_penalty": 3.0
+    }
+  },
+  "routing": {
+    "demo_provider": "google_routes",
+    "training_provider": "synthetic_seeded_traffic",
+    "distance_unit": "meter",
+    "duration_unit": "second",
+    "candidate_driver_limit_per_request": 5,
+    "zone_pair_cache_ttl_seconds": 300,
+    "fallback_road_distance_multiplier": 1.3
+  },
+  "experiments": {
+    "scenario_codes": [
+      "A_PASSIVE",
+      "B_REPOSITION_NO_RESERVE",
+      "C_REPOSITION_SOFT_RESERVE"
+    ],
+    "ab_test_seeds": [
+      20260717,
+      20260718,
+      20260719,
+      20260720,
+      20260721,
+      20260722,
+      20260723,
+      20260724,
+      20260725,
+      20260726
+    ],
+    "forecast_split_days": {
+      "train": 42,
+      "validation": 7,
+      "test": 7
+    },
+    "reserve_mode": "probability_weighted"
+  }
+}

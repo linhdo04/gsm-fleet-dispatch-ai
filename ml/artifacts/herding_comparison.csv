@@ -1,0 +1,9 @@
+chong_herding,tick,goi_y_tick_nay,dang_di_chuyen_chua_toi,tong_goi_y_luy_ke
+True,0,8,0,8
+True,1,0,8,8
+True,2,8,0,16
+True,3,0,8,16
+False,0,8,0,8
+False,1,8,0,16
+False,2,8,0,24
+False,3,8,0,32

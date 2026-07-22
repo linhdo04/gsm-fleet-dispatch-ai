@@ -1,0 +1,18 @@
+{
+  "mode_trigger_examples": {
+    "18h_rain": true,
+    "13h_clear": false
+  },
+  "hungarian_1to1": {
+    "requests": 40,
+    "matched": 40,
+    "avg_predicted_cost_minutes": 5.61
+  },
+  "ride_pooling": {
+    "requests": 40,
+    "assigned": 40,
+    "unmatched_no_capacity": 0,
+    "drivers_used": 27,
+    "drivers_serving_2plus_passengers": 9
+  }
+}

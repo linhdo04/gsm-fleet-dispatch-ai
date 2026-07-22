@@ -1,0 +1,66 @@
+[
+  {
+    "station_id": "CHG-01",
+    "name": "Trạm sạc Hà Nội Zone 001",
+    "zone_id": "HN-Z001",
+    "lat": 21.0357936,
+    "lng": 105.8050191,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-02",
+    "name": "Trạm sạc Hà Nội Zone 029",
+    "zone_id": "HN-Z029",
+    "lat": 20.9841052,
+    "lng": 105.8556133,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-03",
+    "name": "Trạm sạc Hà Nội Zone 026",
+    "zone_id": "HN-Z026",
+    "lat": 20.9706129,
+    "lng": 105.7835577,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-04",
+    "name": "Trạm sạc Hà Nội Zone 030",
+    "zone_id": "HN-Z030",
+    "lat": 21.0657444,
+    "lng": 105.7472392,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-05",
+    "name": "Trạm sạc Hà Nội Zone 028",
+    "zone_id": "HN-Z028",
+    "lat": 21.0664851,
+    "lng": 105.8602211,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-06",
+    "name": "Trạm sạc Hà Nội Zone 023",
+    "zone_id": "HN-Z023",
+    "lat": 21.0050685,
+    "lng": 105.7498115,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-07",
+    "name": "Trạm sạc Hà Nội Zone 019",
+    "zone_id": "HN-Z019",
+    "lat": 21.0792256,
+    "lng": 105.8193305,
+    "plug_count": 6
+  },
+  {
+    "station_id": "CHG-08",
+    "name": "Trạm sạc Hà Nội Zone 011",
+    "zone_id": "HN-Z011",
+    "lat": 21.0230572,
+    "lng": 105.8459077,
+    "plug_count": 6
+  }
+]

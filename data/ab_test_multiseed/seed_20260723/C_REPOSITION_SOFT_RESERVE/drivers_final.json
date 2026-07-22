@@ -1,0 +1,2402 @@
+[
+  {
+    "driver_id": "D0001",
+    "zone_id": "HN-Z004",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0002",
+    "zone_id": "HN-Z023",
+    "battery_percent": 19.37,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:05:00+00:00"
+  },
+  {
+    "driver_id": "D0003",
+    "zone_id": "HN-Z006",
+    "battery_percent": 47.2,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0004",
+    "zone_id": "HN-Z027",
+    "battery_percent": 33.25,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0005",
+    "zone_id": "HN-Z011",
+    "battery_percent": 69.48,
+    "status": "busy",
+    "destination_zone_id": "HN-Z001",
+    "available_at": "2026-01-11 17:02:45.467476+00:00"
+  },
+  {
+    "driver_id": "D0006",
+    "zone_id": "HN-Z006",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0007",
+    "zone_id": "HN-Z005",
+    "battery_percent": 31.16,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0008",
+    "zone_id": "HN-Z019",
+    "battery_percent": 76.82,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:01:44.759698+00:00"
+  },
+  {
+    "driver_id": "D0009",
+    "zone_id": "HN-Z008",
+    "battery_percent": 78.01,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0010",
+    "zone_id": "HN-Z010",
+    "battery_percent": 37.71,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0011",
+    "zone_id": "HN-Z021",
+    "battery_percent": 57.45,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0012",
+    "zone_id": "HN-Z022",
+    "battery_percent": 75.2,
+    "status": "busy",
+    "destination_zone_id": "HN-Z005",
+    "available_at": "2026-01-11 17:01:44.460089+00:00"
+  },
+  {
+    "driver_id": "D0013",
+    "zone_id": "HN-Z021",
+    "battery_percent": 27.58,
+    "status": "busy",
+    "destination_zone_id": "HN-Z025",
+    "available_at": "2026-01-11 17:01:01.108202+00:00"
+  },
+  {
+    "driver_id": "D0014",
+    "zone_id": "HN-Z009",
+    "battery_percent": 55.3,
+    "status": "busy",
+    "destination_zone_id": "HN-Z026",
+    "available_at": "2026-01-11 16:56:49.621044+00:00"
+  },
+  {
+    "driver_id": "D0015",
+    "zone_id": "HN-Z030",
+    "battery_percent": 72.45,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0016",
+    "zone_id": "HN-Z003",
+    "battery_percent": 66.2,
+    "status": "busy",
+    "destination_zone_id": "HN-Z006",
+    "available_at": "2026-01-11 17:10:31.875161+00:00"
+  },
+  {
+    "driver_id": "D0017",
+    "zone_id": "HN-Z006",
+    "battery_percent": 35.83,
+    "status": "busy",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:02:13.769204+00:00"
+  },
+  {
+    "driver_id": "D0018",
+    "zone_id": "HN-Z009",
+    "battery_percent": 40.68,
+    "status": "busy",
+    "destination_zone_id": "HN-Z025",
+    "available_at": "2026-01-11 16:57:33.831497+00:00"
+  },
+  {
+    "driver_id": "D0019",
+    "zone_id": "HN-Z015",
+    "battery_percent": 54.72,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0020",
+    "zone_id": "HN-Z002",
+    "battery_percent": 36.5,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 16:57:26.168362+00:00"
+  },
+  {
+    "driver_id": "D0021",
+    "zone_id": "HN-Z025",
+    "battery_percent": 29.57,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:14:49.630644+00:00"
+  },
+  {
+    "driver_id": "D0022",
+    "zone_id": "HN-Z001",
+    "battery_percent": 78.95,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z007",
+    "available_at": "2026-01-11 16:56:34.139770+00:00"
+  },
+  {
+    "driver_id": "D0023",
+    "zone_id": "HN-Z013",
+    "battery_percent": 58.31,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0024",
+    "zone_id": "HN-Z015",
+    "battery_percent": 19.19,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:15:00+00:00"
+  },
+  {
+    "driver_id": "D0025",
+    "zone_id": "HN-Z022",
+    "battery_percent": 22.13,
+    "status": "busy",
+    "destination_zone_id": "HN-Z002",
+    "available_at": "2026-01-11 17:11:01.037041+00:00"
+  },
+  {
+    "driver_id": "D0026",
+    "zone_id": "HN-Z017",
+    "battery_percent": 17.75,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:30:00+00:00"
+  },
+  {
+    "driver_id": "D0027",
+    "zone_id": "HN-Z013",
+    "battery_percent": 31.95,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:06:17.181539+00:00"
+  },
+  {
+    "driver_id": "D0028",
+    "zone_id": "HN-Z006",
+    "battery_percent": 52.74,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0029",
+    "zone_id": "HN-Z017",
+    "battery_percent": 54.24,
+    "status": "busy",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:04:32.351311+00:00"
+  },
+  {
+    "driver_id": "D0030",
+    "zone_id": "HN-Z027",
+    "battery_percent": 54.36,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0031",
+    "zone_id": "HN-Z001",
+    "battery_percent": 69.53,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0032",
+    "zone_id": "HN-Z012",
+    "battery_percent": 53.11,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0033",
+    "zone_id": "HN-Z028",
+    "battery_percent": 33.7,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0034",
+    "zone_id": "HN-Z009",
+    "battery_percent": 60.24,
+    "status": "busy",
+    "destination_zone_id": "HN-Z016",
+    "available_at": "2026-01-11 17:01:38.076804+00:00"
+  },
+  {
+    "driver_id": "D0035",
+    "zone_id": "HN-Z015",
+    "battery_percent": 71.84,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0036",
+    "zone_id": "HN-Z027",
+    "battery_percent": 63.22,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0037",
+    "zone_id": "HN-Z022",
+    "battery_percent": 35.03,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 17:25:57.008104+00:00"
+  },
+  {
+    "driver_id": "D0038",
+    "zone_id": "HN-Z007",
+    "battery_percent": 65.28,
+    "status": "busy",
+    "destination_zone_id": "HN-Z027",
+    "available_at": "2026-01-11 17:22:28.423527+00:00"
+  },
+  {
+    "driver_id": "D0039",
+    "zone_id": "HN-Z023",
+    "battery_percent": 69.55,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0040",
+    "zone_id": "HN-Z029",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0041",
+    "zone_id": "HN-Z026",
+    "battery_percent": 39.68,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0042",
+    "zone_id": "HN-Z002",
+    "battery_percent": 46.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0043",
+    "zone_id": "HN-Z006",
+    "battery_percent": 65.72,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0044",
+    "zone_id": "HN-Z013",
+    "battery_percent": 73.09,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0045",
+    "zone_id": "HN-Z027",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0046",
+    "zone_id": "HN-Z002",
+    "battery_percent": 46.3,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0047",
+    "zone_id": "HN-Z010",
+    "battery_percent": 44.85,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0048",
+    "zone_id": "HN-Z015",
+    "battery_percent": 53.4,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0049",
+    "zone_id": "HN-Z006",
+    "battery_percent": 42.87,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0050",
+    "zone_id": "HN-Z021",
+    "battery_percent": 26.96,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0051",
+    "zone_id": "HN-Z009",
+    "battery_percent": 24.3,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0052",
+    "zone_id": "HN-Z015",
+    "battery_percent": 35.11,
+    "status": "busy",
+    "destination_zone_id": "HN-Z019",
+    "available_at": "2026-01-11 17:00:03.834382+00:00"
+  },
+  {
+    "driver_id": "D0053",
+    "zone_id": "HN-Z011",
+    "battery_percent": 29.87,
+    "status": "busy",
+    "destination_zone_id": "HN-Z009",
+    "available_at": "2026-01-11 17:07:45.710959+00:00"
+  },
+  {
+    "driver_id": "D0054",
+    "zone_id": "HN-Z008",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0055",
+    "zone_id": "HN-Z029",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0056",
+    "zone_id": "HN-Z013",
+    "battery_percent": 31.29,
+    "status": "busy",
+    "destination_zone_id": "HN-Z024",
+    "available_at": "2026-01-11 17:42:28.470673+00:00"
+  },
+  {
+    "driver_id": "D0057",
+    "zone_id": "HN-Z004",
+    "battery_percent": 23.44,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0058",
+    "zone_id": "HN-Z011",
+    "battery_percent": 34.79,
+    "status": "busy",
+    "destination_zone_id": "HN-Z022",
+    "available_at": "2026-01-11 17:08:03.105154+00:00"
+  },
+  {
+    "driver_id": "D0059",
+    "zone_id": "HN-Z001",
+    "battery_percent": 50.75,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0060",
+    "zone_id": "HN-Z024",
+    "battery_percent": 23.67,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:31:24.280858+00:00"
+  },
+  {
+    "driver_id": "D0061",
+    "zone_id": "HN-Z003",
+    "battery_percent": 40.09,
+    "status": "busy",
+    "destination_zone_id": "HN-Z008",
+    "available_at": "2026-01-11 16:58:33.344917+00:00"
+  },
+  {
+    "driver_id": "D0062",
+    "zone_id": "HN-Z004",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0063",
+    "zone_id": "HN-Z029",
+    "battery_percent": 58.46,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0064",
+    "zone_id": "HN-Z027",
+    "battery_percent": 65.39,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0065",
+    "zone_id": "HN-Z022",
+    "battery_percent": 34.1,
+    "status": "busy",
+    "destination_zone_id": "HN-Z004",
+    "available_at": "2026-01-11 17:15:31.512216+00:00"
+  },
+  {
+    "driver_id": "D0066",
+    "zone_id": "HN-Z014",
+    "battery_percent": 35.88,
+    "status": "busy",
+    "destination_zone_id": "HN-Z022",
+    "available_at": "2026-01-11 17:31:33.542605+00:00"
+  },
+  {
+    "driver_id": "D0067",
+    "zone_id": "HN-Z001",
+    "battery_percent": 27.6,
+    "status": "busy",
+    "destination_zone_id": "HN-Z025",
+    "available_at": "2026-01-11 17:04:30.211577+00:00"
+  },
+  {
+    "driver_id": "D0068",
+    "zone_id": "HN-Z008",
+    "battery_percent": 37.45,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 17:26:28.980037+00:00"
+  },
+  {
+    "driver_id": "D0069",
+    "zone_id": "HN-Z021",
+    "battery_percent": 48.56,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 17:16:20.738040+00:00"
+  },
+  {
+    "driver_id": "D0070",
+    "zone_id": "HN-Z018",
+    "battery_percent": 68.23,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0071",
+    "zone_id": "HN-Z003",
+    "battery_percent": 67.19,
+    "status": "busy",
+    "destination_zone_id": "HN-Z022",
+    "available_at": "2026-01-11 17:13:21.094430+00:00"
+  },
+  {
+    "driver_id": "D0072",
+    "zone_id": "HN-Z030",
+    "battery_percent": 14.52,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:00:00+00:00"
+  },
+  {
+    "driver_id": "D0073",
+    "zone_id": "HN-Z007",
+    "battery_percent": 20.79,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 16:58:34.108573+00:00"
+  },
+  {
+    "driver_id": "D0074",
+    "zone_id": "HN-Z001",
+    "battery_percent": 54.06,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0075",
+    "zone_id": "HN-Z019",
+    "battery_percent": 78.92,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:01:44.759698+00:00"
+  },
+  {
+    "driver_id": "D0076",
+    "zone_id": "HN-Z030",
+    "battery_percent": 72.33,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0077",
+    "zone_id": "HN-Z003",
+    "battery_percent": 76.31,
+    "status": "busy",
+    "destination_zone_id": "HN-Z021",
+    "available_at": "2026-01-11 17:24:27.308630+00:00"
+  },
+  {
+    "driver_id": "D0078",
+    "zone_id": "HN-Z027",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0079",
+    "zone_id": "HN-Z025",
+    "battery_percent": 23.03,
+    "status": "busy",
+    "destination_zone_id": "HN-Z018",
+    "available_at": "2026-01-11 16:55:21.754149+00:00"
+  },
+  {
+    "driver_id": "D0080",
+    "zone_id": "HN-Z015",
+    "battery_percent": 50.75,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0081",
+    "zone_id": "HN-Z015",
+    "battery_percent": 58.73,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0082",
+    "zone_id": "HN-Z030",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0083",
+    "zone_id": "HN-Z020",
+    "battery_percent": 22.55,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0084",
+    "zone_id": "HN-Z027",
+    "battery_percent": 49.71,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0085",
+    "zone_id": "HN-Z010",
+    "battery_percent": 32.04,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0086",
+    "zone_id": "HN-Z001",
+    "battery_percent": 67.76,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0087",
+    "zone_id": "HN-Z006",
+    "battery_percent": 16.71,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:15:45.775628+00:00"
+  },
+  {
+    "driver_id": "D0088",
+    "zone_id": "HN-Z015",
+    "battery_percent": 75.24,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0089",
+    "zone_id": "HN-Z015",
+    "battery_percent": 26.47,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 16:55:32.460902+00:00"
+  },
+  {
+    "driver_id": "D0090",
+    "zone_id": "HN-Z017",
+    "battery_percent": 40.52,
+    "status": "busy",
+    "destination_zone_id": "HN-Z004",
+    "available_at": "2026-01-11 17:04:25.185921+00:00"
+  },
+  {
+    "driver_id": "D0091",
+    "zone_id": "HN-Z010",
+    "battery_percent": 65.47,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0092",
+    "zone_id": "HN-Z025",
+    "battery_percent": 58.44,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0093",
+    "zone_id": "HN-Z025",
+    "battery_percent": 21.01,
+    "status": "busy",
+    "destination_zone_id": "HN-Z024",
+    "available_at": "2026-01-11 16:58:32.568899+00:00"
+  },
+  {
+    "driver_id": "D0094",
+    "zone_id": "HN-Z027",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0095",
+    "zone_id": "HN-Z009",
+    "battery_percent": 29.1,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0096",
+    "zone_id": "HN-Z018",
+    "battery_percent": 24.78,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0097",
+    "zone_id": "HN-Z024",
+    "battery_percent": 55.43,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0098",
+    "zone_id": "HN-Z015",
+    "battery_percent": 58.21,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0099",
+    "zone_id": "HN-Z019",
+    "battery_percent": 38.35,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0100",
+    "zone_id": "HN-Z003",
+    "battery_percent": 18.58,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:30:00+00:00"
+  },
+  {
+    "driver_id": "D0101",
+    "zone_id": "HN-Z017",
+    "battery_percent": 47.81,
+    "status": "busy",
+    "destination_zone_id": "HN-Z009",
+    "available_at": "2026-01-11 17:15:40.456570+00:00"
+  },
+  {
+    "driver_id": "D0102",
+    "zone_id": "HN-Z016",
+    "battery_percent": 33.87,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0103",
+    "zone_id": "HN-Z015",
+    "battery_percent": 74.41,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0104",
+    "zone_id": "HN-Z025",
+    "battery_percent": 43.87,
+    "status": "busy",
+    "destination_zone_id": "HN-Z028",
+    "available_at": "2026-01-11 17:03:32.906978+00:00"
+  },
+  {
+    "driver_id": "D0105",
+    "zone_id": "HN-Z015",
+    "battery_percent": 40.75,
+    "status": "busy",
+    "destination_zone_id": "HN-Z004",
+    "available_at": "2026-01-11 16:58:02.214391+00:00"
+  },
+  {
+    "driver_id": "D0106",
+    "zone_id": "HN-Z004",
+    "battery_percent": 18.04,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 16:56:36.990896+00:00"
+  },
+  {
+    "driver_id": "D0107",
+    "zone_id": "HN-Z023",
+    "battery_percent": 32.94,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0108",
+    "zone_id": "HN-Z018",
+    "battery_percent": 29.83,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0109",
+    "zone_id": "HN-Z001",
+    "battery_percent": 49.26,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0110",
+    "zone_id": "HN-Z002",
+    "battery_percent": 55.3,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0111",
+    "zone_id": "HN-Z014",
+    "battery_percent": 18.06,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:10:00+00:00"
+  },
+  {
+    "driver_id": "D0112",
+    "zone_id": "HN-Z006",
+    "battery_percent": 75.22,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0113",
+    "zone_id": "HN-Z008",
+    "battery_percent": 34.69,
+    "status": "busy",
+    "destination_zone_id": "HN-Z024",
+    "available_at": "2026-01-11 17:02:06.395150+00:00"
+  },
+  {
+    "driver_id": "D0114",
+    "zone_id": "HN-Z021",
+    "battery_percent": 61.25,
+    "status": "busy",
+    "destination_zone_id": "HN-Z009",
+    "available_at": "2026-01-11 16:57:08.193147+00:00"
+  },
+  {
+    "driver_id": "D0115",
+    "zone_id": "HN-Z030",
+    "battery_percent": 40.99,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0116",
+    "zone_id": "HN-Z006",
+    "battery_percent": 39.23,
+    "status": "busy",
+    "destination_zone_id": "HN-Z005",
+    "available_at": "2026-01-11 17:13:29.180144+00:00"
+  },
+  {
+    "driver_id": "D0117",
+    "zone_id": "HN-Z030",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0118",
+    "zone_id": "HN-Z010",
+    "battery_percent": 57.16,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0119",
+    "zone_id": "HN-Z002",
+    "battery_percent": 44.24,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0120",
+    "zone_id": "HN-Z029",
+    "battery_percent": 50.11,
+    "status": "busy",
+    "destination_zone_id": "HN-Z006",
+    "available_at": "2026-01-11 17:39:40.998023+00:00"
+  },
+  {
+    "driver_id": "D0121",
+    "zone_id": "HN-Z014",
+    "battery_percent": 22.81,
+    "status": "busy",
+    "destination_zone_id": "HN-Z020",
+    "available_at": "2026-01-11 17:00:26.545353+00:00"
+  },
+  {
+    "driver_id": "D0122",
+    "zone_id": "HN-Z005",
+    "battery_percent": 27.23,
+    "status": "busy",
+    "destination_zone_id": "HN-Z006",
+    "available_at": "2026-01-11 17:01:16.685735+00:00"
+  },
+  {
+    "driver_id": "D0123",
+    "zone_id": "HN-Z005",
+    "battery_percent": 57.15,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0124",
+    "zone_id": "HN-Z012",
+    "battery_percent": 20.04,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 17:10:57.452508+00:00"
+  },
+  {
+    "driver_id": "D0125",
+    "zone_id": "HN-Z025",
+    "battery_percent": 24.31,
+    "status": "busy",
+    "destination_zone_id": "HN-Z006",
+    "available_at": "2026-01-11 17:14:08.437296+00:00"
+  },
+  {
+    "driver_id": "D0126",
+    "zone_id": "HN-Z012",
+    "battery_percent": 43.8,
+    "status": "busy",
+    "destination_zone_id": "HN-Z021",
+    "available_at": "2026-01-11 17:16:01.730188+00:00"
+  },
+  {
+    "driver_id": "D0127",
+    "zone_id": "HN-Z010",
+    "battery_percent": 78.15,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0128",
+    "zone_id": "HN-Z006",
+    "battery_percent": 48.2,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0129",
+    "zone_id": "HN-Z022",
+    "battery_percent": 78.03,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0130",
+    "zone_id": "HN-Z015",
+    "battery_percent": 45.01,
+    "status": "busy",
+    "destination_zone_id": "HN-Z009",
+    "available_at": "2026-01-11 17:08:07.247132+00:00"
+  },
+  {
+    "driver_id": "D0131",
+    "zone_id": "HN-Z018",
+    "battery_percent": 31.54,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0132",
+    "zone_id": "HN-Z026",
+    "battery_percent": 69.02,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0133",
+    "zone_id": "HN-Z003",
+    "battery_percent": 57.48,
+    "status": "busy",
+    "destination_zone_id": "HN-Z020",
+    "available_at": "2026-01-11 17:15:53.899595+00:00"
+  },
+  {
+    "driver_id": "D0134",
+    "zone_id": "HN-Z022",
+    "battery_percent": 20.2,
+    "status": "busy",
+    "destination_zone_id": "HN-Z003",
+    "available_at": "2026-01-11 17:19:52.169781+00:00"
+  },
+  {
+    "driver_id": "D0135",
+    "zone_id": "HN-Z009",
+    "battery_percent": 73.34,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0136",
+    "zone_id": "HN-Z001",
+    "battery_percent": 66.53,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0137",
+    "zone_id": "HN-Z002",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0138",
+    "zone_id": "HN-Z016",
+    "battery_percent": 18.97,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 17:02:54.837122+00:00"
+  },
+  {
+    "driver_id": "D0139",
+    "zone_id": "HN-Z008",
+    "battery_percent": 75.91,
+    "status": "busy",
+    "destination_zone_id": "HN-Z005",
+    "available_at": "2026-01-11 17:06:40.616148+00:00"
+  },
+  {
+    "driver_id": "D0140",
+    "zone_id": "HN-Z001",
+    "battery_percent": 59.96,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0141",
+    "zone_id": "HN-Z015",
+    "battery_percent": 54.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0142",
+    "zone_id": "HN-Z023",
+    "battery_percent": 68.37,
+    "status": "busy",
+    "destination_zone_id": "HN-Z002",
+    "available_at": "2026-01-11 16:56:18.856015+00:00"
+  },
+  {
+    "driver_id": "D0143",
+    "zone_id": "HN-Z027",
+    "battery_percent": 46.4,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0144",
+    "zone_id": "HN-Z014",
+    "battery_percent": 24.44,
+    "status": "busy",
+    "destination_zone_id": "HN-Z019",
+    "available_at": "2026-01-11 16:59:11.335220+00:00"
+  },
+  {
+    "driver_id": "D0145",
+    "zone_id": "HN-Z006",
+    "battery_percent": 28.49,
+    "status": "busy",
+    "destination_zone_id": "HN-Z011",
+    "available_at": "2026-01-11 17:14:05.631611+00:00"
+  },
+  {
+    "driver_id": "D0146",
+    "zone_id": "HN-Z023",
+    "battery_percent": 23.15,
+    "status": "busy",
+    "destination_zone_id": "HN-Z003",
+    "available_at": "2026-01-11 17:18:08.800889+00:00"
+  },
+  {
+    "driver_id": "D0147",
+    "zone_id": "HN-Z006",
+    "battery_percent": 49.88,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0148",
+    "zone_id": "HN-Z003",
+    "battery_percent": 60.5,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:10:09.998107+00:00"
+  },
+  {
+    "driver_id": "D0149",
+    "zone_id": "HN-Z004",
+    "battery_percent": 19.13,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:30:00+00:00"
+  },
+  {
+    "driver_id": "D0150",
+    "zone_id": "HN-Z030",
+    "battery_percent": 29.85,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0151",
+    "zone_id": "HN-Z017",
+    "battery_percent": 16.12,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:30:00+00:00"
+  },
+  {
+    "driver_id": "D0152",
+    "zone_id": "HN-Z002",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0153",
+    "zone_id": "HN-Z015",
+    "battery_percent": 65.31,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0154",
+    "zone_id": "HN-Z022",
+    "battery_percent": 16.19,
+    "status": "busy",
+    "destination_zone_id": "HN-Z018",
+    "available_at": "2026-01-11 17:28:29.816103+00:00"
+  },
+  {
+    "driver_id": "D0155",
+    "zone_id": "HN-Z004",
+    "battery_percent": 31.79,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0156",
+    "zone_id": "HN-Z002",
+    "battery_percent": 66.58,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0157",
+    "zone_id": "HN-Z005",
+    "battery_percent": 17.16,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:00:00+00:00"
+  },
+  {
+    "driver_id": "D0158",
+    "zone_id": "HN-Z001",
+    "battery_percent": 62.35,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0159",
+    "zone_id": "HN-Z013",
+    "battery_percent": 34.73,
+    "status": "busy",
+    "destination_zone_id": "HN-Z008",
+    "available_at": "2026-01-11 17:03:14.207471+00:00"
+  },
+  {
+    "driver_id": "D0160",
+    "zone_id": "HN-Z027",
+    "battery_percent": 63.52,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0161",
+    "zone_id": "HN-Z028",
+    "battery_percent": 78.94,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:01:36.557585+00:00"
+  },
+  {
+    "driver_id": "D0162",
+    "zone_id": "HN-Z015",
+    "battery_percent": 63.46,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0163",
+    "zone_id": "HN-Z006",
+    "battery_percent": 49.01,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0164",
+    "zone_id": "HN-Z015",
+    "battery_percent": 48.34,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0165",
+    "zone_id": "HN-Z029",
+    "battery_percent": 23.51,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 17:01:44.557468+00:00"
+  },
+  {
+    "driver_id": "D0166",
+    "zone_id": "HN-Z006",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0167",
+    "zone_id": "HN-Z027",
+    "battery_percent": 67.86,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0168",
+    "zone_id": "HN-Z005",
+    "battery_percent": 19.97,
+    "status": "busy",
+    "destination_zone_id": "HN-Z002",
+    "available_at": "2026-01-11 16:55:26.451581+00:00"
+  },
+  {
+    "driver_id": "D0169",
+    "zone_id": "HN-Z017",
+    "battery_percent": 45.62,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 17:19:27.392233+00:00"
+  },
+  {
+    "driver_id": "D0170",
+    "zone_id": "HN-Z018",
+    "battery_percent": 26.96,
+    "status": "busy",
+    "destination_zone_id": "HN-Z026",
+    "available_at": "2026-01-11 16:58:26.317157+00:00"
+  },
+  {
+    "driver_id": "D0171",
+    "zone_id": "HN-Z017",
+    "battery_percent": 45.22,
+    "status": "busy",
+    "destination_zone_id": "HN-Z008",
+    "available_at": "2026-01-11 17:06:31.168115+00:00"
+  },
+  {
+    "driver_id": "D0172",
+    "zone_id": "HN-Z001",
+    "battery_percent": 76.18,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0173",
+    "zone_id": "HN-Z022",
+    "battery_percent": 78.94,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0174",
+    "zone_id": "HN-Z012",
+    "battery_percent": 20.47,
+    "status": "busy",
+    "destination_zone_id": "HN-Z012",
+    "available_at": "2026-01-11 17:05:07.022463+00:00"
+  },
+  {
+    "driver_id": "D0175",
+    "zone_id": "HN-Z008",
+    "battery_percent": 37.58,
+    "status": "busy",
+    "destination_zone_id": "HN-Z028",
+    "available_at": "2026-01-11 17:03:02.035401+00:00"
+  },
+  {
+    "driver_id": "D0176",
+    "zone_id": "HN-Z019",
+    "battery_percent": 75.87,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0177",
+    "zone_id": "HN-Z004",
+    "battery_percent": 18.02,
+    "status": "busy",
+    "destination_zone_id": "HN-Z021",
+    "available_at": "2026-01-11 17:22:29.307387+00:00"
+  },
+  {
+    "driver_id": "D0178",
+    "zone_id": "HN-Z004",
+    "battery_percent": 64.48,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0179",
+    "zone_id": "HN-Z019",
+    "battery_percent": 18.67,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:25:00+00:00"
+  },
+  {
+    "driver_id": "D0180",
+    "zone_id": "HN-Z004",
+    "battery_percent": 30.73,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0181",
+    "zone_id": "HN-Z010",
+    "battery_percent": 30.88,
+    "status": "busy",
+    "destination_zone_id": "HN-Z024",
+    "available_at": "2026-01-11 17:11:24.442283+00:00"
+  },
+  {
+    "driver_id": "D0182",
+    "zone_id": "HN-Z006",
+    "battery_percent": 48.43,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0183",
+    "zone_id": "HN-Z030",
+    "battery_percent": 40.68,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0184",
+    "zone_id": "HN-Z009",
+    "battery_percent": 33.44,
+    "status": "busy",
+    "destination_zone_id": "HN-Z008",
+    "available_at": "2026-01-11 17:08:51.595714+00:00"
+  },
+  {
+    "driver_id": "D0185",
+    "zone_id": "HN-Z030",
+    "battery_percent": 74.86,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0186",
+    "zone_id": "HN-Z028",
+    "battery_percent": 23.12,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 17:29:01.344527+00:00"
+  },
+  {
+    "driver_id": "D0187",
+    "zone_id": "HN-Z010",
+    "battery_percent": 54.29,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0188",
+    "zone_id": "HN-Z016",
+    "battery_percent": 33.48,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0189",
+    "zone_id": "HN-Z009",
+    "battery_percent": 27.2,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 17:23:33.507420+00:00"
+  },
+  {
+    "driver_id": "D0190",
+    "zone_id": "HN-Z023",
+    "battery_percent": 78.94,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0191",
+    "zone_id": "HN-Z001",
+    "battery_percent": 69.42,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0192",
+    "zone_id": "HN-Z003",
+    "battery_percent": 26.83,
+    "status": "busy",
+    "destination_zone_id": "HN-Z015",
+    "available_at": "2026-01-11 17:12:07.126929+00:00"
+  },
+  {
+    "driver_id": "D0193",
+    "zone_id": "HN-Z001",
+    "battery_percent": 29.63,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0194",
+    "zone_id": "HN-Z020",
+    "battery_percent": 73.13,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0195",
+    "zone_id": "HN-Z014",
+    "battery_percent": 71.32,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 17:28:02.428412+00:00"
+  },
+  {
+    "driver_id": "D0196",
+    "zone_id": "HN-Z020",
+    "battery_percent": 22.75,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0197",
+    "zone_id": "HN-Z024",
+    "battery_percent": 38.65,
+    "status": "busy",
+    "destination_zone_id": "HN-Z011",
+    "available_at": "2026-01-11 17:07:30.039996+00:00"
+  },
+  {
+    "driver_id": "D0198",
+    "zone_id": "HN-Z017",
+    "battery_percent": 74.33,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0199",
+    "zone_id": "HN-Z015",
+    "battery_percent": 58.17,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0200",
+    "zone_id": "HN-Z011",
+    "battery_percent": 65.59,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0201",
+    "zone_id": "HN-Z007",
+    "battery_percent": 64.47,
+    "status": "busy",
+    "destination_zone_id": "HN-Z011",
+    "available_at": "2026-01-11 17:18:13.703271+00:00"
+  },
+  {
+    "driver_id": "D0202",
+    "zone_id": "HN-Z004",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0203",
+    "zone_id": "HN-Z005",
+    "battery_percent": 73.24,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0204",
+    "zone_id": "HN-Z003",
+    "battery_percent": 48.58,
+    "status": "busy",
+    "destination_zone_id": "HN-Z001",
+    "available_at": "2026-01-11 17:04:36.608661+00:00"
+  },
+  {
+    "driver_id": "D0205",
+    "zone_id": "HN-Z007",
+    "battery_percent": 71.34,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:05:59.501548+00:00"
+  },
+  {
+    "driver_id": "D0206",
+    "zone_id": "HN-Z015",
+    "battery_percent": 56.85,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0207",
+    "zone_id": "HN-Z006",
+    "battery_percent": 67.68,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0208",
+    "zone_id": "HN-Z027",
+    "battery_percent": 60.64,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0209",
+    "zone_id": "HN-Z008",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0210",
+    "zone_id": "HN-Z014",
+    "battery_percent": 62.46,
+    "status": "busy",
+    "destination_zone_id": "HN-Z016",
+    "available_at": "2026-01-11 17:13:59.142460+00:00"
+  },
+  {
+    "driver_id": "D0211",
+    "zone_id": "HN-Z010",
+    "battery_percent": 35.77,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0212",
+    "zone_id": "HN-Z022",
+    "battery_percent": 78.94,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0213",
+    "zone_id": "HN-Z016",
+    "battery_percent": 77.89,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0214",
+    "zone_id": "HN-Z020",
+    "battery_percent": 56.71,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0215",
+    "zone_id": "HN-Z015",
+    "battery_percent": 70.41,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0216",
+    "zone_id": "HN-Z020",
+    "battery_percent": 18.94,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:25:00+00:00"
+  },
+  {
+    "driver_id": "D0217",
+    "zone_id": "HN-Z016",
+    "battery_percent": 66.97,
+    "status": "busy",
+    "destination_zone_id": "HN-Z001",
+    "available_at": "2026-01-11 17:00:02.136703+00:00"
+  },
+  {
+    "driver_id": "D0218",
+    "zone_id": "HN-Z005",
+    "battery_percent": 60.53,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0219",
+    "zone_id": "HN-Z027",
+    "battery_percent": 39.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0220",
+    "zone_id": "HN-Z001",
+    "battery_percent": 78.04,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0221",
+    "zone_id": "HN-Z013",
+    "battery_percent": 35.44,
+    "status": "busy",
+    "destination_zone_id": "HN-Z024",
+    "available_at": "2026-01-11 17:29:38.350221+00:00"
+  },
+  {
+    "driver_id": "D0222",
+    "zone_id": "HN-Z009",
+    "battery_percent": 26.56,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 16:59:03.232992+00:00"
+  },
+  {
+    "driver_id": "D0223",
+    "zone_id": "HN-Z006",
+    "battery_percent": 48.17,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0224",
+    "zone_id": "HN-Z024",
+    "battery_percent": 43.18,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0225",
+    "zone_id": "HN-Z008",
+    "battery_percent": 16.75,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:35:00+00:00"
+  },
+  {
+    "driver_id": "D0226",
+    "zone_id": "HN-Z001",
+    "battery_percent": 76.17,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0227",
+    "zone_id": "HN-Z015",
+    "battery_percent": 69.08,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0228",
+    "zone_id": "HN-Z027",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0229",
+    "zone_id": "HN-Z016",
+    "battery_percent": 20.91,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 17:25:11.205633+00:00"
+  },
+  {
+    "driver_id": "D0230",
+    "zone_id": "HN-Z002",
+    "battery_percent": 78.94,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z003",
+    "available_at": "2026-01-11 17:01:36.727161+00:00"
+  },
+  {
+    "driver_id": "D0231",
+    "zone_id": "HN-Z001",
+    "battery_percent": 50.3,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0232",
+    "zone_id": "HN-Z019",
+    "battery_percent": 30.27,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0233",
+    "zone_id": "HN-Z029",
+    "battery_percent": 77.88,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0234",
+    "zone_id": "HN-Z001",
+    "battery_percent": 26.1,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 17:10:09.819253+00:00"
+  },
+  {
+    "driver_id": "D0235",
+    "zone_id": "HN-Z009",
+    "battery_percent": 75.26,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0236",
+    "zone_id": "HN-Z003",
+    "battery_percent": 52.3,
+    "status": "busy",
+    "destination_zone_id": "HN-Z019",
+    "available_at": "2026-01-11 17:14:51.447040+00:00"
+  },
+  {
+    "driver_id": "D0237",
+    "zone_id": "HN-Z019",
+    "battery_percent": 54.85,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0238",
+    "zone_id": "HN-Z002",
+    "battery_percent": 41.18,
+    "status": "busy",
+    "destination_zone_id": "HN-Z005",
+    "available_at": "2026-01-11 17:23:35.866610+00:00"
+  },
+  {
+    "driver_id": "D0239",
+    "zone_id": "HN-Z016",
+    "battery_percent": 78.92,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0240",
+    "zone_id": "HN-Z028",
+    "battery_percent": 37.55,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 17:08:17.108660+00:00"
+  },
+  {
+    "driver_id": "D0241",
+    "zone_id": "HN-Z028",
+    "battery_percent": 42.0,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 16:55:41.796599+00:00"
+  },
+  {
+    "driver_id": "D0242",
+    "zone_id": "HN-Z018",
+    "battery_percent": 39.2,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0243",
+    "zone_id": "HN-Z003",
+    "battery_percent": 19.89,
+    "status": "busy",
+    "destination_zone_id": "HN-Z021",
+    "available_at": "2026-01-11 17:07:24.832352+00:00"
+  },
+  {
+    "driver_id": "D0244",
+    "zone_id": "HN-Z006",
+    "battery_percent": 39.22,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 17:05:36.620892+00:00"
+  },
+  {
+    "driver_id": "D0245",
+    "zone_id": "HN-Z024",
+    "battery_percent": 68.45,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0246",
+    "zone_id": "HN-Z021",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0247",
+    "zone_id": "HN-Z029",
+    "battery_percent": 19.89,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:15:00+00:00"
+  },
+  {
+    "driver_id": "D0248",
+    "zone_id": "HN-Z026",
+    "battery_percent": 55.55,
+    "status": "busy",
+    "destination_zone_id": "HN-Z007",
+    "available_at": "2026-01-11 17:05:11.303513+00:00"
+  },
+  {
+    "driver_id": "D0249",
+    "zone_id": "HN-Z002",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0250",
+    "zone_id": "HN-Z012",
+    "battery_percent": 71.27,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0251",
+    "zone_id": "HN-Z008",
+    "battery_percent": 62.63,
+    "status": "busy",
+    "destination_zone_id": "HN-Z009",
+    "available_at": "2026-01-11 16:57:17.968509+00:00"
+  },
+  {
+    "driver_id": "D0252",
+    "zone_id": "HN-Z004",
+    "battery_percent": 59.57,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0253",
+    "zone_id": "HN-Z026",
+    "battery_percent": 72.21,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0254",
+    "zone_id": "HN-Z005",
+    "battery_percent": 44.91,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0255",
+    "zone_id": "HN-Z018",
+    "battery_percent": 53.36,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0256",
+    "zone_id": "HN-Z005",
+    "battery_percent": 18.35,
+    "status": "busy",
+    "destination_zone_id": "HN-Z027",
+    "available_at": "2026-01-11 16:57:12.909400+00:00"
+  },
+  {
+    "driver_id": "D0257",
+    "zone_id": "HN-Z024",
+    "battery_percent": 78.95,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0258",
+    "zone_id": "HN-Z022",
+    "battery_percent": 28.9,
+    "status": "busy",
+    "destination_zone_id": "HN-Z030",
+    "available_at": "2026-01-11 17:19:09.998487+00:00"
+  },
+  {
+    "driver_id": "D0259",
+    "zone_id": "HN-Z022",
+    "battery_percent": 37.26,
+    "status": "busy",
+    "destination_zone_id": "HN-Z017",
+    "available_at": "2026-01-11 17:12:05.214267+00:00"
+  },
+  {
+    "driver_id": "D0260",
+    "zone_id": "HN-Z001",
+    "battery_percent": 56.12,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0261",
+    "zone_id": "HN-Z006",
+    "battery_percent": 46.42,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0262",
+    "zone_id": "HN-Z025",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0263",
+    "zone_id": "HN-Z024",
+    "battery_percent": 63.26,
+    "status": "busy",
+    "destination_zone_id": "HN-Z001",
+    "available_at": "2026-01-11 17:01:33.292365+00:00"
+  },
+  {
+    "driver_id": "D0264",
+    "zone_id": "HN-Z017",
+    "battery_percent": 31.71,
+    "status": "busy",
+    "destination_zone_id": "HN-Z021",
+    "available_at": "2026-01-11 17:13:05.034630+00:00"
+  },
+  {
+    "driver_id": "D0265",
+    "zone_id": "HN-Z015",
+    "battery_percent": 54.82,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0266",
+    "zone_id": "HN-Z022",
+    "battery_percent": 59.66,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0267",
+    "zone_id": "HN-Z005",
+    "battery_percent": 68.81,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0268",
+    "zone_id": "HN-Z029",
+    "battery_percent": 25.6,
+    "status": "busy",
+    "destination_zone_id": "HN-Z016",
+    "available_at": "2026-01-11 17:27:12.058250+00:00"
+  },
+  {
+    "driver_id": "D0269",
+    "zone_id": "HN-Z001",
+    "battery_percent": 80.0,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0270",
+    "zone_id": "HN-Z002",
+    "battery_percent": 40.68,
+    "status": "busy",
+    "destination_zone_id": "HN-Z010",
+    "available_at": "2026-01-11 16:56:30.194366+00:00"
+  },
+  {
+    "driver_id": "D0271",
+    "zone_id": "HN-Z019",
+    "battery_percent": 78.92,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z014",
+    "available_at": "2026-01-11 17:01:44.759698+00:00"
+  },
+  {
+    "driver_id": "D0272",
+    "zone_id": "HN-Z029",
+    "battery_percent": 56.36,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0273",
+    "zone_id": "HN-Z011",
+    "battery_percent": 78.94,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0274",
+    "zone_id": "HN-Z010",
+    "battery_percent": 52.34,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0275",
+    "zone_id": "HN-Z007",
+    "battery_percent": 47.27,
+    "status": "busy",
+    "destination_zone_id": "HN-Z023",
+    "available_at": "2026-01-11 17:06:48.980892+00:00"
+  },
+  {
+    "driver_id": "D0276",
+    "zone_id": "HN-Z002",
+    "battery_percent": 27.96,
+    "status": "busy",
+    "destination_zone_id": "HN-Z006",
+    "available_at": "2026-01-11 17:02:13.642190+00:00"
+  },
+  {
+    "driver_id": "D0277",
+    "zone_id": "HN-Z007",
+    "battery_percent": 18.09,
+    "status": "busy",
+    "destination_zone_id": "HN-Z018",
+    "available_at": "2026-01-11 16:57:19.065806+00:00"
+  },
+  {
+    "driver_id": "D0278",
+    "zone_id": "HN-Z001",
+    "battery_percent": 51.07,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0279",
+    "zone_id": "HN-Z025",
+    "battery_percent": 34.01,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 16:57:46.903494+00:00"
+  },
+  {
+    "driver_id": "D0280",
+    "zone_id": "HN-Z024",
+    "battery_percent": 78.95,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0281",
+    "zone_id": "HN-Z025",
+    "battery_percent": 65.66,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0282",
+    "zone_id": "HN-Z018",
+    "battery_percent": 74.14,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0283",
+    "zone_id": "HN-Z015",
+    "battery_percent": 56.48,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0284",
+    "zone_id": "HN-Z024",
+    "battery_percent": 21.07,
+    "status": "busy",
+    "destination_zone_id": "HN-Z003",
+    "available_at": "2026-01-11 17:02:26.793128+00:00"
+  },
+  {
+    "driver_id": "D0285",
+    "zone_id": "HN-Z023",
+    "battery_percent": 66.78,
+    "status": "busy",
+    "destination_zone_id": "HN-Z022",
+    "available_at": "2026-01-11 17:22:36.411573+00:00"
+  },
+  {
+    "driver_id": "D0286",
+    "zone_id": "HN-Z011",
+    "battery_percent": 34.41,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0287",
+    "zone_id": "HN-Z005",
+    "battery_percent": 67.52,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0288",
+    "zone_id": "HN-Z016",
+    "battery_percent": 20.95,
+    "status": "busy",
+    "destination_zone_id": "HN-Z013",
+    "available_at": "2026-01-11 17:16:37.709174+00:00"
+  },
+  {
+    "driver_id": "D0289",
+    "zone_id": "HN-Z011",
+    "battery_percent": 76.25,
+    "status": "busy",
+    "destination_zone_id": "HN-Z019",
+    "available_at": "2026-01-11 17:10:50.642746+00:00"
+  },
+  {
+    "driver_id": "D0290",
+    "zone_id": "HN-Z005",
+    "battery_percent": 15.87,
+    "status": "busy",
+    "destination_zone_id": "HN-Z029",
+    "available_at": "2026-01-11 17:38:13.919266+00:00"
+  },
+  {
+    "driver_id": "D0291",
+    "zone_id": "HN-Z006",
+    "battery_percent": 30.16,
+    "status": "busy",
+    "destination_zone_id": "HN-Z002",
+    "available_at": "2026-01-11 17:13:14.282063+00:00"
+  },
+  {
+    "driver_id": "D0292",
+    "zone_id": "HN-Z006",
+    "battery_percent": 47.51,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0293",
+    "zone_id": "HN-Z007",
+    "battery_percent": 28.11,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0294",
+    "zone_id": "HN-Z005",
+    "battery_percent": 36.58,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0295",
+    "zone_id": "HN-Z010",
+    "battery_percent": 47.91,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0296",
+    "zone_id": "HN-Z019",
+    "battery_percent": 78.95,
+    "status": "incoming",
+    "destination_zone_id": "HN-Z007",
+    "available_at": "2026-01-11 16:56:34.065655+00:00"
+  },
+  {
+    "driver_id": "D0297",
+    "zone_id": "HN-Z026",
+    "battery_percent": 16.68,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:00:00+00:00"
+  },
+  {
+    "driver_id": "D0298",
+    "zone_id": "HN-Z025",
+    "battery_percent": 49.45,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0299",
+    "zone_id": "HN-Z012",
+    "battery_percent": 63.53,
+    "status": "idle",
+    "destination_zone_id": null,
+    "available_at": null
+  },
+  {
+    "driver_id": "D0300",
+    "zone_id": "HN-Z024",
+    "battery_percent": 19.0,
+    "status": "charging",
+    "destination_zone_id": null,
+    "available_at": "2026-01-11 17:25:00+00:00"
+  }
+]

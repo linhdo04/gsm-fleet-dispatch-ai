@@ -1,0 +1,38 @@
+{
+  "A_PASSIVE": {
+    "scenario": "A_PASSIVE",
+    "generated_requests": 47020,
+    "matched_requests": 45217,
+    "cancelled_requests": 1803,
+    "repositioned_drivers": 0,
+    "avg_wait_seconds": 8.8,
+    "cancellation_rate_pct": 3.83,
+    "deadhead_m_total": 68800996.6,
+    "deadhead_m_per_driver": 229336.7,
+    "supply_demand_ratio_std": 5.5167
+  },
+  "B_REPOSITION_NO_RESERVE": {
+    "scenario": "B_REPOSITION_NO_RESERVE",
+    "generated_requests": 46759,
+    "matched_requests": 45741,
+    "cancelled_requests": 1018,
+    "repositioned_drivers": 6771,
+    "avg_wait_seconds": 6.2,
+    "cancellation_rate_pct": 2.18,
+    "deadhead_m_total": 74688093.7,
+    "deadhead_m_per_driver": 248960.3,
+    "supply_demand_ratio_std": 4.443
+  },
+  "C_REPOSITION_SOFT_RESERVE": {
+    "scenario": "C_REPOSITION_SOFT_RESERVE",
+    "generated_requests": 46824,
+    "matched_requests": 45684,
+    "cancelled_requests": 1140,
+    "repositioned_drivers": 6106,
+    "avg_wait_seconds": 6.6,
+    "cancellation_rate_pct": 2.43,
+    "deadhead_m_total": 72728558.5,
+    "deadhead_m_per_driver": 242428.5,
+    "supply_demand_ratio_std": 4.4605
+  }
+}

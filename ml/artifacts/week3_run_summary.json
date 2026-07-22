@@ -1,0 +1,132 @@
+{
+  "forecast": {
+    "model": "HistGradientBoostingRegressor (scikit-learn — thay thế XGBoost do môi trường chưa cài được xgboost)",
+    "target": "request_count_per_zone_per_5_minutes",
+    "features": [
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "is_holiday",
+      "base_demand_weight",
+      "zone_id",
+      "zone_type",
+      "weather",
+      "peak_profile"
+    ],
+    "train": {
+      "mae": 0.6613,
+      "rmse": 0.8693,
+      "rows": 362880
+    },
+    "validation": {
+      "mae": 0.7031,
+      "rmse": 0.9441,
+      "rows": 60480
+    },
+    "test": {
+      "mae": 0.664,
+      "rmse": 0.8747,
+      "rows": 60480
+    }
+  },
+  "acceptance": {
+    "model": "LogisticRegression (scikit-learn, StandardScaler pipeline)",
+    "features": [
+      "distance_m",
+      "battery_percent",
+      "idle_minutes",
+      "historical_acceptance_rate",
+      "recent_suggestions",
+      "target_deficit",
+      "hour",
+      "is_weekend"
+    ],
+    "train": {
+      "accuracy": 0.6485,
+      "auc": 0.7069,
+      "rows": 71109,
+      "oracle_auc": 0.7071
+    },
+    "validation": {
+      "accuracy": 0.6352,
+      "auc": 0.6884,
+      "rows": 14267,
+      "oracle_auc": 0.7056
+    },
+    "test": {
+      "accuracy": 0.6226,
+      "auc": 0.6745,
+      "rows": 11675,
+      "oracle_auc": 0.6942
+    }
+  },
+  "repositioning_suggester": {
+    "live_snapshot_suggestions": 17,
+    "live_snapshot_sample": [
+      {
+        "driver_id": "D0244",
+        "from_zone_id": "HN-Z017",
+        "target_zone_id": "HN-Z017",
+        "p_accept": 0.8713
+      },
+      {
+        "driver_id": "D0197",
+        "from_zone_id": "HN-Z025",
+        "target_zone_id": "HN-Z025",
+        "p_accept": 0.8713
+      },
+      {
+        "driver_id": "D0081",
+        "from_zone_id": "HN-Z017",
+        "target_zone_id": "HN-Z011",
+        "p_accept": 0.6444
+      },
+      {
+        "driver_id": "D0129",
+        "from_zone_id": "HN-Z012",
+        "target_zone_id": "HN-Z022",
+        "p_accept": 0.6443
+      },
+      {
+        "driver_id": "D0085",
+        "from_zone_id": "HN-Z001",
+        "target_zone_id": "HN-Z001",
+        "p_accept": 0.8709
+      },
+      {
+        "driver_id": "D0077",
+        "from_zone_id": "HN-Z002",
+        "target_zone_id": "HN-Z002",
+        "p_accept": 0.8637
+      },
+      {
+        "driver_id": "D0002",
+        "from_zone_id": "HN-Z003",
+        "target_zone_id": "HN-Z003",
+        "p_accept": 0.8709
+      },
+      {
+        "driver_id": "D0278",
+        "from_zone_id": "HN-Z004",
+        "target_zone_id": "HN-Z004",
+        "p_accept": 0.8709
+      },
+      {
+        "driver_id": "D0227",
+        "from_zone_id": "HN-Z005",
+        "target_zone_id": "HN-Z005",
+        "p_accept": 0.8709
+      },
+      {
+        "driver_id": "D0222",
+        "from_zone_id": "HN-Z015",
+        "target_zone_id": "HN-Z015",
+        "p_accept": 0.8403
+      }
+    ],
+    "herding_comparison_total_suggested": {
+      "voi_chong_herding": 16,
+      "khong_chong_herding": 32
+    }
+  }
+}

@@ -1,0 +1,4 @@
+scenario,generated_requests,matched_requests,cancelled_requests,repositioned_drivers,avg_wait_seconds,cancellation_rate_pct,deadhead_m_total,deadhead_m_per_driver,supply_demand_ratio_std
+A_PASSIVE,47020,45217,1803,0,8.8,3.83,68800996.6,229336.7,5.5167
+B_REPOSITION_NO_RESERVE,46759,45741,1018,6771,6.2,2.18,74688093.7,248960.3,4.443
+C_REPOSITION_SOFT_RESERVE,46824,45684,1140,6106,6.6,2.43,72728558.5,242428.5,4.4605

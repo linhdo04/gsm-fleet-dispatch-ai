@@ -1,0 +1,1202 @@
+[
+  {
+    "zone_id": "HN-Z001",
+    "name": "Hà Nội Zone 001",
+    "h3_index": "87415cb4bffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0357936,
+    "center_lng": 105.8050191,
+    "zone_type": "office",
+    "classification_anchor": "Ba Đình",
+    "anchor_distance_km": 0.99,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.031549,
+        "lng": 105.81865
+      },
+      {
+        "lat": 21.0445309,
+        "lng": 105.8154124
+      },
+      {
+        "lat": 21.0487754,
+        "lng": 105.8017806
+      },
+      {
+        "lat": 21.0400373,
+        "lng": 105.7913868
+      },
+      {
+        "lat": 21.0270547,
+        "lng": 105.7946258
+      },
+      {
+        "lat": 21.0228109,
+        "lng": 105.8082573
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z002",
+    "name": "Hà Nội Zone 002",
+    "h3_index": "87415cb49ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0140711,
+    "center_lng": 105.7978646,
+    "zone_type": "office",
+    "classification_anchor": "Láng Hạ - Thái Hà",
+    "anchor_distance_km": 1.37,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0098272,
+        "lng": 105.8114952
+      },
+      {
+        "lat": 21.0228109,
+        "lng": 105.8082573
+      },
+      {
+        "lat": 21.0270547,
+        "lng": 105.7946258
+      },
+      {
+        "lat": 21.0183141,
+        "lng": 105.7842325
+      },
+      {
+        "lat": 21.0053296,
+        "lng": 105.7874718
+      },
+      {
+        "lat": 21.0010865,
+        "lng": 105.8011029
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z003",
+    "name": "Hà Nội Zone 003",
+    "h3_index": "87415cb48ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0185662,
+    "center_lng": 105.8218874,
+    "zone_type": "office",
+    "classification_anchor": "Láng Hạ - Thái Hà",
+    "anchor_distance_km": 1.18,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0143207,
+        "lng": 105.835516
+      },
+      {
+        "lat": 21.0273036,
+        "lng": 105.8322796
+      },
+      {
+        "lat": 21.031549,
+        "lng": 105.81865
+      },
+      {
+        "lat": 21.0228109,
+        "lng": 105.8082573
+      },
+      {
+        "lat": 21.0098272,
+        "lng": 105.8114952
+      },
+      {
+        "lat": 21.0055824,
+        "lng": 105.8251243
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z004",
+    "name": "Hà Nội Zone 004",
+    "h3_index": "874143696ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0312976,
+    "center_lng": 105.7809929,
+    "zone_type": "office",
+    "classification_anchor": "Duy Tân",
+    "anchor_distance_km": 0.22,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0270547,
+        "lng": 105.7946258
+      },
+      {
+        "lat": 21.0400373,
+        "lng": 105.7913868
+      },
+      {
+        "lat": 21.0442801,
+        "lng": 105.777753
+      },
+      {
+        "lat": 21.0355396,
+        "lng": 105.7673586
+      },
+      {
+        "lat": 21.0225562,
+        "lng": 105.7705991
+      },
+      {
+        "lat": 21.0183141,
+        "lng": 105.7842325
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z005",
+    "name": "Hà Nội Zone 005",
+    "h3_index": "87415cb4affffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0402855,
+    "center_lng": 105.8290428,
+    "zone_type": "office",
+    "classification_anchor": "Ba Đình",
+    "anchor_distance_km": 1.59,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0360393,
+        "lng": 105.8426718
+      },
+      {
+        "lat": 21.0490204,
+        "lng": 105.8394356
+      },
+      {
+        "lat": 21.0532665,
+        "lng": 105.8258057
+      },
+      {
+        "lat": 21.0445309,
+        "lng": 105.8154124
+      },
+      {
+        "lat": 21.031549,
+        "lng": 105.81865
+      },
+      {
+        "lat": 21.0273036,
+        "lng": 105.8322796
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z006",
+    "name": "Hà Nội Zone 006",
+    "h3_index": "87415ca65ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.053019,
+    "center_lng": 105.7881474,
+    "zone_type": "university",
+    "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+    "anchor_distance_km": 1.82,
+    "base_demand_weight": 1.15,
+    "peak_profile": "class_hours",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0487754,
+        "lng": 105.8017806
+      },
+      {
+        "lat": 21.0617562,
+        "lng": 105.7985417
+      },
+      {
+        "lat": 21.0659997,
+        "lng": 105.7849076
+      },
+      {
+        "lat": 21.0572617,
+        "lng": 105.7745127
+      },
+      {
+        "lat": 21.0442801,
+        "lng": 105.777753
+      },
+      {
+        "lat": 21.0400373,
+        "lng": 105.7913868
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z007",
+    "name": "Hà Nội Zone 007",
+    "h3_index": "87415ca64ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0575118,
+    "center_lng": 105.8121744,
+    "zone_type": "residential",
+    "classification_anchor": "Tây Hồ",
+    "anchor_distance_km": 0.94,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0532665,
+        "lng": 105.8258057
+      },
+      {
+        "lat": 21.0662466,
+        "lng": 105.8225682
+      },
+      {
+        "lat": 21.0704917,
+        "lng": 105.8089361
+      },
+      {
+        "lat": 21.0617562,
+        "lng": 105.7985417
+      },
+      {
+        "lat": 21.0487754,
+        "lng": 105.8017806
+      },
+      {
+        "lat": 21.0445309,
+        "lng": 105.8154124
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z008",
+    "name": "Hà Nội Zone 008",
+    "h3_index": "87415cb4dffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9968425,
+    "center_lng": 105.8147327,
+    "zone_type": "commercial",
+    "classification_anchor": "Royal City",
+    "anchor_distance_km": 0.6,
+    "base_demand_weight": 1.25,
+    "peak_profile": "evening_weekend",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9925976,
+        "lng": 105.828361
+      },
+      {
+        "lat": 21.0055824,
+        "lng": 105.8251243
+      },
+      {
+        "lat": 21.0098272,
+        "lng": 105.8114952
+      },
+      {
+        "lat": 21.0010865,
+        "lng": 105.8011029
+      },
+      {
+        "lat": 20.988101,
+        "lng": 105.804341
+      },
+      {
+        "lat": 20.9838569,
+        "lng": 105.8179698
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z009",
+    "name": "Hà Nội Zone 009",
+    "h3_index": "874143694ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0095718,
+    "center_lng": 105.7738393,
+    "zone_type": "commercial",
+    "classification_anchor": "The Garden - Mễ Trì",
+    "anchor_distance_km": 0.41,
+    "base_demand_weight": 1.25,
+    "peak_profile": "evening_weekend",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0053296,
+        "lng": 105.7874718
+      },
+      {
+        "lat": 21.0183141,
+        "lng": 105.7842325
+      },
+      {
+        "lat": 21.0225562,
+        "lng": 105.7705991
+      },
+      {
+        "lat": 21.0138132,
+        "lng": 105.7602053
+      },
+      {
+        "lat": 21.0008279,
+        "lng": 105.763446
+      },
+      {
+        "lat": 20.9965865,
+        "lng": 105.7770791
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z010",
+    "name": "Hà Nội Zone 010",
+    "h3_index": "8741436b2ffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9923442,
+    "center_lng": 105.7907107,
+    "zone_type": "university",
+    "classification_anchor": "Cụm đại học Nguyễn Trãi",
+    "anchor_distance_km": 0.86,
+    "base_demand_weight": 1.15,
+    "peak_profile": "class_hours",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.988101,
+        "lng": 105.804341
+      },
+      {
+        "lat": 21.0010865,
+        "lng": 105.8011029
+      },
+      {
+        "lat": 21.0053296,
+        "lng": 105.7874718
+      },
+      {
+        "lat": 20.9965865,
+        "lng": 105.7770791
+      },
+      {
+        "lat": 20.9836002,
+        "lng": 105.7803185
+      },
+      {
+        "lat": 20.9793578,
+        "lng": 105.7939493
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z011",
+    "name": "Hà Nội Zone 011",
+    "h3_index": "87415cb4effffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0230572,
+    "center_lng": 105.8459077,
+    "zone_type": "transport_hub",
+    "classification_anchor": "Ga Hà Nội",
+    "anchor_distance_km": 0.51,
+    "base_demand_weight": 1.45,
+    "peak_profile": "arrival_departure",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.01881,
+        "lng": 105.8595343
+      },
+      {
+        "lat": 21.0317922,
+        "lng": 105.8562993
+      },
+      {
+        "lat": 21.0360393,
+        "lng": 105.8426718
+      },
+      {
+        "lat": 21.0273036,
+        "lng": 105.8322796
+      },
+      {
+        "lat": 21.0143207,
+        "lng": 105.835516
+      },
+      {
+        "lat": 21.0100742,
+        "lng": 105.8491432
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z012",
+    "name": "Hà Nội Zone 012",
+    "h3_index": "87415cb4cffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0013367,
+    "center_lng": 105.8387521,
+    "zone_type": "university",
+    "classification_anchor": "Cụm đại học Bách Khoa - Kinh tế - Xây dựng",
+    "anchor_distance_km": 0.66,
+    "base_demand_weight": 1.15,
+    "peak_profile": "class_hours",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9970902,
+        "lng": 105.8523784
+      },
+      {
+        "lat": 21.0100742,
+        "lng": 105.8491432
+      },
+      {
+        "lat": 21.0143207,
+        "lng": 105.835516
+      },
+      {
+        "lat": 21.0055824,
+        "lng": 105.8251243
+      },
+      {
+        "lat": 20.9925976,
+        "lng": 105.828361
+      },
+      {
+        "lat": 20.9883519,
+        "lng": 105.8419879
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z013",
+    "name": "Hà Nội Zone 013",
+    "h3_index": "874143692ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.048522,
+    "center_lng": 105.7641178,
+    "zone_type": "residential",
+    "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+    "anchor_distance_km": 2.27,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0442801,
+        "lng": 105.777753
+      },
+      {
+        "lat": 21.0572617,
+        "lng": 105.7745127
+      },
+      {
+        "lat": 21.0615035,
+        "lng": 105.7608766
+      },
+      {
+        "lat": 21.052763,
+        "lng": 105.7504812
+      },
+      {
+        "lat": 21.0397807,
+        "lng": 105.7537229
+      },
+      {
+        "lat": 21.0355396,
+        "lng": 105.7673586
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z014",
+    "name": "Hà Nội Zone 014",
+    "h3_index": "87415cb59ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0620005,
+    "center_lng": 105.836199,
+    "zone_type": "residential",
+    "classification_anchor": "Tây Hồ",
+    "anchor_distance_km": 1.9,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0577536,
+        "lng": 105.8498283
+      },
+      {
+        "lat": 21.0707328,
+        "lng": 105.8465923
+      },
+      {
+        "lat": 21.0749797,
+        "lng": 105.8329621
+      },
+      {
+        "lat": 21.0662466,
+        "lng": 105.8225682
+      },
+      {
+        "lat": 21.0532665,
+        "lng": 105.8258057
+      },
+      {
+        "lat": 21.0490204,
+        "lng": 105.8394356
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z015",
+    "name": "Hà Nội Zone 015",
+    "h3_index": "874143690ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0267974,
+    "center_lng": 105.7569643,
+    "zone_type": "office",
+    "classification_anchor": "Duy Tân",
+    "anchor_distance_km": 2.7,
+    "base_demand_weight": 1.35,
+    "peak_profile": "weekday_commute",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0225562,
+        "lng": 105.7705991
+      },
+      {
+        "lat": 21.0355396,
+        "lng": 105.7673586
+      },
+      {
+        "lat": 21.0397807,
+        "lng": 105.7537229
+      },
+      {
+        "lat": 21.0310378,
+        "lng": 105.743328
+      },
+      {
+        "lat": 21.0180536,
+        "lng": 105.7465699
+      },
+      {
+        "lat": 21.0138132,
+        "lng": 105.7602053
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z016",
+    "name": "Hà Nội Zone 016",
+    "h3_index": "87415ca60ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.074736,
+    "center_lng": 105.7953025,
+    "zone_type": "residential",
+    "classification_anchor": "Ciputra",
+    "anchor_distance_km": 0.03,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0704917,
+        "lng": 105.8089361
+      },
+      {
+        "lat": 21.0834707,
+        "lng": 105.8056974
+      },
+      {
+        "lat": 21.0877148,
+        "lng": 105.792063
+      },
+      {
+        "lat": 21.0789794,
+        "lng": 105.7816675
+      },
+      {
+        "lat": 21.0659997,
+        "lng": 105.7849076
+      },
+      {
+        "lat": 21.0617562,
+        "lng": 105.7985417
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z017",
+    "name": "Hà Nội Zone 017",
+    "h3_index": "87415cb5dffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0447734,
+    "center_lng": 105.853064,
+    "zone_type": "central_business",
+    "classification_anchor": "Hồ Hoàn Kiếm",
+    "anchor_distance_km": 1.79,
+    "base_demand_weight": 1.5,
+    "peak_profile": "all_day_high",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0405255,
+        "lng": 105.866691
+      },
+      {
+        "lat": 21.0535058,
+        "lng": 105.8634562
+      },
+      {
+        "lat": 21.0577536,
+        "lng": 105.8498283
+      },
+      {
+        "lat": 21.0490204,
+        "lng": 105.8394356
+      },
+      {
+        "lat": 21.0360393,
+        "lng": 105.8426718
+      },
+      {
+        "lat": 21.0317922,
+        "lng": 105.8562993
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z018",
+    "name": "Hà Nội Zone 018",
+    "h3_index": "87415ca61ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0702422,
+    "center_lng": 105.7712721,
+    "zone_type": "residential",
+    "classification_anchor": "Ciputra",
+    "anchor_distance_km": 2.56,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0659997,
+        "lng": 105.7849076
+      },
+      {
+        "lat": 21.0789794,
+        "lng": 105.7816675
+      },
+      {
+        "lat": 21.0832218,
+        "lng": 105.7680311
+      },
+      {
+        "lat": 21.0744839,
+        "lng": 105.7576351
+      },
+      {
+        "lat": 21.0615035,
+        "lng": 105.7608766
+      },
+      {
+        "lat": 21.0572617,
+        "lng": 105.7745127
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z019",
+    "name": "Hà Nội Zone 019",
+    "h3_index": "87415ca66ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0792256,
+    "center_lng": 105.8193305,
+    "zone_type": "residential",
+    "classification_anchor": "Tây Hồ",
+    "anchor_distance_km": 1.7,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0749797,
+        "lng": 105.8329621
+      },
+      {
+        "lat": 21.0879578,
+        "lng": 105.8297248
+      },
+      {
+        "lat": 21.0922037,
+        "lng": 105.8160923
+      },
+      {
+        "lat": 21.0834707,
+        "lng": 105.8056974
+      },
+      {
+        "lat": 21.0704917,
+        "lng": 105.8089361
+      },
+      {
+        "lat": 21.0662466,
+        "lng": 105.8225682
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z020",
+    "name": "Hà Nội Zone 020",
+    "h3_index": "8741436b6ffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9751145,
+    "center_lng": 105.8075787,
+    "zone_type": "residential",
+    "classification_anchor": "Linh Đàm",
+    "anchor_distance_km": 2.34,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9708703,
+        "lng": 105.8212067
+      },
+      {
+        "lat": 20.9838569,
+        "lng": 105.8179698
+      },
+      {
+        "lat": 20.988101,
+        "lng": 105.804341
+      },
+      {
+        "lat": 20.9793578,
+        "lng": 105.7939493
+      },
+      {
+        "lat": 20.9663704,
+        "lng": 105.7971876
+      },
+      {
+        "lat": 20.962127,
+        "lng": 105.8108161
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z021",
+    "name": "Hà Nội Zone 021",
+    "h3_index": "8741436b3ffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9878417,
+    "center_lng": 105.7666863,
+    "zone_type": "residential",
+    "classification_anchor": "The Garden - Mễ Trì",
+    "anchor_distance_km": 2.94,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9836002,
+        "lng": 105.7803185
+      },
+      {
+        "lat": 20.9965865,
+        "lng": 105.7770791
+      },
+      {
+        "lat": 21.0008279,
+        "lng": 105.763446
+      },
+      {
+        "lat": 20.9920824,
+        "lng": 105.7530527
+      },
+      {
+        "lat": 20.9790953,
+        "lng": 105.7562936
+      },
+      {
+        "lat": 20.9748545,
+        "lng": 105.7699263
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z022",
+    "name": "Hà Nội Zone 022",
+    "h3_index": "87415cb6bffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9796119,
+    "center_lng": 105.8315973,
+    "zone_type": "transport_hub",
+    "classification_anchor": "Bến xe Giáp Bát",
+    "anchor_distance_km": 1.06,
+    "base_demand_weight": 1.45,
+    "peak_profile": "arrival_departure",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.975366,
+        "lng": 105.8452233
+      },
+      {
+        "lat": 20.9883519,
+        "lng": 105.8419879
+      },
+      {
+        "lat": 20.9925976,
+        "lng": 105.828361
+      },
+      {
+        "lat": 20.9838569,
+        "lng": 105.8179698
+      },
+      {
+        "lat": 20.9708703,
+        "lng": 105.8212067
+      },
+      {
+        "lat": 20.9666252,
+        "lng": 105.8348332
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z023",
+    "name": "Hà Nội Zone 023",
+    "h3_index": "874143695ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0050685,
+    "center_lng": 105.7498115,
+    "zone_type": "residential",
+    "classification_anchor": "The Garden - Mễ Trì",
+    "anchor_distance_km": 2.78,
+    "base_demand_weight": 1.0,
+    "peak_profile": "morning_out_evening_in",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0008279,
+        "lng": 105.763446
+      },
+      {
+        "lat": 21.0138132,
+        "lng": 105.7602053
+      },
+      {
+        "lat": 21.0180536,
+        "lng": 105.7465699
+      },
+      {
+        "lat": 21.0093081,
+        "lng": 105.7361756
+      },
+      {
+        "lat": 20.9963221,
+        "lng": 105.7394177
+      },
+      {
+        "lat": 20.9920824,
+        "lng": 105.7530527
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z024",
+    "name": "Hà Nội Zone 024",
+    "h3_index": "87415cb41ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0058269,
+    "center_lng": 105.862769,
+    "zone_type": "commercial",
+    "classification_anchor": "Times City",
+    "anchor_distance_km": 1.35,
+    "base_demand_weight": 1.25,
+    "peak_profile": "evening_weekend",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0015787,
+        "lng": 105.8763934
+      },
+      {
+        "lat": 21.0145619,
+        "lng": 105.8731596
+      },
+      {
+        "lat": 21.01881,
+        "lng": 105.8595343
+      },
+      {
+        "lat": 21.0100742,
+        "lng": 105.8491432
+      },
+      {
+        "lat": 20.9970902,
+        "lng": 105.8523784
+      },
+      {
+        "lat": 20.9928428,
+        "lng": 105.8660034
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z025",
+    "name": "Hà Nội Zone 025",
+    "h3_index": "87415cb43ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0275442,
+    "center_lng": 105.8699255,
+    "zone_type": "central_business",
+    "classification_anchor": "Hồ Hoàn Kiếm",
+    "anchor_distance_km": 1.85,
+    "base_demand_weight": 1.5,
+    "peak_profile": "all_day_high",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0232953,
+        "lng": 105.8835502
+      },
+      {
+        "lat": 21.0362766,
+        "lng": 105.8803166
+      },
+      {
+        "lat": 21.0405255,
+        "lng": 105.866691
+      },
+      {
+        "lat": 21.0317922,
+        "lng": 105.8562993
+      },
+      {
+        "lat": 21.01881,
+        "lng": 105.8595343
+      },
+      {
+        "lat": 21.0145619,
+        "lng": 105.8731596
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z026",
+    "name": "Hà Nội Zone 026",
+    "h3_index": "8741436b0ffffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9706129,
+    "center_lng": 105.7835577,
+    "zone_type": "peripheral",
+    "classification_anchor": "Cụm đại học Nguyễn Trãi",
+    "anchor_distance_km": 2.74,
+    "base_demand_weight": 0.7,
+    "peak_profile": "low_density",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9663704,
+        "lng": 105.7971876
+      },
+      {
+        "lat": 20.9793578,
+        "lng": 105.7939493
+      },
+      {
+        "lat": 20.9836002,
+        "lng": 105.7803185
+      },
+      {
+        "lat": 20.9748545,
+        "lng": 105.7699263
+      },
+      {
+        "lat": 20.9618664,
+        "lng": 105.773166
+      },
+      {
+        "lat": 20.9576247,
+        "lng": 105.7867965
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z027",
+    "name": "Hà Nội Zone 027",
+    "h3_index": "874143693ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0440209,
+    "center_lng": 105.7400858,
+    "zone_type": "peripheral",
+    "classification_anchor": "Bến xe Mỹ Đình",
+    "anchor_distance_km": 4.33,
+    "base_demand_weight": 0.7,
+    "peak_profile": "low_density",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0397807,
+        "lng": 105.7537229
+      },
+      {
+        "lat": 21.052763,
+        "lng": 105.7504812
+      },
+      {
+        "lat": 21.0570032,
+        "lng": 105.7368432
+      },
+      {
+        "lat": 21.0482603,
+        "lng": 105.7264472
+      },
+      {
+        "lat": 21.0352772,
+        "lng": 105.7296903
+      },
+      {
+        "lat": 21.0310378,
+        "lng": 105.743328
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z028",
+    "name": "Hà Nội Zone 028",
+    "h3_index": "87415cb58ffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0664851,
+    "center_lng": 105.8602211,
+    "zone_type": "peripheral",
+    "classification_anchor": "Vinhomes Riverside",
+    "anchor_distance_km": 3.63,
+    "base_demand_weight": 0.7,
+    "peak_profile": "low_density",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0622365,
+        "lng": 105.8738484
+      },
+      {
+        "lat": 21.075215,
+        "lng": 105.8706138
+      },
+      {
+        "lat": 21.0794635,
+        "lng": 105.8569856
+      },
+      {
+        "lat": 21.0707328,
+        "lng": 105.8465923
+      },
+      {
+        "lat": 21.0577536,
+        "lng": 105.8498283
+      },
+      {
+        "lat": 21.0535058,
+        "lng": 105.8634562
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z029",
+    "name": "Hà Nội Zone 029",
+    "h3_index": "87415cb6affffff",
+    "h3_resolution": 7,
+    "center_lat": 20.9841052,
+    "center_lng": 105.8556133,
+    "zone_type": "commercial",
+    "classification_anchor": "Times City",
+    "anchor_distance_km": 1.75,
+    "base_demand_weight": 1.25,
+    "peak_profile": "evening_weekend",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 20.9798577,
+        "lng": 105.8692374
+      },
+      {
+        "lat": 20.9928428,
+        "lng": 105.8660034
+      },
+      {
+        "lat": 20.9970902,
+        "lng": 105.8523784
+      },
+      {
+        "lat": 20.9883519,
+        "lng": 105.8419879
+      },
+      {
+        "lat": 20.975366,
+        "lng": 105.8452233
+      },
+      {
+        "lat": 20.9711193,
+        "lng": 105.8588479
+      }
+    ]
+  },
+  {
+    "zone_id": "HN-Z030",
+    "name": "Hà Nội Zone 030",
+    "h3_index": "87415ca6cffffff",
+    "h3_resolution": 7,
+    "center_lat": 21.0657444,
+    "center_lng": 105.7472392,
+    "zone_type": "peripheral",
+    "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+    "anchor_distance_km": 4.83,
+    "base_demand_weight": 0.7,
+    "peak_profile": "low_density",
+    "classification_method": "deterministic_poc_anchor_rule_v1",
+    "boundary": [
+      {
+        "lat": 21.0615035,
+        "lng": 105.7608766
+      },
+      {
+        "lat": 21.0744839,
+        "lng": 105.7576351
+      },
+      {
+        "lat": 21.0787247,
+        "lng": 105.7439968
+      },
+      {
+        "lat": 21.0699844,
+        "lng": 105.7336003
+      },
+      {
+        "lat": 21.0570032,
+        "lng": 105.7368432
+      },
+      {
+        "lat": 21.052763,
+        "lng": 105.7504812
+      }
+    ]
+  }
+]
