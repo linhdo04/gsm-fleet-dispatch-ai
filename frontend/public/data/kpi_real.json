@@ -1,0 +1,52 @@
+[
+  {
+    "metric": "Thời gian chờ khách",
+    "unit": "giây",
+    "lowerIsBetter": true,
+    "values": {
+      "A_PASSIVE": 8.9,
+      "B_REPOSITION_NO_RESERVE": 6.4,
+      "C_REPOSITION_SOFT_RESERVE": 6.6
+    }
+  },
+  {
+    "metric": "Tỷ lệ cuốc bị hủy",
+    "unit": "%",
+    "lowerIsBetter": true,
+    "values": {
+      "A_PASSIVE": 4.05,
+      "B_REPOSITION_NO_RESERVE": 2.58,
+      "C_REPOSITION_SOFT_RESERVE": 2.65
+    }
+  },
+  {
+    "metric": "Deadhead / tài xế",
+    "unit": "km/xe",
+    "lowerIsBetter": true,
+    "values": {
+      "A_PASSIVE": 228.47,
+      "B_REPOSITION_NO_RESERVE": 246.49,
+      "C_REPOSITION_SOFT_RESERVE": 242.73
+    }
+  },
+  {
+    "metric": "Lệch chuẩn cung/cầu",
+    "unit": "điểm",
+    "lowerIsBetter": true,
+    "values": {
+      "A_PASSIVE": 5.45,
+      "B_REPOSITION_NO_RESERVE": 4.34,
+      "C_REPOSITION_SOFT_RESERVE": 4.5
+    }
+  },
+  {
+    "metric": "Lượt điều xe / 7 ngày",
+    "unit": "lượt",
+    "lowerIsBetter": true,
+    "values": {
+      "A_PASSIVE": 0.0,
+      "B_REPOSITION_NO_RESERVE": 6680.0,
+      "C_REPOSITION_SOFT_RESERVE": 5955.0
+    }
+  }
+]

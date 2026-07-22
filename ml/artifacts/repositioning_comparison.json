@@ -1,0 +1,196 @@
+{
+  "scenario": {
+    "deficit_zones": 17,
+    "total_deficit": 13.13,
+    "surplus_zones": 10,
+    "surplus_drivers_available": 67,
+    "mcf_distance_total_demand": 17,
+    "mcf_hybrid_total_demand": 43
+  },
+  "greedy_p_accept": {
+    "algorithm": "greedy_p_accept",
+    "runtime_ms": 201.98,
+    "drivers_suggested": 34,
+    "total_distance_m": 112633.3,
+    "avg_distance_m": 3312.7,
+    "total_expected_coverage": 21.33,
+    "coverage_ratio_vs_deficit": 1.6248
+  },
+  "min_cost_flow_distance": {
+    "algorithm": "min_cost_flow_distance",
+    "runtime_ms": 93.2,
+    "drivers_suggested": 17,
+    "total_distance_m": 91590.5,
+    "avg_distance_m": 5387.7,
+    "total_expected_coverage": 7.08,
+    "coverage_ratio_vs_deficit": 0.5394
+  },
+  "min_cost_flow_hybrid": {
+    "algorithm": "min_cost_flow_hybrid_acceptance_aware",
+    "runtime_ms": 954.915,
+    "drivers_suggested": 28,
+    "total_distance_m": 131765.9,
+    "avg_distance_m": 4705.9,
+    "total_expected_coverage": 12.82,
+    "coverage_ratio_vs_deficit": 0.9765
+  },
+  "mcf_distance_flow_plan": [
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z001",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z002",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z003",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z004",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z014",
+      "target_zone_id": "HN-Z005",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z014",
+      "target_zone_id": "HN-Z011",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z014",
+      "target_zone_id": "HN-Z012",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z016",
+      "target_zone_id": "HN-Z006",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z020",
+      "target_zone_id": "HN-Z029",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z008",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z009",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z010",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z022",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z027",
+      "target_zone_id": "HN-Z015",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z017",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z024",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z025",
+      "drivers_to_move": 1
+    }
+  ],
+  "mcf_hybrid_flow_plan": [
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z001",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z002",
+      "drivers_to_move": 3
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z003",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z004",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z005",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z014",
+      "target_zone_id": "HN-Z005",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z014",
+      "target_zone_id": "HN-Z011",
+      "drivers_to_move": 3
+    },
+    {
+      "from_zone_id": "HN-Z018",
+      "target_zone_id": "HN-Z006",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z020",
+      "target_zone_id": "HN-Z022",
+      "drivers_to_move": 1
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z008",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z026",
+      "target_zone_id": "HN-Z010",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z027",
+      "target_zone_id": "HN-Z015",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z017",
+      "drivers_to_move": 2
+    },
+    {
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z025",
+      "drivers_to_move": 3
+    }
+  ]
+}

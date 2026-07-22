@@ -1,0 +1,20 @@
+{
+  "model": "HistGradientBoostingRegressor (scikit-learn — thay thế LightGBM/XGBoost)",
+  "target": "duration_minutes",
+  "features": [
+    "distance_m",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_holiday",
+    "weather",
+    "origin_zone_type",
+    "destination_zone_type"
+  ],
+  "rows": {
+    "train": 32000,
+    "test": 8000
+  },
+  "test_mae_minutes": 4.606,
+  "naive_linear_baseline_mae_minutes": 9.528
+}

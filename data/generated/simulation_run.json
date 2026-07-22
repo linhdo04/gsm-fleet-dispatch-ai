@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "seed": 20260717,
+  "start_date": "2026-01-05",
+  "days": 56,
+  "zone_count": 30,
+  "driver_count": 300,
+  "generated_requests": 374269,
+  "matched_requests": 360252,
+  "cancelled_requests": 14017,
+  "acceptance_samples": 97051
+}

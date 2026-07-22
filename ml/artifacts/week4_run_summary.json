@@ -1,0 +1,40 @@
+{
+  "cost_model": {
+    "model": "HistGradientBoostingRegressor (scikit-learn — thay thế LightGBM/XGBoost)",
+    "target": "duration_minutes",
+    "features": [
+      "distance_m",
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "is_holiday",
+      "weather",
+      "origin_zone_type",
+      "destination_zone_type"
+    ],
+    "rows": {
+      "train": 32000,
+      "test": 8000
+    },
+    "test_mae_minutes": 4.606,
+    "naive_linear_baseline_mae_minutes": 9.528
+  },
+  "matching_engine": {
+    "mode_trigger_examples": {
+      "18h_rain": true,
+      "13h_clear": false
+    },
+    "hungarian_1to1": {
+      "requests": 40,
+      "matched": 40,
+      "avg_predicted_cost_minutes": 5.61
+    },
+    "ride_pooling": {
+      "requests": 40,
+      "assigned": 40,
+      "unmatched_no_capacity": 0,
+      "drivers_used": 27,
+      "drivers_serving_2plus_passengers": 9
+    }
+  }
+}

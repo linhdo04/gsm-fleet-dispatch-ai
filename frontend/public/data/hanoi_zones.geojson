@@ -1,0 +1,1575 @@
+{
+  "type": "FeatureCollection",
+  "name": "hanoi_urban_h3_zones",
+  "metadata": {
+    "scope": "Hanoi urban core PoC, not Hanoi administrative boundary",
+    "zone_count": 30,
+    "h3_resolution": 7,
+    "generator_center": {
+      "lat": 21.028511,
+      "lng": 105.804817
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z001",
+        "name": "Hà Nội Zone 001",
+        "h3_index": "87415cb4bffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0357936,
+        "center_lng": 105.8050191,
+        "zone_type": "office",
+        "classification_anchor": "Ba Đình",
+        "anchor_distance_km": 0.99,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.81865004909821,
+              21.031549044554296
+            ],
+            [
+              105.8154124011083,
+              21.04453090844655
+            ],
+            [
+              105.80178058439193,
+              21.048775380631675
+            ],
+            [
+              105.79138675581832,
+              21.04003730524479
+            ],
+            [
+              105.79462582352942,
+              21.02705467390741
+            ],
+            [
+              105.80825730031634,
+              21.022810885260334
+            ],
+            [
+              105.81865004909821,
+              21.031549044554296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z002",
+        "name": "Hà Nội Zone 002",
+        "h3_index": "87415cb49ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0140711,
+        "center_lng": 105.7978646,
+        "zone_type": "office",
+        "classification_anchor": "Láng Hạ - Thái Hà",
+        "anchor_distance_km": 1.37,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.81149515212861,
+              21.00982718237469
+            ],
+            [
+              105.80825730031634,
+              21.022810885260334
+            ],
+            [
+              105.79462582352942,
+              21.02705467390741
+            ],
+            [
+              105.78423253913611,
+              21.018314075649638
+            ],
+            [
+              105.78747181022082,
+              21.00532960590829
+            ],
+            [
+              105.80110294664989,
+              21.001086501138698
+            ],
+            [
+              105.81149515212861,
+              21.00982718237469
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z003",
+        "name": "Hà Nội Zone 003",
+        "h3_index": "87415cb48ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0185662,
+        "center_lng": 105.8218874,
+        "zone_type": "office",
+        "classification_anchor": "Láng Hạ - Thái Hà",
+        "anchor_distance_km": 1.18,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.83551600022551,
+              21.01432065031338
+            ],
+            [
+              105.83227956854678,
+              21.027303584427
+            ],
+            [
+              105.81865004909821,
+              21.031549044554296
+            ],
+            [
+              105.80825730031634,
+              21.022810885260334
+            ],
+            [
+              105.81149515212861,
+              21.00982718237469
+            ],
+            [
+              105.82512433281228,
+              21.005582407413474
+            ],
+            [
+              105.83551600022551,
+              21.01432065031338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z004",
+        "name": "Hà Nội Zone 004",
+        "h3_index": "874143696ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0312976,
+        "center_lng": 105.7809929,
+        "zone_type": "office",
+        "classification_anchor": "Duy Tân",
+        "anchor_distance_km": 0.22,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.79462582352942,
+              21.02705467390741
+            ],
+            [
+              105.79138675581832,
+              21.04003730524479
+            ],
+            [
+              105.77775298463143,
+              21.04428010399519
+            ],
+            [
+              105.7673586229023,
+              21.035539589017425
+            ],
+            [
+              105.770599109472,
+              21.022556192151132
+            ],
+            [
+              105.78423253913611,
+              21.018314075649638
+            ],
+            [
+              105.79462582352942,
+              21.02705467390741
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z005",
+        "name": "Hà Nội Zone 005",
+        "h3_index": "87415cb4affffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0402855,
+        "center_lng": 105.8290428,
+        "zone_type": "office",
+        "classification_anchor": "Ba Đình",
+        "anchor_distance_km": 1.59,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8426717781187,
+              21.036039303508076
+            ],
+            [
+              105.83943555071075,
+              21.049020398040007
+            ],
+            [
+              105.82580569292594,
+              21.053266542992702
+            ],
+            [
+              105.8154124011083,
+              21.04453090844655
+            ],
+            [
+              105.81865004909821,
+              21.031549044554296
+            ],
+            [
+              105.83227956854678,
+              21.027303584427
+            ],
+            [
+              105.8426717781187,
+              21.036039303508076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z006",
+        "name": "Hà Nội Zone 006",
+        "h3_index": "87415ca65ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.053019,
+        "center_lng": 105.7881474,
+        "zone_type": "university",
+        "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+        "anchor_distance_km": 1.82,
+        "base_demand_weight": 1.15,
+        "peak_profile": "class_hours",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.80178058439193,
+              21.048775380631675
+            ],
+            [
+              105.7985417202157,
+              21.061756170419525
+            ],
+            [
+              105.78490760793431,
+              21.06599965108027
+            ],
+            [
+              105.77451270114746,
+              21.05726165990096
+            ],
+            [
+              105.77775298463143,
+              21.04428010399519
+            ],
+            [
+              105.79138675581832,
+              21.04003730524479
+            ],
+            [
+              105.80178058439193,
+              21.048775380631675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z007",
+        "name": "Hà Nội Zone 007",
+        "h3_index": "87415ca64ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0575118,
+        "center_lng": 105.8121744,
+        "zone_type": "residential",
+        "classification_anchor": "Tây Hồ",
+        "anchor_distance_km": 0.94,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.82580569292594,
+              21.053266542992702
+            ],
+            [
+              105.82256824891964,
+              21.06624656474755
+            ],
+            [
+              105.80893609270241,
+              21.07049172013093
+            ],
+            [
+              105.7985417202157,
+              21.061756170419525
+            ],
+            [
+              105.80178058439193,
+              21.048775380631675
+            ],
+            [
+              105.8154124011083,
+              21.04453090844655
+            ],
+            [
+              105.82580569292594,
+              21.053266542992702
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z008",
+        "name": "Hà Nội Zone 008",
+        "h3_index": "87415cb4dffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9968425,
+        "center_lng": 105.8147327,
+        "zone_type": "commercial",
+        "classification_anchor": "Royal City",
+        "anchor_distance_km": 0.6,
+        "base_demand_weight": 1.25,
+        "peak_profile": "evening_weekend",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.82836096860063,
+              20.99259763686422
+            ],
+            [
+              105.82512433281228,
+              21.005582407413474
+            ],
+            [
+              105.81149515212861,
+              21.00982718237469
+            ],
+            [
+              105.80110294664989,
+              21.001086501138698
+            ],
+            [
+              105.80434100212338,
+              20.988100962407287
+            ],
+            [
+              105.8179698436136,
+              20.98385687295245
+            ],
+            [
+              105.82836096860063,
+              20.99259763686422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z009",
+        "name": "Hà Nội Zone 009",
+        "h3_index": "874143694ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0095718,
+        "center_lng": 105.7738393,
+        "zone_type": "commercial",
+        "classification_anchor": "The Garden - Mễ Trì",
+        "anchor_distance_km": 0.41,
+        "base_demand_weight": 1.25,
+        "peak_profile": "evening_weekend",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.78747181022082,
+              21.00532960590829
+            ],
+            [
+              105.78423253913611,
+              21.018314075649638
+            ],
+            [
+              105.770599109472,
+              21.022556192151132
+            ],
+            [
+              105.76020529306747,
+              21.013813156182277
+            ],
+            [
+              105.7634459825617,
+              21.00082792150258
+            ],
+            [
+              105.7770790702749,
+              20.996586487588186
+            ],
+            [
+              105.78747181022082,
+              21.00532960590829
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z010",
+        "name": "Hà Nội Zone 010",
+        "h3_index": "8741436b2ffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9923442,
+        "center_lng": 105.7907107,
+        "zone_type": "university",
+        "classification_anchor": "Cụm đại học Nguyễn Trãi",
+        "anchor_distance_km": 0.86,
+        "base_demand_weight": 1.15,
+        "peak_profile": "class_hours",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.80434100212338,
+              20.988100962407287
+            ],
+            [
+              105.80110294664989,
+              21.001086501138698
+            ],
+            [
+              105.78747181022082,
+              21.00532960590829
+            ],
+            [
+              105.7770790702749,
+              20.996586487588186
+            ],
+            [
+              105.78031854457201,
+              20.98360018259206
+            ],
+            [
+              105.79394934021502,
+              20.97935776203902
+            ],
+            [
+              105.80434100212338,
+              20.988100962407287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z011",
+        "name": "Hà Nội Zone 011",
+        "h3_index": "87415cb4effffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0230572,
+        "center_lng": 105.8459077,
+        "zone_type": "transport_hub",
+        "classification_anchor": "Ga Hà Nội",
+        "anchor_distance_km": 0.51,
+        "base_demand_weight": 1.45,
+        "peak_profile": "arrival_departure",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8595343464571,
+              21.018810009142317
+            ],
+            [
+              105.85629933577124,
+              21.03179217256862
+            ],
+            [
+              105.8426717781187,
+              21.036039303508076
+            ],
+            [
+              105.83227956854678,
+              21.027303584427
+            ],
+            [
+              105.83551600022551,
+              21.01432065031338
+            ],
+            [
+              105.84914322070593,
+              21.01007420582679
+            ],
+            [
+              105.8595343464571,
+              21.018810009142317
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z012",
+        "name": "Hà Nội Zone 012",
+        "h3_index": "87415cb4cffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0013367,
+        "center_lng": 105.8387521,
+        "zone_type": "university",
+        "classification_anchor": "Cụm đại học Bách Khoa - Kinh tế - Xây dựng",
+        "anchor_distance_km": 0.66,
+        "base_demand_weight": 1.15,
+        "peak_profile": "class_hours",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.85237843594945,
+              20.997090205376132
+            ],
+            [
+              105.84914322070593,
+              21.01007420582679
+            ],
+            [
+              105.83551600022551,
+              21.01432065031338
+            ],
+            [
+              105.82512433281228,
+              21.005582407413474
+            ],
+            [
+              105.82836096860063,
+              20.99259763686422
+            ],
+            [
+              105.84198785148011,
+              20.98835187917206
+            ],
+            [
+              105.85237843594945,
+              20.997090205376132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z013",
+        "name": "Hà Nội Zone 013",
+        "h3_index": "874143692ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.048522,
+        "center_lng": 105.7641178,
+        "zone_type": "residential",
+        "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+        "anchor_distance_km": 2.27,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.77775298463143,
+              21.04428010399519
+            ],
+            [
+              105.77451270114746,
+              21.05726165990096
+            ],
+            [
+              105.76087663726635,
+              21.061503465172784
+            ],
+            [
+              105.75048119978169,
+              21.052763033776174
+            ],
+            [
+              105.75372290170942,
+              21.039780713668602
+            ],
+            [
+              105.7673586229023,
+              21.035539589017425
+            ],
+            [
+              105.77775298463143,
+              21.04428010399519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z014",
+        "name": "Hà Nội Zone 014",
+        "h3_index": "87415cb59ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0620005,
+        "center_lng": 105.836199,
+        "zone_type": "residential",
+        "classification_anchor": "Tây Hồ",
+        "anchor_distance_km": 1.9,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.84982830217369,
+              21.057753590499274
+            ],
+            [
+              105.84659227919771,
+              21.070732842307024
+            ],
+            [
+              105.83296208350554,
+              21.074979671744103
+            ],
+            [
+              105.82256824891964,
+              21.06624656474755
+            ],
+            [
+              105.82580569292594,
+              21.053266542992702
+            ],
+            [
+              105.83943555071075,
+              21.049020398040007
+            ],
+            [
+              105.84982830217369,
+              21.057753590499274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z015",
+        "name": "Hà Nội Zone 015",
+        "h3_index": "874143690ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0267974,
+        "center_lng": 105.7569643,
+        "zone_type": "office",
+        "classification_anchor": "Duy Tân",
+        "anchor_distance_km": 2.7,
+        "base_demand_weight": 1.35,
+        "peak_profile": "weekday_commute",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.770599109472,
+              21.022556192151132
+            ],
+            [
+              105.7673586229023,
+              21.035539589017425
+            ],
+            [
+              105.75372290170942,
+              21.039780713668602
+            ],
+            [
+              105.74332801042685,
+              21.03103776035348
+            ],
+            [
+              105.74656991499087,
+              21.018053599875497
+            ],
+            [
+              105.76020529306747,
+              21.013813156182277
+            ],
+            [
+              105.770599109472,
+              21.022556192151132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z016",
+        "name": "Hà Nội Zone 016",
+        "h3_index": "87415ca60ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.074736,
+        "center_lng": 105.7953025,
+        "zone_type": "residential",
+        "classification_anchor": "Ciputra",
+        "anchor_distance_km": 0.03,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.80893609270241,
+              21.07049172013093
+            ],
+            [
+              105.80569743222225,
+              21.0834706652273
+            ],
+            [
+              105.79206297927486,
+              21.08771482745947
+            ],
+            [
+              105.78166752769732,
+              21.078979362882002
+            ],
+            [
+              105.78490760793431,
+              21.06599965108027
+            ],
+            [
+              105.7985417202157,
+              21.061756170419525
+            ],
+            [
+              105.80893609270241,
+              21.07049172013093
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z017",
+        "name": "Hà Nội Zone 017",
+        "h3_index": "87415cb5dffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0447734,
+        "center_lng": 105.853064,
+        "zone_type": "central_business",
+        "classification_anchor": "Hồ Hoàn Kiếm",
+        "anchor_distance_km": 1.79,
+        "base_demand_weight": 1.5,
+        "peak_profile": "all_day_high",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8666910025364,
+              21.040525450191442
+            ],
+            [
+              105.86345619656937,
+              21.053505773448833
+            ],
+            [
+              105.84982830217369,
+              21.057753590499274
+            ],
+            [
+              105.83943555071075,
+              21.049020398040007
+            ],
+            [
+              105.8426717781187,
+              21.036039303508076
+            ],
+            [
+              105.85629933577124,
+              21.03179217256862
+            ],
+            [
+              105.8666910025364,
+              21.040525450191442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z018",
+        "name": "Hà Nội Zone 018",
+        "h3_index": "87415ca61ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0702422,
+        "center_lng": 105.7712721,
+        "zone_type": "residential",
+        "classification_anchor": "Ciputra",
+        "anchor_distance_km": 2.56,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.78490760793431,
+              21.06599965108027
+            ],
+            [
+              105.78166752769732,
+              21.078979362882002
+            ],
+            [
+              105.76803112155615,
+              21.083221848436796
+            ],
+            [
+              105.75763513813615,
+              21.074483941764875
+            ],
+            [
+              105.76087663726635,
+              21.061503465172784
+            ],
+            [
+              105.77451270114746,
+              21.05726165990096
+            ],
+            [
+              105.78490760793431,
+              21.06599965108027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z019",
+        "name": "Hà Nội Zone 019",
+        "h3_index": "87415ca66ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0792256,
+        "center_lng": 105.8193305,
+        "zone_type": "residential",
+        "classification_anchor": "Tây Hồ",
+        "anchor_distance_km": 1.7,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.83296208350554,
+              21.074979671744103
+            ],
+            [
+              105.82972484364403,
+              21.087957848221148
+            ],
+            [
+              105.8160923483547,
+              21.09220368646262
+            ],
+            [
+              105.80569743222225,
+              21.0834706652273
+            ],
+            [
+              105.80893609270241,
+              21.07049172013093
+            ],
+            [
+              105.82256824891964,
+              21.06624656474755
+            ],
+            [
+              105.83296208350554,
+              21.074979671744103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z020",
+        "name": "Hà Nội Zone 020",
+        "h3_index": "8741436b6ffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9751145,
+        "center_lng": 105.8075787,
+        "zone_type": "residential",
+        "classification_anchor": "Linh Đàm",
+        "anchor_distance_km": 2.34,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.82120668335045,
+              20.970870269117267
+            ],
+            [
+              105.8179698436136,
+              20.98385687295245
+            ],
+            [
+              105.80434100212338,
+              20.988100962407287
+            ],
+            [
+              105.79394934021502,
+              20.97935776203902
+            ],
+            [
+              105.79718759918856,
+              20.966370390613076
+            ],
+            [
+              105.810816101057,
+              20.96212698700457
+            ],
+            [
+              105.82120668335045,
+              20.970870269117267
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z021",
+        "name": "Hà Nội Zone 021",
+        "h3_index": "8741436b3ffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9878417,
+        "center_lng": 105.7666863,
+        "zone_type": "residential",
+        "classification_anchor": "The Garden - Mễ Trì",
+        "anchor_distance_km": 2.94,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.78031854457201,
+              20.98360018259206
+            ],
+            [
+              105.7770790702749,
+              20.996586487588186
+            ],
+            [
+              105.7634459825617,
+              21.00082792150258
+            ],
+            [
+              105.75305271174854,
+              20.992082367353994
+            ],
+            [
+              105.75629360400607,
+              20.9790952980116
+            ],
+            [
+              105.7699263493404,
+              20.974854547022144
+            ],
+            [
+              105.78031854457201,
+              20.98360018259206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z022",
+        "name": "Hà Nội Zone 022",
+        "h3_index": "87415cb6bffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9796119,
+        "center_lng": 105.8315973,
+        "zone_type": "transport_hub",
+        "classification_anchor": "Bến xe Giáp Bát",
+        "anchor_distance_km": 1.06,
+        "base_demand_weight": 1.45,
+        "peak_profile": "arrival_departure",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8452232711202,
+              20.975366044845167
+            ],
+            [
+              105.84198785148011,
+              20.98835187917206
+            ],
+            [
+              105.82836096860063,
+              20.99259763686422
+            ],
+            [
+              105.8179698436136,
+              20.98385687295245
+            ],
+            [
+              105.82120668335045,
+              20.970870269117267
+            ],
+            [
+              105.83483322820038,
+              20.96662519856072
+            ],
+            [
+              105.8452232711202,
+              20.975366044845167
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z023",
+        "name": "Hà Nội Zone 023",
+        "h3_index": "874143695ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0050685,
+        "center_lng": 105.7498115,
+        "zone_type": "residential",
+        "classification_anchor": "The Garden - Mễ Trì",
+        "anchor_distance_km": 2.78,
+        "base_demand_weight": 1.0,
+        "peak_profile": "morning_out_evening_in",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.7634459825617,
+              21.00082792150258
+            ],
+            [
+              105.76020529306747,
+              21.013813156182277
+            ],
+            [
+              105.74656991499087,
+              21.018053599875497
+            ],
+            [
+              105.73617557017697,
+              21.00930812745201
+            ],
+            [
+              105.73941767721603,
+              20.996322129752276
+            ],
+            [
+              105.75305271174854,
+              20.992082367353994
+            ],
+            [
+              105.7634459825617,
+              21.00082792150258
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z024",
+        "name": "Hà Nội Zone 024",
+        "h3_index": "87415cb41ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0058269,
+        "center_lng": 105.862769,
+        "zone_type": "commercial",
+        "classification_anchor": "Times City",
+        "anchor_distance_km": 1.35,
+        "base_demand_weight": 1.25,
+        "peak_profile": "evening_weekend",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8763933961207,
+              21.001578667362637
+            ],
+            [
+              105.87315960227991,
+              21.0145618957993
+            ],
+            [
+              105.8595343464571,
+              21.018810009142317
+            ],
+            [
+              105.84914322070593,
+              21.01007420582679
+            ],
+            [
+              105.85237843594945,
+              20.997090205376132
+            ],
+            [
+              105.86600335576374,
+              20.992842780113783
+            ],
+            [
+              105.8763933961207,
+              21.001578667362637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z025",
+        "name": "Hà Nội Zone 025",
+        "h3_index": "87415cb43ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0275442,
+        "center_lng": 105.8699255,
+        "zone_type": "central_business",
+        "classification_anchor": "Hồ Hoàn Kiếm",
+        "anchor_distance_km": 1.85,
+        "base_demand_weight": 1.5,
+        "peak_profile": "all_day_high",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.88355018277412,
+              21.023295258285856
+            ],
+            [
+              105.88031659393867,
+              21.036276649110512
+            ],
+            [
+              105.8666910025364,
+              21.040525450191442
+            ],
+            [
+              105.85629933577124,
+              21.03179217256862
+            ],
+            [
+              105.8595343464571,
+              21.018810009142317
+            ],
+            [
+              105.87315960227991,
+              21.0145618957993
+            ],
+            [
+              105.88355018277412,
+              21.023295258285856
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z026",
+        "name": "Hà Nội Zone 026",
+        "h3_index": "8741436b0ffffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9706129,
+        "center_lng": 105.7835577,
+        "zone_type": "peripheral",
+        "classification_anchor": "Cụm đại học Nguyễn Trãi",
+        "anchor_distance_km": 2.74,
+        "base_demand_weight": 0.7,
+        "peak_profile": "low_density",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.79718759918856,
+              20.966370390613076
+            ],
+            [
+              105.79394934021502,
+              20.97935776203902
+            ],
+            [
+              105.78031854457201,
+              20.98360018259206
+            ],
+            [
+              105.7699263493404,
+              20.974854547022144
+            ],
+            [
+              105.77316602668881,
+              20.961866409924024
+            ],
+            [
+              105.78679648111765,
+              20.95762467392624
+            ],
+            [
+              105.79718759918856,
+              20.966370390613076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z027",
+        "name": "Hà Nội Zone 027",
+        "h3_index": "874143693ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0440209,
+        "center_lng": 105.7400858,
+        "zone_type": "peripheral",
+        "classification_anchor": "Bến xe Mỹ Đình",
+        "anchor_distance_km": 4.33,
+        "base_demand_weight": 0.7,
+        "peak_profile": "low_density",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.75372290170942,
+              21.039780713668602
+            ],
+            [
+              105.75048119978169,
+              21.052763033776174
+            ],
+            [
+              105.73684318876872,
+              21.057003162995493
+            ],
+            [
+              105.72644722419028,
+              21.048260292635888
+            ],
+            [
+              105.72969034369602,
+              21.03527721024364
+            ],
+            [
+              105.74332801042685,
+              21.03103776035348
+            ],
+            [
+              105.75372290170942,
+              21.039780713668602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z028",
+        "name": "Hà Nội Zone 028",
+        "h3_index": "87415cb58ffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0664851,
+        "center_lng": 105.8602211,
+        "zone_type": "peripheral",
+        "classification_anchor": "Vinhomes Riverside",
+        "anchor_distance_km": 3.63,
+        "base_demand_weight": 0.7,
+        "peak_profile": "low_density",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.87384840408059,
+              21.062236522578758
+            ],
+            [
+              105.87061380299353,
+              21.07521500252634
+            ],
+            [
+              105.85698557228386,
+              21.079463505345494
+            ],
+            [
+              105.84659227919771,
+              21.070732842307024
+            ],
+            [
+              105.84982830217369,
+              21.057753590499274
+            ],
+            [
+              105.86345619656937,
+              21.053505773448833
+            ],
+            [
+              105.87384840408059,
+              21.062236522578758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z029",
+        "name": "Hà Nội Zone 029",
+        "h3_index": "87415cb6affffff",
+        "h3_resolution": 7,
+        "center_lat": 20.9841052,
+        "center_lng": 105.8556133,
+        "zone_type": "commercial",
+        "classification_anchor": "Times City",
+        "anchor_distance_km": 1.75,
+        "base_demand_weight": 1.25,
+        "peak_profile": "evening_weekend",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.86923735444881,
+              20.979857717211704
+            ],
+            [
+              105.86600335576374,
+              20.992842780113783
+            ],
+            [
+              105.85237843594945,
+              20.997090205376132
+            ],
+            [
+              105.84198785148011,
+              20.98835187917206
+            ],
+            [
+              105.8452232711202,
+              20.975366044845167
+            ],
+            [
+              105.85884785449701,
+              20.97111930800591
+            ],
+            [
+              105.86923735444881,
+              20.979857717211704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "HN-Z030",
+        "name": "Hà Nội Zone 030",
+        "h3_index": "87415ca6cffffff",
+        "h3_resolution": 7,
+        "center_lat": 21.0657444,
+        "center_lng": 105.7472392,
+        "zone_type": "peripheral",
+        "classification_anchor": "Đại học Quốc gia - Xuân Thủy",
+        "anchor_distance_km": 4.83,
+        "base_demand_weight": 0.7,
+        "peak_profile": "low_density",
+        "classification_method": "deterministic_poc_anchor_rule_v1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.76087663726635,
+              21.061503465172784
+            ],
+            [
+              105.75763513813615,
+              21.074483941764875
+            ],
+            [
+              105.74399678326895,
+              21.078724749976924
+            ],
+            [
+              105.73360027161074,
+              21.069984402461973
+            ],
+            [
+              105.73684318876872,
+              21.057003162995493
+            ],
+            [
+              105.75048119978169,
+              21.052763033776174
+            ],
+            [
+              105.76087663726635,
+              21.061503465172784
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

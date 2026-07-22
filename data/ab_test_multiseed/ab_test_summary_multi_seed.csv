@@ -1,0 +1,4 @@
+scenario,avg_wait_seconds_mean,avg_wait_seconds_std,cancellation_rate_pct_mean,cancellation_rate_pct_std,deadhead_m_per_driver_mean,deadhead_m_per_driver_std,supply_demand_ratio_std_mean,supply_demand_ratio_std_std,repositioned_drivers_mean,repositioned_drivers_std
+A_PASSIVE,8.86,0.8859,4.054,0.6578,228467.26,10993.0972,5.4491,0.1976,0.0,0.0
+B_REPOSITION_NO_RESERVE,6.45,0.6416,2.576,0.5756,246485.96,9985.5744,4.3364,0.0883,6680.0,149.4315
+C_REPOSITION_SOFT_RESERVE,6.59,0.6008,2.653,0.5237,242727.82,6686.5251,4.4997,0.1088,5954.8,111.8847

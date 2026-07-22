@@ -1,0 +1,69 @@
+{
+  "live_snapshot_suggestions": 34,
+  "live_snapshot_sample": [
+    {
+      "driver_id": "D0277",
+      "from_zone_id": "HN-Z028",
+      "target_zone_id": "HN-Z017",
+      "p_accept": 0.6448
+    },
+    {
+      "driver_id": "D0221",
+      "from_zone_id": "HN-Z005",
+      "target_zone_id": "HN-Z017",
+      "p_accept": 0.6371
+    },
+    {
+      "driver_id": "D0244",
+      "from_zone_id": "HN-Z017",
+      "target_zone_id": "HN-Z025",
+      "p_accept": 0.6365
+    },
+    {
+      "driver_id": "D0081",
+      "from_zone_id": "HN-Z017",
+      "target_zone_id": "HN-Z025",
+      "p_accept": 0.6309
+    },
+    {
+      "driver_id": "D0129",
+      "from_zone_id": "HN-Z012",
+      "target_zone_id": "HN-Z011",
+      "p_accept": 0.6444
+    },
+    {
+      "driver_id": "D0237",
+      "from_zone_id": "HN-Z012",
+      "target_zone_id": "HN-Z011",
+      "p_accept": 0.6387
+    },
+    {
+      "driver_id": "D0130",
+      "from_zone_id": "HN-Z012",
+      "target_zone_id": "HN-Z022",
+      "p_accept": 0.6443
+    },
+    {
+      "driver_id": "D0106",
+      "from_zone_id": "HN-Z029",
+      "target_zone_id": "HN-Z022",
+      "p_accept": 0.6368
+    },
+    {
+      "driver_id": "D0126",
+      "from_zone_id": "HN-Z007",
+      "target_zone_id": "HN-Z001",
+      "p_accept": 0.6439
+    },
+    {
+      "driver_id": "D0035",
+      "from_zone_id": "HN-Z005",
+      "target_zone_id": "HN-Z001",
+      "p_accept": 0.6363
+    }
+  ],
+  "herding_comparison_total_suggested": {
+    "voi_chong_herding": 16,
+    "khong_chong_herding": 32
+  }
+}

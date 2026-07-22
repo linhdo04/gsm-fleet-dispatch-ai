@@ -1,0 +1,15 @@
+{
+  "flow_b_handle_idle_driver": {
+    "suggested": 106,
+    "stay_idle": 103
+  },
+  "flow_a_handle_new_request": {
+    "pooled_insertion": 18,
+    "queued_waiting_for_incoming": 5,
+    "queued_pending_reposition": 2
+  },
+  "zones_still_in_deficit_after_flow_b": 22,
+  "pooled_routes_active": 2,
+  "drivers_routed_to_nearest_charging_station": 0,
+  "routing_provider": "haversine_fallback (no GOOGLE_ROUTES_API_KEY)"
+}

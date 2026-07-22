@@ -1,0 +1,8 @@
+{
+  "days": 56,
+  "request_count": 374269,
+  "acceptance_sample_count": 97051,
+  "overall_acceptance_rate": 0.4988,
+  "highest_demand_hour": 17,
+  "highest_demand_zone_type": "residential"
+}
