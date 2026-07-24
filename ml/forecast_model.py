@@ -24,6 +24,7 @@ from .common import (
     load_supply_snapshots,
     load_zones,
 )
+from .mlflow_tracking import log_training_run
 
 NUMERIC_FEATURES = ["hour", "day_of_week", "is_weekend", "is_holiday", "base_demand_weight"]
 CATEGORICAL_FEATURES = ["zone_id", "zone_type", "weather", "peak_profile"]
@@ -114,11 +115,31 @@ def train(output_dir: Path) -> dict:
         "test": evaluate(model, test_df),
     }
 
-    joblib.dump(model, output_dir / "forecast_model.joblib")
-    (output_dir / "forecast_metrics.json").write_text(
+    model_path = output_dir / "forecast_model.joblib"
+    metrics_path = output_dir / "forecast_metrics.json"
+    plot_path = output_dir / "forecast_vs_actual.png"
+    joblib.dump(model, model_path)
+    metrics_path.write_text(
         json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    plot_forecast_vs_actual(model, test_df, output_dir / "forecast_vs_actual.png")
+    plot_forecast_vs_actual(model, test_df, plot_path)
+    log_training_run(
+        experiment_name="fleet-dispatch-forecast",
+        run_name="demand-hist-gradient-boosting",
+        model=model,
+        registered_model_name="fleet-dispatch-forecast-model",
+        params={
+            "model": "HistGradientBoostingRegressor",
+            "random_seed": seed,
+            "max_iter": 300,
+            "max_depth": 8,
+            "learning_rate": 0.08,
+            "features": ",".join(FEATURE_COLUMNS),
+        },
+        metrics=metrics,
+        artifacts=[model_path, metrics_path, plot_path],
+        input_example=test_df[FEATURE_COLUMNS].head(5),
+    )
     return metrics
 
 

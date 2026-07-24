@@ -10,12 +10,28 @@ du lieu (`data/generated/`) truoc.
 pip install -r requirements-ml.txt
 ```
 
-> `xgboost`/`lightgbm`/`mlflow` chua cai duoc trong moi truong nay (xgboost bi loi
-> hash mismatch khi pip install, mlflow xung dot voi ban `protobuf` hien co). Dung
+> `xgboost`/`lightgbm` chua duoc dung trong moi truong nay. Dung
 > thay the tuong duong trong scikit-learn: `HistGradientBoostingRegressor` (cung ho
 > Gradient Boosting nhu XGBoost) cho Forecast, `LogisticRegression` cho Acceptance —
-> ca hai deu la lua chon duoc liet ke trong `report.md`. Log MLflow chua tich hop vi
-> phan ha tang nay (Platform/Infra Track, Tuan 2) chua duoc setup.
+> ca hai deu la lua chon duoc liet ke trong `report.md`.
+
+## MLflow tracking
+
+Ba lenh train Forecast, Acceptance va Cost tu dong tao experiment, log params,
+metrics, artifacts, model signature/input example va dang ky model vao MLflow.
+Tracking URI mac dinh la `http://127.0.0.1:5000` (tranh xung dot AirPlay tren
+macOS). De dung server khac:
+
+```powershell
+$env:MLFLOW_TRACKING_URI = "http://mlflow.example:5000"
+python -m ml.forecast_model --output ml/artifacts
+```
+
+Registered models:
+
+- `fleet-dispatch-forecast-model`
+- `fleet-dispatch-acceptance-model`
+- `fleet-dispatch-cost-model`
 
 ## Chay tung buoc
 
