@@ -1,5 +1,5 @@
 holidays==0.100
-numpy==1.26.4
+numpy==2.2.6
 pandas==2.2.2
 pyarrow==17.0.0
 h3==4.5.0
