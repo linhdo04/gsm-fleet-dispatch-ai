@@ -10,6 +10,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
 from .common import PROJECT_ROOT, load_config, load_zones
+from .mlflow_tracking import log_training_run
 from .repositioning_suggester import build_zone_distances
 
 NUMERIC_FEATURES = ["distance_m", "hour", "day_of_week", "is_weekend", "is_holiday"]
@@ -122,9 +123,29 @@ def train(output_dir: Path, rows: int = 40_000) -> dict:
         "naive_linear_baseline_mae_minutes": round(naive_linear_baseline_mae(test_df), 3),
     }
 
-    joblib.dump(model, output_dir / "cost_model.joblib")
-    (output_dir / "cost_model_metrics.json").write_text(
+    model_path = output_dir / "cost_model.joblib"
+    metrics_path = output_dir / "cost_model_metrics.json"
+    joblib.dump(model, model_path)
+    metrics_path.write_text(
         json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    log_training_run(
+        experiment_name="fleet-dispatch-cost",
+        run_name="cost-hist-gradient-boosting",
+        model=model,
+        registered_model_name="fleet-dispatch-cost-model",
+        params={
+            "model": "HistGradientBoostingRegressor",
+            "random_seed": seed,
+            "training_rows": rows,
+            "max_iter": 300,
+            "max_depth": 8,
+            "learning_rate": 0.08,
+            "features": ",".join(FEATURE_COLUMNS),
+        },
+        metrics=metrics,
+        artifacts=[model_path, metrics_path],
+        input_example=test_df[FEATURE_COLUMNS].head(5),
     )
     return metrics
 
