@@ -77,3 +77,8 @@ variable "enable_public_ip" {
   description = "Enable/disable public IP for the VM"
   default     = false
 }
+
+variable "my_ip" {
+  type        = string
+  description = "My IP address"
+}

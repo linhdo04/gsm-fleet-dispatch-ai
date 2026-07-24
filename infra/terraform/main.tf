@@ -50,6 +50,7 @@ module "firewall" {
   source     = "./modules/firewall"
   project_id = var.project_id
   vpc_name   = module.network.vpc_name
+  my_ip      = var.my_ip
 }
 
 module "registry" {
