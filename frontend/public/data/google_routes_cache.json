@@ -1,299 +1,310 @@
 {
-  "20.9923,105.7907->20.9878,105.7667": {
-    "cached_at": 1784781833.8214536,
-    "result": {
-      "distance_m": 3307.0403509969105,
-      "duration_seconds": 472.4343358567015,
-      "traffic_aware_duration_seconds": 472.4343358567015,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "20.9706,105.7836->20.9878,105.7667": {
-    "cached_at": 1784781833.9678743,
-    "result": {
-      "distance_m": 3374.5977604822156,
-      "duration_seconds": 482.0853943546022,
-      "traffic_aware_duration_seconds": 482.0853943546022,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0403,105.8290->21.0620,105.8362": {
-    "cached_at": 1784781834.5363388,
-    "result": {
-      "distance_m": 3284.0830740872984,
-      "duration_seconds": 469.1547248696141,
-      "traffic_aware_duration_seconds": 469.1547248696141,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0792,105.8193->21.0792,105.8193": {
-    "cached_at": 1784826355.0425384,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0665,105.8602->21.0665,105.8602": {
-    "cached_at": 1784781835.074803,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0530,105.7881->21.0530,105.7881": {
-    "cached_at": 1784826353.6379213,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0575,105.8122->21.0358,105.8050": {
-    "cached_at": 1784781835.8654773,
-    "result": {
-      "distance_m": 3284.4980805360537,
-      "duration_seconds": 469.21401150515055,
-      "traffic_aware_duration_seconds": 469.21401150515055,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0403,105.8290->21.0358,105.8050": {
-    "cached_at": 1784781836.095915,
-    "result": {
-      "distance_m": 3305.624690461169,
-      "duration_seconds": 472.23209863730983,
-      "traffic_aware_duration_seconds": 472.23209863730983,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "20.9841,105.8556->20.9841,105.8556": {
-    "cached_at": 1784781836.5110478,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0448,105.8531->21.0448,105.8531": {
-    "cached_at": 1784781836.867987,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0440,105.7401->21.0440,105.7401": {
-    "cached_at": 1784826355.0311608,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0403,105.8290->21.0186,105.8219": {
-    "cached_at": 1784781837.620918,
-    "result": {
-      "distance_m": 3284.6868442251503,
-      "duration_seconds": 469.24097774645,
-      "traffic_aware_duration_seconds": 469.24097774645,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
   "21.0358,105.8050->21.0403,105.8290": {
-    "cached_at": 1784826352.4257956,
+    "cached_at": 1784875832.8159447,
     "result": {
-      "distance_m": 3305.624690461169,
-      "duration_seconds": 472.23209863730983,
-      "traffic_aware_duration_seconds": 472.23209863730983,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3623.0,
+      "duration_seconds": 728.0,
+      "traffic_aware_duration_seconds": 789.0,
+      "encoded_polyline": "apk_CkaxdSzCrBNNjBiCeDqBsD_C_As@e@Uw@[_Dk@Mm@EwCG{BUgNOkK?q@`@iAhAkCdAwB{Dy@{G{AqR}DaDk@@yBSgC]gCGmAByA`AuL|@sHp@wBr@iBr@_BvBmEpAqDl@cCBWAo@Ee@Wu@rBkCLCND\\X",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "21.0231,105.8459->21.0403,105.8290": {
-    "cached_at": 1784826352.4287844,
+    "cached_at": 1784875832.8679159,
     "result": {
-      "distance_m": 3373.4128776941693,
-      "duration_seconds": 481.91612538488135,
-      "traffic_aware_duration_seconds": 481.91612538488135,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3803.0,
+      "duration_seconds": 764.0,
+      "traffic_aware_duration_seconds": 825.0,
+      "encoded_polyline": "}_i_Ci_`eSs@hDe@n@MHm@CyIwBkE_Ag@lBsGtCQP[`Ag@vBSTkC|BoCpC{CtCs@r@yApAyHtHsFfFsCnCSESFGPBPqAlAODcSeCo@jGkD_@uJmAmAG[Bc@N]XQd@JfBDh@MnL|@zDHj@DfAJlAP`Al@hClApC`BrCrBkCLCND\\X",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
-  "21.0620,105.8362->21.0620,105.8362": {
-    "cached_at": 1784826352.8789191,
+  "21.0620,105.8362->21.0403,105.8290": {
+    "cached_at": 1784875832.983922,
     "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3570.0,
+      "duration_seconds": 683.0,
+      "traffic_aware_duration_seconds": 655.0,
+      "encoded_polyline": "swp_Cwg~dSRShAw@n@i@fCoCVUn@UBDv@IzAc@bEiBpHeDpFcCnB{@VdB|AhC^h@JH~B_AxBq@zBm@rFiBbAUl@E^z@DRh@fANn@vAjBj@p@jF~BdBlAdA~@lEvEVPXH~APdJn@lALtAZp@HFAz@Vz@JD?JfBDh@MnL|@zDHj@DfAJlAP`Al@hClApC`BrCrBkCLCND\\X",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0403,105.8290->21.0141,105.7979": {
+    "cached_at": 1784875833.060267,
+    "result": {
+      "distance_m": 5956.0,
+      "duration_seconds": 1116.0,
+      "traffic_aware_duration_seconds": 1439.0,
+      "encoded_polyline": "kll_Caw|dS`BrAP@HT|CgA`@IZGPM\\{ANSRGp@GHe@@QAyDf@UlBB`A?`AKfB[pCu@~Bi@LHu@fTI`FvFC^B`ABhCVZBx@rGlAjQQ`@xAdTrApPHh@WhBgAlGe@zBId@Gz@jARzAVvBl@`F`ApAJb@EpEh@pGvAdAj@hAp@x@`@bCvAjF`CrAr@xIbEzB`AnDhB`GnCbCrAX?h@ZTFxLlM|DtEBPPXDT\\^C\\r@|J@Ty@~C{@xHKdAi@E",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "21.0358,105.8050->21.0141,105.7979": {
-    "cached_at": 1784826353.414158,
+    "cached_at": 1784875833.3151217,
     "result": {
-      "distance_m": 3285.1018525056706,
-      "duration_seconds": 469.3002646436672,
-      "traffic_aware_duration_seconds": 469.3002646436672,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3024.0,
+      "duration_seconds": 584.0,
+      "traffic_aware_duration_seconds": 712.0,
+      "encoded_polyline": "apk_CkaxdSzCrBNNfAyAnIbFdBjAhIvGvArA`@XdLnJh@Xj@h@fBrAdFzBdAZb@FvAHv@Cn@SjAq@zAaBfC_DpBcCbBwAtGaDtAfCXh@X\\tBxEh@r@^b@|@n@pAf@vGdBr@Rv@^lAz@v@v@rCwBhBR",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "20.9923,105.7907->21.0141,105.7979": {
-    "cached_at": 1784826353.4174213,
+    "cached_at": 1784875833.3731098,
     "result": {
-      "distance_m": 3285.7273371020397,
-      "duration_seconds": 469.38961958600567,
-      "traffic_aware_duration_seconds": 469.38961958600567,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3849.0,
+      "duration_seconds": 625.0,
+      "traffic_aware_duration_seconds": 694.0,
+      "encoded_polyline": "k`c_CifudSiDvFmBfC_F}HaLcRoFyIQGwAcC}J{OwA_BAK{CyC{A}Bc@XgAbAEJkEhDiIlGO@wB~A]`@i@f@mIhGoB`BiBrA[JqCpBq@h@_@b@CDkCtBoCrB_FaIo@_AeC}D_AuAXq@NoANoBBk@D_@H}Ai@E",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
-  "21.0275,105.8699->21.0275,105.8699": {
-    "cached_at": 1784826353.6419475,
+  "21.0530,105.7881->21.0313,105.7810": {
+    "cached_at": 1784875833.5135767,
     "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3453.0,
+      "duration_seconds": 772.0,
+      "traffic_aware_duration_seconds": 835.0,
+      "encoded_polyline": "e}n_CewtdSQNWY~@gAhCwA~EsBjA[`@GrDOzHa@X@hJm@`H@`LE`ESVLxAIfCGnDFrBCfADrAL~Ch@vBT\\HZNNLV^LRPH`@LlYjEtFz@PT\\p@AJ@Xy@nJWnBeBlSKtBMzAHMDW",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
-  "21.0051,105.7498->21.0051,105.7498": {
-    "cached_at": 1784826353.6444888,
+  "21.0313,105.7810->21.0403,105.8290": {
+    "cached_at": 1784875833.6021366,
     "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 7105.0,
+      "duration_seconds": 1302.0,
+      "traffic_aware_duration_seconds": 1438.0,
+      "encoded_polyline": "utj_CejsdSAQEEJeADmAdBmSZoCt@oIJ[TkCB_@CQpAqNuLqAeCYyJsGwAaAQaANk@zBiKN{@r@_DXq@P[Za@jPeQdBsB`A_Bn@m@eEuDw@mA}E}Cs@a@q@i@_G}CISEqA|DcGj@{ANa@TkAtAuItBsLj@sCd@sDYKaGmA_AMKD{Bg@i@QoD{@sH{AqGoA{HgBsSgEaDk@@yBSgC]gCGmAByA`AuL|@sHp@wBr@iBr@_BvBmEpAqDl@cCBWAo@Ee@Wu@rBkCLCND\\X",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
-  "21.0358,105.8050->21.0358,105.8050": {
-    "cached_at": 1784826353.6490252,
+  "21.0275,105.8699->21.0575,105.8122": {
+    "cached_at": 1784875833.6510694,
     "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 10158.0,
+      "duration_seconds": 1687.0,
+      "traffic_aware_duration_seconds": 1608.0,
+      "encoded_polyline": "_aj_C_{deSwAlAmBqCwC_EaCwA_FcBq@`AYbAUlBEhAQbAUl@{@~DEFSF{DKcAKaAW{B[oCI[DcBZ}A^YBOQkA`CwGvLuA`DMVXn@BRALILw@Zy@X_@AUOEGBOJU\\ONAH@LPJJxNpg@jDxLjCxIPr@ATUb@wAv@cBjAKP_C~BgDdCgCpB}BdAiCpBeA~@iIpJkC~ByFpEu@v@{D~FyBfDmE|EcAbAwRhQiA~@IDH\\vAjBj@p@jF~BdBlAdA~@lEvEVPXH~APdJn@lALtAZE^Nx@CjEGz@Sx@I|@BPh@^FP?R]jBOdACh@@rBGNc@d@EZDNf@^nAp@^`@Tf@DXEVCPBL~BhFp@lADVCZOl@Eb@Jf@r@zAB\\BhACn@AHQX[\\WLc@Pw@JSLYh@]jAIb@?b@J~@DV@r@G\\Uf@_@j@Ux@GpByAxGk@nCQ|@Cf@VtB?XM|Ac@rCWdBEZAHQVa@p@{B`JINWTUJoBd@_A\\sAl@MBe@?mBc@q@D{AXu@R{Ar@aGdC_FxA}Cx@S?u@OUBQFcC`BiAVkBh@aBZSH[b@GP",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
-  "21.0231,105.8459->21.0186,105.8219": {
-    "cached_at": 1784794662.1126277,
+  "21.0575,105.8122->21.0747,105.7953": {
+    "cached_at": 1784875833.6929462,
     "result": {
-      "distance_m": 3305.5167039995813,
-      "duration_seconds": 472.21667199994016,
-      "traffic_aware_duration_seconds": 472.21667199994016,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 3172.0,
+      "duration_seconds": 598.0,
+      "traffic_aware_duration_seconds": 564.0,
+      "encoded_polyline": "clo_CsgydSIfCObAeBDYJk@j@Uh@SbAS|ACLqD@kIGcIk@ENc@z@wBtBuHlFuCrBOJM?_B`AcB|A?DmA|@s@l@}HvFkCrBSJYX}CzBmFfEm@p@S^_@lBe@~Be@`BUdACb@}FT}ETaBPe@HeBhGeAlDi@nBbBn@r@^",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0051,105.7498->21.0403,105.8290": {
+    "cached_at": 1784875833.758467,
+    "result": {
+      "distance_m": 12504.0,
+      "duration_seconds": 1805.0,
+      "traffic_aware_duration_seconds": 2161.0,
+      "encoded_polyline": "uoe_CwdmdS}B|@iAXo@TCIWDQHQg@a@c@a@wAU_@]Sc@GoBDc@Ea@SU]IQS}@hBsOAU?cECOEK~BmRd@wCvC{V~@kHf@aDXuCdIko@xBmQnG}f@`@_FLkD@sBGaCYuEi@gDo@{CmAaEcBuDw@yAyEkHaAqA_FkGyEoH_AyA[a@cCaEwAmBwD{FqAaBw@eA{@gAqNkPoHmIkCwCqBxBwCrBwB|A_An@gAl@iL`Fw@^qAl@iClA{A`AiBnBoAsE_@kBy@mJcIHeAEk@Ig@MqAi@}GsDi@W_@{@?_@K[MKWEUDQNCBkA}@s@{COs@aAoNmBaRC}@I}@}Be@yA[YKaGmA_AMKD{Bg@i@QoD{@sH{AqGoA{HgBsSgEaDk@@yBSgC]gCGmAByA`AuL|@sHp@wBr@iBr@_BvBmEpAqDl@cCBWAo@Ee@Wu@rBkCLCND\\X",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0403,105.8290->21.0620,105.8362": {
+    "cached_at": 1784875833.8115027,
+    "result": {
+      "distance_m": 3801.0,
+      "duration_seconds": 709.0,
+      "traffic_aware_duration_seconds": 714.0,
+      "encoded_polyline": "kll_Caw|dS`BrAP@U[{GoG{@kA]{@Mk@O}@KsAK}DCqG@gBJyAd@yE}AO_@@c@J]RMLQd@s@Gy@SQICGuBm@o@CaKs@{BUYOuAuAoCyCcCmBuEsBi@[qCsDGUi@eAMK_@{@q@FsAX_FbB_EfAgA\\mBx@e@k@oAsBS]WeB{EtBeH~CcH|CcAb@iAZw@HCEo@TWTgCnCeA|@w@f@s@r@r@bA",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0403,105.8290->21.0231,105.8459": {
+    "cached_at": 1784875833.8602445,
+    "result": {
+      "distance_m": 3705.0,
+      "duration_seconds": 736.0,
+      "traffic_aware_duration_seconds": 779.0,
+      "encoded_polyline": "kll_Caw|dS`BrAP@HT|CgA`@IZGPM\\{ANSRGp@GHe@@QAyDf@UlBB`A?`AKfB[pCu@~Bi@LH`@mKd@}DpKtAfEd@|BmKDKl@uDbAgFReALg@rAsHFg@bA_FpM?|QH~GBvAeI`BkIyJaCVqA",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "21.0141,105.7979->21.0186,105.8219": {
-    "cached_at": 1784826354.805922,
+    "cached_at": 1784875834.337098,
     "result": {
-      "distance_m": 3306.059671591756,
-      "duration_seconds": 472.2942387988223,
-      "traffic_aware_duration_seconds": 472.2942387988223,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0702,105.7713->21.0702,105.7713": {
-    "cached_at": 1784826355.0357602,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0747,105.7953->21.0747,105.7953": {
-    "cached_at": 1784826355.0390654,
-    "result": {
-      "distance_m": 0.0,
-      "duration_seconds": 0.0,
-      "traffic_aware_duration_seconds": 0.0,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
-    }
-  },
-  "21.0141,105.7979->20.9923,105.7907": {
-    "cached_at": 1784826355.604722,
-    "result": {
-      "distance_m": 3285.7273371020397,
-      "duration_seconds": 469.38961958600567,
-      "traffic_aware_duration_seconds": 469.38961958600567,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 4151.0,
+      "duration_seconds": 883.0,
+      "traffic_aware_duration_seconds": 1108.0,
+      "encoded_polyline": "aig_C_svdSh@D\\iDh@uE}EL}BgC}@}@I[eDcEmB}EnE}Cj@k@j@c@x@u@t@_AqAwAbEiEbCyChGoJ|DoGtCmEjF{KdCwEh@o@QSeCuBiBkBmAcAoBwA{BcBsByAaAw@_EqDuAkAuAeAcA{@gEiEoAiAi@{@Us@C[C{GGe@S_@Y[e@WeFyBoBpGWhA]vB",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "21.0358,105.8050->21.0186,105.8219": {
-    "cached_at": 1784826354.8131788,
+    "cached_at": 1784875834.387733,
     "result": {
-      "distance_m": 3373.67256903888,
-      "duration_seconds": 481.9532241484114,
-      "traffic_aware_duration_seconds": 481.9532241484114,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 4273.0,
+      "duration_seconds": 898.0,
+      "traffic_aware_duration_seconds": 970.0,
+      "encoded_polyline": "apk_CkaxdSzCrBNNjBiCbAoAlDmFj@{ANa@TkAtAuItBsLj@sCd@sD\\{Al@mDTiCp@}CHUOaEaAeNfDY|AMEkBDq@FQhAoAl@i@VIfC]lAw@jB_BzCuCV[sEqF{@oAbB{AR]v@gBr@{Bh@wBJ{@jFx@xCj@RBbCf@jANbBb@`A^~YlLkBhG]bBQjA",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0440,105.7401->21.0186,105.8219": {
+    "cached_at": 1784875834.528879,
+    "result": {
+      "distance_m": 12782.0,
+      "duration_seconds": 2100.0,
+      "traffic_aware_duration_seconds": 2514.0,
+      "encoded_polyline": "cdm_CqjkdSrEz@@xBA`BQjD?XiK`DcJnCsFfBqDj@YBoACq@EkJkAUYQ}@|D{GnAuDzBuHjByGhFwPtFoRfA}DdF}PP{@bI}Xz@sDnEoPlA{EXwAvA{FzByI`BsHf@cCjByH|DqR`@{BjBeMbEyRTyAJoARgEFmD?a@H_@\\i@HmB[e@a@u@Mw@?gBFwEHoNb@kUViD^qB|DcQ\\kAzBiKN{@r@_DXq@P[Za@jPeQdBsB`A_BtAwAXi@zAaErBuFp@eBBQRi@D]Ca@IQCQMYc@i@XcCbAsHh@sB\\}@b@s@`@a@t@_@fJiHx@`@bCvAjF`Cv@`@Na@kHkDyBkA`@qA`@wBR_B|A{SbCcRTGJQNaBBm@EoAOYk@i@ViBj@mCVoA~AcFxAiElBeFNe@`S~HkBhG]bBQjA",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0186,105.8219->20.9751,105.8076": {
+    "cached_at": 1784875834.5802293,
+    "result": {
+      "distance_m": 6982.0,
+      "duration_seconds": 1227.0,
+      "traffic_aware_duration_seconds": 1463.0,
+      "encoded_polyline": "ifh_Cej{dS\\wBb@iBxAwE~EzBf@^NTJ\\FZ@t@?~FBh@NZx@~@tDpDpBpB~EtDfAhAbA~@bCjBhGdEfDbClD|Df@l@RP\\a@p@e@vBoBt@k@vFsD|EkCP@b@EpGkBlIoC\\XjAnBl@|@jBdDlA`C|F~JbFbJh@v@|ChFzDxGfB~C`BjCvDzFJ^rBfDnDfGb@l@r@lAh@h@T\\Xj@tB}A`Ay@nFyDN?JExCsBbQqL~SoNtBvDlAzB`BvCxAhCz@rAPBVINe@r@Od@SxA_A|@y@~CuBrBwA^OJ?j@LfIrCOj@",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0702,105.7713->21.0358,105.8050": {
+    "cached_at": 1784875834.6331072,
+    "result": {
+      "distance_m": 8405.0,
+      "duration_seconds": 1219.0,
+      "traffic_aware_duration_seconds": 1220.0,
+      "encoded_polyline": "chr_CynqdSu@DiEJ@uG@_@?eCC_B?wEAcGFiX?mSC[OWUKYAiJYyL[e@[}@gAo@C?gDh@a@TKdAZzB\\z@HfMh@hGRlDNpCF~DRbBDBcAL}@Pe@bFeHlCkDrByCxBwCJSfN@\\?Aml@BWBKVMPUzLBPNTDVCTO~N?LRVLZ@TIPSBGx@EtHA~M?NDhC?|J@vFAdA]hN?vF@f@XbQGlAFfABdHOI_EBqAPy@HWhAqB|B{C~DeF|B{CHQrGgJm@g@}B{A",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0358,105.8050->20.9968,105.8147": {
+    "cached_at": 1784875834.691228,
+    "result": {
+      "distance_m": 5769.0,
+      "duration_seconds": 1017.0,
+      "traffic_aware_duration_seconds": 1203.0,
+      "encoded_polyline": "apk_CkaxdSzCrBNNfAyAnIbFdBjAhIvGvArA`@XdLnJh@Xj@h@fBrAdFzBdAZb@FvAHv@Cn@SjAq@zAaBfC_DpBcCbBwAjHoD~M}FhBiAtEeDz@s@nBwBbEiEbCyChGoJ|DoGtCmEjF{KdCwEh@o@p@e@vBoBt@k@vFsD|EkCP@b@EpGkBlIoC\\XjAnBl@|@jBdDlA`C|F~Jd@_@_A}AxDgC~@s@jAtB",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "20.9968,105.8147->21.0058,105.8628": {
+    "cached_at": 1784875834.747745,
+    "result": {
+      "distance_m": 6493.0,
+      "duration_seconds": 1153.0,
+      "traffic_aware_duration_seconds": 1207.0,
+      "encoded_polyline": "w`d_Cw}ydSkAuB_BjAyCnBiEqH_BiC_A_Be@_ACSq@iAuBeDsB_Dk@w@Ca@[wCl@kD`@cB`CeO`AaHJwAT{Ah@eC~BeJr@iDnCqPl@gFh@mGJMz@}G~BeNHYHmAd@wC\\{A_ABoJImADg@DqFE]QMQEUA}DCk@AuI@}EFuBSe@uAiB{CuDi@u@CYDyHPaCNwA?[p@oQRsIFwBB_IQiE[cGM_HqVpAA{@Rm@ZeANa@Fg@Vo@DSDG",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0530,105.7881->21.0575,105.8122": {
+    "cached_at": 1784875834.821288,
+    "result": {
+      "distance_m": 4000.0,
+      "duration_seconds": 791.0,
+      "traffic_aware_duration_seconds": 799.0,
+      "encoded_polyline": "e}n_CewtdSQNWY~@gAhCwA~EsBjA[`@GrDOzHa@X@hJm@h@?AaE?}SE_PAsOCwSBaKBm@\\MN_@Da@Ca@MY_@_@a@Gc@DsA^cALaAAcEgAe@KiFsCcBcAuAs@}@k@iAcAGKk@i@iBsAKG_@CkBJwF^gDFyB?DqGNcAHgC",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0575,105.8122->20.9796,105.8316": {
+    "cached_at": 1784875834.920193,
+    "result": {
+      "distance_m": 11861.0,
+      "duration_seconds": 1952.0,
+      "traffic_aware_duration_seconds": 2202.0,
+      "encoded_polyline": "clo_CsgydSIfCObAEpGqC?@RjG?fEMlHi@p@H\\Pt@p@|@p@lBdBlAr@r@\\lHhEvEtAl@VfAJbANn@TN\\VTVH\\Aj@S^YtBa@jAIdEMPGBE~E@bCU`AKnDq@vE}@pBS~CAbCDf@BdAN|A`@jB|@nFhDzLfHjBpAbF|DpIvHxG|F\\b@j@h@fBrAdFzBdAZb@FvAHv@Cn@SjAq@zAaBfC_DpBcCbBwAjHoD~M}FhBiAtEeDz@s@nBwBbEiEbCyChGoJ|DoGtCmEjF{KdCwEh@o@p@e@vBoBt@k@vFsD|EkClAaA~AeChAeAz@eAn@eA^wAn@_DhAyGLm@?g@XaBxByMNiAXo@R_@p@uEl@iDj@}BxFvA~BuAj@e@nGmDjAk@vA}@|FuCnEcCvCxF~BbELRRNn@V`AZ~Cj@|Bp@hAl@`@Z`BxAzIfHVJr@t@jAbA|B|@vEbB|EnBh@eBnAoD~EmO^wAnAyFHk@pAcCtAuBjAiAB@x@w@NJVj@ZZnAkAHE",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0747,105.7953->21.0575,105.8122": {
+    "cached_at": 1784875834.9758897,
+    "result": {
+      "distance_m": 3795.0,
+      "duration_seconds": 641.0,
+      "traffic_aware_duration_seconds": 596.0,
+      "encoded_polyline": "mds_C}bvdSyAq@}@]n@aCzA{E~CaL\\mBHC@MEGx@uBvC}J\\uAz@eCdA}DtBuJhAiDxAaFjBe@fOrG`GpCfGbDzBgBBGhBoAhBsAfGiE`A}@t@w@hBq@fF^~ONpAIjG?ASyB?DqGNcAHgC",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0575,105.8122->20.9923,105.7907": {
+    "cached_at": 1784875835.034488,
+    "result": {
+      "distance_m": 9727.0,
+      "duration_seconds": 1428.0,
+      "traffic_aware_duration_seconds": 1655.0,
+      "encoded_polyline": "clo_CsgydSIfCObAEpGqC?@RjG?fEMlHi@p@H\\Pt@p@|@p@lBdBlAr@r@\\lHhEvEtAl@VfAJbANn@TN\\VTVH\\Aj@S^YtBa@jAIdEMPGBE~E@bCU`AKnDq@vE}@pBS~CAbCDf@BdAN|A`@jB|@nFhDzLfHjBpAbF|DpIvHxG|F\\b@j@h@fBrAdFzBdAZb@FvAHv@Cn@SjAq@zAaBfC_DpBcCbBwAtGaDtAfCXh@X\\tBxEh@r@^b@|@n@pAf@vGdBr@Rv@^lAz@v@v@dE`HfAbBnAlBnArB`@h@~E`InCsBjCuBPCZQbEaDPYlCqBnBaBhHkFh@g@HAVO|BaBDOtOwLLE\\?h@]PEd@v@h@p@p@l@jA`APPPBVRbAfA`AvAjKrPRj@jIxMjD{BPDPGFQ?QdGiEjA}@PDPGDK~Bd@rATPL|DvIhBxDuF`EYb@",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0792,105.8193->21.0186,105.8219": {
+    "cached_at": 1784875835.0993152,
+    "result": {
+      "distance_m": 9270.0,
+      "duration_seconds": 1560.0,
+      "traffic_aware_duration_seconds": 1679.0,
+      "encoded_polyline": "e`t_CwyzdSjJyFr@i@hCkCvBqBvA_BjGsIbBaC`AgAz@s@xAq@x@UnBYzBClB?bFGxBKr@OTQf@WjSoOLQNWJ]DgAB}BD{@XgATo@f@q@NO^MbKgCbBe@h@Sr@UXO`CoBbBiAxBgA`@WLAHK?K~AsAb@[h^kPdAo@jA_Af@g@TQ~DoEz@w@TOvAjBj@p@jF~BdBlAdA~@lEvEVPXH~APdJn@lALtAZp@HFAz@Vz@JD?JfBDh@hA@|A?d@yErIfAjD^n@kGbSdCRGlAkAPLT?JM@OnXrCLF~@P|FnD~FtD~JrDhHhChUdI|DxAdEbB^R?x@I~@uAnCsHpPOd@~P~GkBhG]bBQjA",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0186,105.8219->21.0448,105.8531": {
+    "cached_at": 1784875835.16561,
+    "result": {
+      "distance_m": 8251.0,
+      "duration_seconds": 1663.0,
+      "traffic_aware_duration_seconds": 1794.0,
+      "encoded_polyline": "ifh_Cej{dS\\wBb@iBbBqFkFyBoHwCc@[_E}Aw@_@mBi@oHyAuGiAuAS{@Y[KcB_@Ep@qK`@y@B{@V[YsAuB{E_H_@c@OIoCq@|CgP~@yFaLsAwDg@hAsKoFk@EOOIU@KNAPBDqAlAODcSeCo@jGkD_@uJmAmAG[Bc@N]XQd@s@Gy@SQICGuBm@o@CaKs@{BUYOuAuAoCyCcCmBuEsBi@[qCsDGUi@eAMK_@{@q@FsAX_FbB_EfAgA\\mBx@e@k@oAsBS]WeBOw@K{@GwAUkBKw@]m@w@u@m@i@QMe@OCG]_CIWC_@@WL_APu@Jq@I]Sg@EIDM`@s@Lg@j@YFIbB}@XSn@[\\U|@YhCoAXU|Ao@Bc@DMJI`AMtEyBzCsAh@CtBk@fBgA`@[~AaBnA{@nAs@vCmArFkCi@qBjHoCfBm@",
+      "provider": "google_routes",
+      "is_fallback": false
+    }
+  },
+  "21.0141,105.7979->20.9923,105.7907": {
+    "cached_at": 1784875835.4534051,
+    "result": {
+      "distance_m": 4109.0,
+      "duration_seconds": 656.0,
+      "traffic_aware_duration_seconds": 798.0,
+      "encoded_polyline": "aig_C_svdSh@DI|AE^Cj@Q`CM|@Yp@bCtDnArB`@h@~E`InCsBjCuBPCZQbEaDPYlCqBnBaBhHkFh@g@HAVO|BaBDOtOwLLE\\?h@]PEd@v@h@p@p@l@jA`APPPBVRbAfA`AvAjKrPRj@jIxMjD{BPDPGFQ?QdGiEjA}@PDPGDK~Bd@rATPL|DvIhBxDuF`EYb@",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   },
   "20.9706,105.7836->20.9923,105.7907": {
-    "cached_at": 1784826355.60827,
+    "cached_at": 1784875835.500034,
     "result": {
-      "distance_m": 3286.34089224975,
-      "duration_seconds": 469.4772703213929,
-      "traffic_aware_duration_seconds": 469.4772703213929,
-      "encoded_polyline": null,
-      "provider": "haversine_fallback",
-      "is_fallback": true
+      "distance_m": 4255.0,
+      "duration_seconds": 635.0,
+      "traffic_aware_duration_seconds": 683.0,
+      "encoded_polyline": "sz~~B_|sdS{BfB}@j@UAkBlAwFxEoB~Aw@D_@A[CsGkJeEcG_C_DkGiIwBsC]Zv@dAnA|AZd@iJdIaC~BiFfEuDdDqFtEkBbBcEhDkBdBqBvAaCyDIQs@eAkDyFwLmRcBcD}GyPm@yApBoCdDoF",
+      "provider": "google_routes",
+      "is_fallback": false
     }
   }
 }
