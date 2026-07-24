@@ -11,6 +11,7 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
         env_prefix="APP_",
         extra="ignore",
+        populate_by_name=True,
     )
 
     name: str = "GSM Fleet Dispatch API"
@@ -25,6 +26,16 @@ class Settings(BaseSettings):
     otel_enabled: bool = False
     otel_exporter_otlp_endpoint: str = "http://otel-collector:4317"
     otel_service_name: str = "fleet-dispatch-backend"
+
+    # Không dùng prefix APP_ cho 2 biến này — cùng tên với ml/.env.example
+    # (ml/routing_client.py, ml/geocoding_client.py) để dùng chung 1 K8s
+    # Secret cho cả pipeline data lẫn backend, không cần đặt tên khác nhau.
+    google_routes_api_key: str | None = Field(
+        default=None, validation_alias="GOOGLE_ROUTES_API_KEY"
+    )
+    google_geocoding_api_key: str | None = Field(
+        default=None, validation_alias="GOOGLE_GEOCODING_API_KEY"
+    )
 
 
 @lru_cache

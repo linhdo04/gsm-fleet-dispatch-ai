@@ -1,6 +1,7 @@
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 
+import httpx
 import structlog
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
@@ -22,13 +23,15 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     logger = structlog.get_logger(__name__)
 
     @asynccontextmanager
-    async def lifespan(_: FastAPI) -> AsyncIterator[None]:
+    async def lifespan(app: FastAPI) -> AsyncIterator[None]:
+        app.state.http_client = httpx.AsyncClient(timeout=5.0)
         logger.info(
             "application_started",
             environment=settings.environment,
             version=settings.version,
         )
         yield
+        await app.state.http_client.aclose()
         logger.info("application_stopped")
 
     app = FastAPI(
