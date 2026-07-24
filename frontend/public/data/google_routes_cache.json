@@ -1,0 +1,299 @@
+{
+  "20.9923,105.7907->20.9878,105.7667": {
+    "cached_at": 1784781833.8214536,
+    "result": {
+      "distance_m": 3307.0403509969105,
+      "duration_seconds": 472.4343358567015,
+      "traffic_aware_duration_seconds": 472.4343358567015,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "20.9706,105.7836->20.9878,105.7667": {
+    "cached_at": 1784781833.9678743,
+    "result": {
+      "distance_m": 3374.5977604822156,
+      "duration_seconds": 482.0853943546022,
+      "traffic_aware_duration_seconds": 482.0853943546022,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0403,105.8290->21.0620,105.8362": {
+    "cached_at": 1784781834.5363388,
+    "result": {
+      "distance_m": 3284.0830740872984,
+      "duration_seconds": 469.1547248696141,
+      "traffic_aware_duration_seconds": 469.1547248696141,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0792,105.8193->21.0792,105.8193": {
+    "cached_at": 1784826355.0425384,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0665,105.8602->21.0665,105.8602": {
+    "cached_at": 1784781835.074803,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0530,105.7881->21.0530,105.7881": {
+    "cached_at": 1784826353.6379213,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0575,105.8122->21.0358,105.8050": {
+    "cached_at": 1784781835.8654773,
+    "result": {
+      "distance_m": 3284.4980805360537,
+      "duration_seconds": 469.21401150515055,
+      "traffic_aware_duration_seconds": 469.21401150515055,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0403,105.8290->21.0358,105.8050": {
+    "cached_at": 1784781836.095915,
+    "result": {
+      "distance_m": 3305.624690461169,
+      "duration_seconds": 472.23209863730983,
+      "traffic_aware_duration_seconds": 472.23209863730983,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "20.9841,105.8556->20.9841,105.8556": {
+    "cached_at": 1784781836.5110478,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0448,105.8531->21.0448,105.8531": {
+    "cached_at": 1784781836.867987,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0440,105.7401->21.0440,105.7401": {
+    "cached_at": 1784826355.0311608,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0403,105.8290->21.0186,105.8219": {
+    "cached_at": 1784781837.620918,
+    "result": {
+      "distance_m": 3284.6868442251503,
+      "duration_seconds": 469.24097774645,
+      "traffic_aware_duration_seconds": 469.24097774645,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0358,105.8050->21.0403,105.8290": {
+    "cached_at": 1784826352.4257956,
+    "result": {
+      "distance_m": 3305.624690461169,
+      "duration_seconds": 472.23209863730983,
+      "traffic_aware_duration_seconds": 472.23209863730983,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0231,105.8459->21.0403,105.8290": {
+    "cached_at": 1784826352.4287844,
+    "result": {
+      "distance_m": 3373.4128776941693,
+      "duration_seconds": 481.91612538488135,
+      "traffic_aware_duration_seconds": 481.91612538488135,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0620,105.8362->21.0620,105.8362": {
+    "cached_at": 1784826352.8789191,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0358,105.8050->21.0141,105.7979": {
+    "cached_at": 1784826353.414158,
+    "result": {
+      "distance_m": 3285.1018525056706,
+      "duration_seconds": 469.3002646436672,
+      "traffic_aware_duration_seconds": 469.3002646436672,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "20.9923,105.7907->21.0141,105.7979": {
+    "cached_at": 1784826353.4174213,
+    "result": {
+      "distance_m": 3285.7273371020397,
+      "duration_seconds": 469.38961958600567,
+      "traffic_aware_duration_seconds": 469.38961958600567,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0275,105.8699->21.0275,105.8699": {
+    "cached_at": 1784826353.6419475,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0051,105.7498->21.0051,105.7498": {
+    "cached_at": 1784826353.6444888,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0358,105.8050->21.0358,105.8050": {
+    "cached_at": 1784826353.6490252,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0231,105.8459->21.0186,105.8219": {
+    "cached_at": 1784794662.1126277,
+    "result": {
+      "distance_m": 3305.5167039995813,
+      "duration_seconds": 472.21667199994016,
+      "traffic_aware_duration_seconds": 472.21667199994016,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0141,105.7979->21.0186,105.8219": {
+    "cached_at": 1784826354.805922,
+    "result": {
+      "distance_m": 3306.059671591756,
+      "duration_seconds": 472.2942387988223,
+      "traffic_aware_duration_seconds": 472.2942387988223,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0702,105.7713->21.0702,105.7713": {
+    "cached_at": 1784826355.0357602,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0747,105.7953->21.0747,105.7953": {
+    "cached_at": 1784826355.0390654,
+    "result": {
+      "distance_m": 0.0,
+      "duration_seconds": 0.0,
+      "traffic_aware_duration_seconds": 0.0,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0141,105.7979->20.9923,105.7907": {
+    "cached_at": 1784826355.604722,
+    "result": {
+      "distance_m": 3285.7273371020397,
+      "duration_seconds": 469.38961958600567,
+      "traffic_aware_duration_seconds": 469.38961958600567,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "21.0358,105.8050->21.0186,105.8219": {
+    "cached_at": 1784826354.8131788,
+    "result": {
+      "distance_m": 3373.67256903888,
+      "duration_seconds": 481.9532241484114,
+      "traffic_aware_duration_seconds": 481.9532241484114,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  },
+  "20.9706,105.7836->20.9923,105.7907": {
+    "cached_at": 1784826355.60827,
+    "result": {
+      "distance_m": 3286.34089224975,
+      "duration_seconds": 469.4772703213929,
+      "traffic_aware_duration_seconds": 469.4772703213929,
+      "encoded_polyline": null,
+      "provider": "haversine_fallback",
+      "is_fallback": true
+    }
+  }
+}

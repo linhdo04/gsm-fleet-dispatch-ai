@@ -13,18 +13,18 @@
     "peak_profile"
   ],
   "train": {
-    "mae": 0.6613,
-    "rmse": 0.8693,
+    "mae": 0.6616,
+    "rmse": 0.8674,
     "rows": 362880
   },
   "validation": {
-    "mae": 0.7031,
-    "rmse": 0.9441,
+    "mae": 0.7017,
+    "rmse": 0.9418,
     "rows": 60480
   },
   "test": {
-    "mae": 0.664,
-    "rmse": 0.8747,
+    "mae": 0.681,
+    "rmse": 0.9006,
     "rows": 60480
   }
 }

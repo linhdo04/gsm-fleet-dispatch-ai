@@ -264,10 +264,13 @@ def run_comparison(output_dir: Path) -> dict:
     idle_drivers, deficits, timestamp = load_demo_scenario(zones)
     total_deficit = sum(deficits.values())
     idle_by_zone = group_idle_by_zone(idle_drivers)
+    zone_center = dict(zip(zones["zone_id"], zip(zones["center_lat"], zones["center_lng"])))
 
     # 1) Greedy — p_accept ranking, online per-zone soft-reserve (report.md's design).
     start = time.perf_counter()
-    greedy_suggestions = suggest_round(deficits, [dict(d) for d in idle_drivers], zone_distances, model, config, timestamp)
+    greedy_suggestions = suggest_round(
+        deficits, [dict(d) for d in idle_drivers], zone_distances, model, config, timestamp, zone_center
+    )
     greedy_elapsed = time.perf_counter() - start
 
     supply, demand = build_supply_demand(idle_drivers, deficits)

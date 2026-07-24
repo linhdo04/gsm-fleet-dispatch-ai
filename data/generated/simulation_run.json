@@ -5,8 +5,13 @@
   "days": 56,
   "zone_count": 30,
   "driver_count": 300,
-  "generated_requests": 374269,
-  "matched_requests": 360252,
-  "cancelled_requests": 14017,
-  "acceptance_samples": 97051
+  "scenario": "A_PASSIVE",
+  "generated_requests": 375671,
+  "matched_requests": 360982,
+  "cancelled_requests": 14689,
+  "acceptance_samples": 98441,
+  "repositioned_drivers": 0,
+  "deadhead_m": 539733626.4,
+  "wait_seconds_total": 3109800.0,
+  "wait_count": 360982
 }

@@ -1,10 +1,10 @@
 """NLG Explainer — sinh câu giải thích tự nhiên cho gợi ý điều phối tài xế
-bằng Claude API (mục "NLG Explainer (LLM)" trong report.md / business_design.md).
+bằng OpenAI API (mục "NLG Explainer (LLM)" trong report.md / business_design.md).
 
-Gọi thật `claude-opus-4-8` khi có `ANTHROPIC_API_KEY` trong môi trường; thiếu
-key hoặc lỗi mạng/API → fallback về template ghép chuỗi (giữ đúng câu văn cũ
-đã dùng trong `ml/export_demo_data.py`), không bao giờ làm sập luồng export
-demo data.
+Gọi thật `gpt-4o-mini` khi có `OPENAI_API_KEY` trong môi trường; thiếu key
+hoặc lỗi mạng/API → fallback về template ghép chuỗi (giữ đúng câu văn cũ đã
+dùng trong `ml/export_demo_data.py`), không bao giờ làm sập luồng export demo
+data.
 """
 
 from __future__ import annotations
@@ -12,9 +12,10 @@ from __future__ import annotations
 import os
 from typing import Optional
 
-import anthropic
+import openai
+from openai import OpenAI
 
-MODEL = "claude-opus-4-8"
+MODEL = "gpt-4o-mini"
 
 
 def _template_explanation(
@@ -33,10 +34,10 @@ def _template_explanation(
     )
 
 
-class ClaudeExplainer:
+class OpenAIExplainer:
     def __init__(self, api_key: Optional[str] = None):
-        self.api_key = api_key if api_key else os.environ.get("ANTHROPIC_API_KEY")
-        self._client = anthropic.Anthropic(api_key=self.api_key) if self.api_key else None
+        self.api_key = api_key if api_key else os.environ.get("OPENAI_API_KEY")
+        self._client = OpenAI(api_key=self.api_key) if self.api_key else None
 
     def explain_suggestion(
         self,
@@ -62,16 +63,13 @@ class ClaudeExplainer:
             f"- Acceptance Model dự đoán xác suất tài xế chấp nhận: {p_accept * 100:.0f}%\n"
         )
         try:
-            response = self._client.messages.create(
+            response = self._client.chat.completions.create(
                 model=MODEL,
                 max_tokens=200,
-                thinking={"type": "disabled"},
                 messages=[{"role": "user", "content": prompt}],
             )
-        except (anthropic.APIError, anthropic.APIConnectionError):
+        except (openai.APIError, openai.APIConnectionError):
             return fallback
 
-        for block in response.content:
-            if block.type == "text" and block.text.strip():
-                return block.text.strip()
-        return fallback
+        text = response.choices[0].message.content
+        return text.strip() if text and text.strip() else fallback

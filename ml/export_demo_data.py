@@ -1,7 +1,7 @@
 import argparse
 import json
 from pathlib import Path
-from typing import Dict
+from typing import Dict, Optional
 
 import joblib
 import numpy as np
@@ -21,15 +21,16 @@ from simulator.validate_outputs import read_dataset
 from .repositioning_suggester import build_zone_distances, suggest_round, train_or_load_model
 from .matching_engine import build_synthetic_requests
 from .matching_flow import RouteEstimator, ZoneState, handle_new_request
-from .nlg_explainer import ClaudeExplainer
+from .nlg_explainer import OpenAIExplainer
+from .routing_client import GoogleRoutesClient, decode_polyline
 
 # Frontend/src/mock/scenario.ts was built with fully synthetic numbers before
 # any model existed. Now that Tuần 3/4 produced a real Acceptance Model and a
 # real 56-day simulator run, this script re-derives every number the demo UI
 # shows — one representative *real* historical tick per scenario condition —
 # instead of the seeded-random generator. NLG explanation text calls
-# `ClaudeExplainer` (`ml/nlg_explainer.py`) — real Claude API call when
-# ANTHROPIC_API_KEY is set, template fallback otherwise.
+# `OpenAIExplainer` (`ml/nlg_explainer.py`) — real OpenAI API call when
+# OPENAI_API_KEY is set, template fallback otherwise.
 
 SCENARIO_CONDITIONS = {
     "normal": dict(hour_range=(12, 14), weather={"clear"}, weekend=False, holiday=False),
@@ -37,6 +38,33 @@ SCENARIO_CONDITIONS = {
     "peak": dict(hour_range=None, peak_hours=True, weather={"clear"}, weekend=False, holiday=False),
     "holiday": dict(hour_range=(12, 14), weather=None, weekend=None, holiday=True),
 }
+
+
+def _route_path(routes_client: GoogleRoutesClient, origin: tuple, dest: tuple) -> Optional[list]:
+    """Toạ độ đường đi thật (đã decode encoded polyline) giữa 2 điểm, hoặc
+    None nếu đang chạy fallback Haversine (không có GOOGLE_ROUTES_API_KEY)
+    — frontend (MapView.tsx) chỉ vẽ đường minh hoạ nối thẳng khi None, để
+    không giả vờ là route thực tế."""
+    result = routes_client.get_route(origin[0], origin[1], dest[0], dest[1])
+    if result.is_fallback or not result.encoded_polyline:
+        return None
+    return [list(point) for point in decode_polyline(result.encoded_polyline)]
+
+
+def _pooled_route_path(routes_client: GoogleRoutesClient, points: list) -> Optional[list]:
+    """Nối các đoạn route thật giữa các stop liên tiếp thành 1 đường đi hoàn
+    chỉnh. Chỉ 1 đoạn rơi vào fallback (thiếu key/lỗi API) là đủ để cả
+    route trả về None — không trộn lẫn đoạn thật với đoạn minh hoạ, tránh
+    đánh lừa frontend rằng cả đường là route thực tế."""
+    if len(points) < 2:
+        return None
+    full_path: list = []
+    for origin, dest in zip(points, points[1:]):
+        segment = _route_path(routes_client, origin, dest)
+        if segment is None:
+            return None
+        full_path.extend(segment[1:] if full_path else segment)
+    return full_path
 
 
 def _load_supply_with_context() -> pd.DataFrame:
@@ -119,7 +147,8 @@ def _suggestions_for_tick(
     config: dict,
     timestamp,
     scenario_key: str,
-    explainer: ClaudeExplainer,
+    explainer: OpenAIExplainer,
+    routes_client: GoogleRoutesClient,
     limit: int = 5,
 ) -> list:
     """Real Acceptance Probability Model + real Repositioning Suggester
@@ -141,10 +170,12 @@ def _suggestions_for_tick(
     zone_deficits = {
         row.zone_id: float(row.observed_deficit) for row in zone_rows.itertuples() if row.observed_deficit > 0
     }
-    raw_suggestions = suggest_round(zone_deficits, idle_drivers, zone_distances, model, config, timestamp)
+    zone_center = {row.zone_id: (row.center_lat, row.center_lng) for row in zones.itertuples()}
+    raw_suggestions = suggest_round(
+        zone_deficits, idle_drivers, zone_distances, model, config, timestamp, zone_center
+    )
 
     zone_name = dict(zip(zones["zone_id"], zones["name"])) if "name" in zones.columns else {}
-    zone_center = {row.zone_id: (row.center_lat, row.center_lng) for row in zones.itertuples()}
     weather_label = {"clear": "trời quang", "cloudy": "nhiều mây", "rain": "mưa", "heavy_rain": "mưa to"}
 
     ranked = sorted(raw_suggestions, key=lambda s: zone_deficits.get(s["target_zone_id"], 0), reverse=True)[:limit]
@@ -153,16 +184,19 @@ def _suggestions_for_tick(
         target_deficit = zone_deficits.get(s["target_zone_id"], 0)
         from_name = zone_name.get(s["from_zone_id"], s["from_zone_id"])
         target_name = zone_name.get(s["target_zone_id"], s["target_zone_id"])
+        from_point = zone_center[s["from_zone_id"]]
+        to_point = zone_center[s["target_zone_id"]]
         suggestions.append(
             {
                 "suggestion_id": f"S-{scenario_key}-{s['target_zone_id']}-{s['driver_id']}",
                 "driver_id": s["driver_id"],
                 "from_zone_id": s["from_zone_id"],
                 "from_zone_name": from_name,
-                "from": list(zone_center[s["from_zone_id"]]),
+                "from": list(from_point),
                 "target_zone_id": s["target_zone_id"],
                 "target_zone_name": target_name,
-                "to": list(zone_center[s["target_zone_id"]]),
+                "to": list(to_point),
+                "path": _route_path(routes_client, from_point, to_point),
                 "acceptance_probability": s["p_accept"],
                 "reason": f"deficit dự báo +{target_deficit:.1f} xe",
                 "explanation": explainer.explain_suggestion(
@@ -188,6 +222,7 @@ def _matching_for_tick(
     zone_states: Dict[str, ZoneState],
     acceptance_model,
     rng: np.random.Generator,
+    routes_client: GoogleRoutesClient,
     n_requests: int = 30,
 ) -> dict:
     """Runs the real cascade (`ml/matching_flow.py`, replaces the old
@@ -263,6 +298,7 @@ def _matching_for_tick(
                 "driver_id": driver_id,
                 "passengers": len(passenger_ids),
                 "total_distance_m": round(total_distance_m, 1),
+                "path": _pooled_route_path(routes_client, [zone_center[s.zone_id] for s in stops]),
                 "stops": [
                     {
                         "type": s.type,
@@ -296,7 +332,12 @@ def export_scenarios(output_dir: Path) -> Dict[str, dict]:
     cost_model = joblib.load(PROJECT_ROOT / "ml" / "artifacts" / "cost_model.joblib")
     supply = _load_supply_with_context()
     rng = np.random.default_rng(int(config["random_seed"]))
-    explainer = ClaudeExplainer()
+    explainer = OpenAIExplainer()
+    routes_client = GoogleRoutesClient(
+        cache_path=output_dir / "google_routes_cache.json",
+        cache_ttl_seconds=config["routing"]["zone_pair_cache_ttl_seconds"],
+        fallback_road_distance_multiplier=config["routing"]["fallback_road_distance_multiplier"],
+    )
     deficit_by_timestamp = (
         supply.assign(positive_deficit=supply["observed_deficit"].clip(lower=0))
         .groupby("timestamp")["positive_deficit"]
@@ -322,7 +363,7 @@ def export_scenarios(output_dir: Path) -> Dict[str, dict]:
         ]
         driver_points = _driver_points_for_tick(zone_rows, full_zones, scenario_key, rng)
         suggestions = _suggestions_for_tick(
-            zone_rows, full_zones, zone_distances, model, config, timestamp, scenario_key, explainer
+            zone_rows, full_zones, zone_distances, model, config, timestamp, scenario_key, explainer, routes_client
         )
         zone_states_flow = {
             row.zone_id: ZoneState(
@@ -335,7 +376,16 @@ def export_scenarios(output_dir: Path) -> Dict[str, dict]:
             for row in zone_rows.itertuples()
         }
         matching = _matching_for_tick(
-            full_zones, zone_distances, zone_type_by_id, cost_model, config, tick, zone_states_flow, model, rng
+            full_zones,
+            zone_distances,
+            zone_type_by_id,
+            cost_model,
+            config,
+            tick,
+            zone_states_flow,
+            model,
+            rng,
+            routes_client,
         )
 
         payload = {

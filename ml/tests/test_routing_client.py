@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 import requests
 
-from ml.routing_client import GoogleRoutesClient, _haversine_m
+from ml.routing_client import GoogleRoutesClient, _haversine_m, decode_polyline
 
 # Two real Hà Nội coordinates ~3.3km apart (same order of magnitude as the
 # zone-centroid distances used throughout the project).
@@ -84,6 +84,18 @@ class ApiFailureFallsBackTest(unittest.TestCase):
         with patch("ml.routing_client.requests.post", return_value=FakeResponse()):
             result = client.get_route(*ORIGIN, *DEST)
         self.assertTrue(result.is_fallback)
+
+
+class DecodePolylineTest(unittest.TestCase):
+    """Ví dụ chính thức từ tài liệu Google Encoded Polyline Algorithm Format."""
+
+    def test_decodes_official_google_example(self):
+        points = decode_polyline("_p~iF~ps|U_ulLnnqC_mqNvxq`@")
+        expected = [(38.5, -120.2), (40.7, -120.95), (43.252, -126.453)]
+        self.assertEqual(len(points), len(expected))
+        for (lat, lng), (exp_lat, exp_lng) in zip(points, expected):
+            self.assertAlmostEqual(lat, exp_lat, places=5)
+            self.assertAlmostEqual(lng, exp_lng, places=5)
 
 
 if __name__ == "__main__":
