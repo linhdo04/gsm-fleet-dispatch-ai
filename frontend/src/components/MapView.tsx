@@ -93,13 +93,17 @@ export default function MapView({ zonesGeoJson, zoneStates, drivers, suggestions
       {suggestions.map((s) => (
         <Polyline
           key={s.suggestion_id}
-          positions={[s.from, s.to]}
-          pathOptions={{ color: "#eb6834", weight: 2, dashArray: "6 6" }}
+          positions={s.path ?? [s.from, s.to]}
+          pathOptions={{ color: "#eb6834", weight: s.path ? 3 : 2, dashArray: s.path ? undefined : "6 6" }}
         >
           <Tooltip sticky>
             Gợi ý: {s.driver_id} → {s.target_zone_name}
             <br />
-            <em>Đường minh họa — chưa phải route thực tế (cần Google Routes API key)</em>
+            {s.path ? (
+              <em>Route thực tế (Google Routes API)</em>
+            ) : (
+              <em>Đường minh họa — chưa phải route thực tế (cần Google Routes API key)</em>
+            )}
           </Tooltip>
         </Polyline>
       ))}
@@ -107,8 +111,8 @@ export default function MapView({ zonesGeoJson, zoneStates, drivers, suggestions
       {pooledRoutes.map((route) => (
         <Polyline
           key={`pool-${route.driver_id}`}
-          positions={route.stops.map((s) => [s.lat, s.lng] as [number, number])}
-          pathOptions={{ color: "#7b3aed", weight: 3, opacity: 0.85 }}
+          positions={route.path ?? route.stops.map((s) => [s.lat, s.lng] as [number, number])}
+          pathOptions={{ color: "#7b3aed", weight: 3, opacity: 0.85, dashArray: route.path ? undefined : "6 6" }}
         >
           <Tooltip sticky>
             Ghép chuyến: {route.driver_id} chở {route.passengers} khách · {(route.total_distance_m / 1000).toFixed(1)}{" "}
@@ -116,7 +120,11 @@ export default function MapView({ zonesGeoJson, zoneStates, drivers, suggestions
             <br />
             {route.stops.map((s) => `${s.type === "pickup" ? "Đón" : "Trả"} ${s.zone_name}`).join(" → ")}
             <br />
-            <em>Đường minh họa nối tâm zone — chưa phải route thực tế (cần routing API key)</em>
+            {route.path ? (
+              <em>Route thực tế (Google Routes API)</em>
+            ) : (
+              <em>Đường minh họa nối tâm zone — chưa phải route thực tế (cần routing API key)</em>
+            )}
           </Tooltip>
         </Polyline>
       ))}

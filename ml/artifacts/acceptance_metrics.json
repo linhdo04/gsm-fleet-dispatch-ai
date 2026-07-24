@@ -11,21 +11,21 @@
     "is_weekend"
   ],
   "train": {
-    "accuracy": 0.6485,
-    "auc": 0.7069,
-    "rows": 71109,
-    "oracle_auc": 0.7071
+    "accuracy": 0.6452,
+    "auc": 0.6809,
+    "rows": 71225,
+    "oracle_auc": 0.6807
   },
   "validation": {
-    "accuracy": 0.6352,
-    "auc": 0.6884,
-    "rows": 14267,
-    "oracle_auc": 0.7056
+    "accuracy": 0.6299,
+    "auc": 0.6661,
+    "rows": 14371,
+    "oracle_auc": 0.6827
   },
   "test": {
-    "accuracy": 0.6226,
-    "auc": 0.6745,
-    "rows": 11675,
-    "oracle_auc": 0.6942
+    "accuracy": 0.6241,
+    "auc": 0.6638,
+    "rows": 12845,
+    "oracle_auc": 0.6831
   }
 }

@@ -1,4 +1,5 @@
 import json
+import tempfile
 import unittest
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -9,6 +10,7 @@ from simulator.engine import PROJECT_ROOT, FleetSimulator
 from simulator.generators import demand_counts_by_zone
 from simulator.models import Driver
 from simulator.supply_tracker import build_supply_snapshots
+from simulator.validate_outputs import read_dataset
 
 
 class SimulatorTests(unittest.TestCase):
@@ -42,10 +44,12 @@ class SimulatorTests(unittest.TestCase):
 
     def test_supply_tracker_counts_each_driver_once(self) -> None:
         now = datetime(2026, 1, 5, tzinfo=timezone.utc)
-        zone_a, zone_b = self.zones[0]["zone_id"], self.zones[1]["zone_id"]
+        zone_a_row, zone_b_row = self.zones[0], self.zones[1]
+        zone_a, zone_b = zone_a_row["zone_id"], zone_b_row["zone_id"]
+        lat, lng = zone_a_row["center_lat"], zone_a_row["center_lng"]
         drivers = [
-            Driver("D1", zone_a, 80.0, "idle", idle_since=now),
-            Driver("D2", zone_a, 70.0, "busy", zone_b, now),
+            Driver("D1", zone_a, 80.0, lat, lng, "idle", idle_since=now),
+            Driver("D2", zone_a, 70.0, lat, lng, "busy", zone_b, now),
         ]
         rows = build_supply_snapshots(
             drivers, self.zones, now, 1200, {zone_a: 1}, {zone_a: 2}
@@ -54,6 +58,18 @@ class SimulatorTests(unittest.TestCase):
         self.assertEqual(by_zone[zone_a]["idle_drivers"], 1)
         self.assertEqual(by_zone[zone_b]["trip_dropoff_incoming"], 1)
         self.assertEqual(sum(row["idle_drivers"] for row in rows), 1)
+
+    def test_acceptance_distance_is_not_discretized(self) -> None:
+        """Regression test cho docs/week2_data_sanity_check.md mục 4: driver
+        giờ có toạ độ ngẫu nhiên thật trong polygon zone (simulator/geo.py)
+        thay vì gán cứng tâm zone, nên distance_m trong Acceptance History
+        không còn rơi vào đúng 3 giá trị cố định nữa."""
+        with tempfile.TemporaryDirectory() as tmp:
+            output_dir = Path(tmp)
+            simulator = FleetSimulator(seed=99)
+            simulator.run(date(2026, 1, 5), 1, output_dir)
+            acceptance = read_dataset(output_dir / "acceptance_history")
+            self.assertGreater(acceptance["distance_m"].nunique(), 10)
 
     def test_driver_initialization_is_reproducible(self) -> None:
         first = FleetSimulator(seed=77)

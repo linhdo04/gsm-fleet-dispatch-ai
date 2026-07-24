@@ -44,6 +44,9 @@ export interface RepositioningSuggestion {
   target_zone_id: string;
   target_zone_name: string;
   to: [number, number];
+  // Đường đi thật (đã decode encoded polyline từ Google Routes API), null nếu
+  // đang chạy fallback Haversine (thiếu GOOGLE_ROUTES_API_KEY khi export data).
+  path: [number, number][] | null;
   acceptance_probability: number;
   reason: string;
   explanation: string;
@@ -78,6 +81,9 @@ export interface PooledRoute {
   driver_id: string;
   passengers: number;
   total_distance_m: number;
+  // Đường đi thật nối các stop (đã decode encoded polyline), null nếu bất kỳ
+  // đoạn nào rơi vào fallback Haversine (thiếu GOOGLE_ROUTES_API_KEY).
+  path: [number, number][] | null;
   stops: PooledRouteStop[];
 }
 

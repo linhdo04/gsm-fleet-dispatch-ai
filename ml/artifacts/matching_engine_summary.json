@@ -6,13 +6,13 @@
   "hungarian_1to1": {
     "requests": 40,
     "matched": 40,
-    "avg_predicted_cost_minutes": 5.61
+    "avg_predicted_cost_minutes": 6.79
   },
   "ride_pooling": {
     "requests": 40,
     "assigned": 40,
     "unmatched_no_capacity": 0,
-    "drivers_used": 27,
-    "drivers_serving_2plus_passengers": 9
+    "drivers_used": 25,
+    "drivers_serving_2plus_passengers": 11
   }
 }

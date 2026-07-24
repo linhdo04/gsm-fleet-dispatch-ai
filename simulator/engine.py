@@ -18,6 +18,7 @@ from .generators import (
     generate_drivers,
     generate_weather_for_day,
 )
+from .geo import random_point_in_zone
 from .models import Driver
 from .supply_tracker import build_supply_snapshots
 
@@ -97,6 +98,7 @@ class FleetSimulator:
             if driver.status == "busy":
                 if driver.destination_zone_id is not None:
                     driver.zone_id = driver.destination_zone_id
+                    driver.lat, driver.lng = random_point_in_zone(self.zone_by_id[driver.zone_id], self.rng)
                 driver.destination_zone_id = None
                 if driver.battery_percent < battery_cfg["low_battery_threshold_percent"]:
                     driver.status = "charging"
@@ -109,6 +111,7 @@ class FleetSimulator:
             elif driver.status == "incoming":
                 if driver.destination_zone_id is not None:
                     driver.zone_id = driver.destination_zone_id
+                    driver.lat, driver.lng = random_point_in_zone(self.zone_by_id[driver.zone_id], self.rng)
                 driver.destination_zone_id = None
                 if driver.battery_percent < battery_cfg["low_battery_threshold_percent"]:
                     driver.status = "charging"
@@ -239,6 +242,7 @@ class FleetSimulator:
         for target_zone_id, deficit in targets:
             if deficit <= 0:
                 continue
+            target_zone = self.zone_by_id[target_zone_id]
             candidates = sorted(
                 (
                     driver for driver in idle
@@ -246,15 +250,20 @@ class FleetSimulator:
                     and self.zone_distances[(driver.zone_id, target_zone_id)]
                     <= self.config["repositioning"]["candidate_radius_m"]
                 ),
-                key=lambda driver: self.zone_distances[(driver.zone_id, target_zone_id)],
+                key=lambda driver: haversine_m(
+                    driver.lat, driver.lng, target_zone["center_lat"], target_zone["center_lng"]
+                ),
             )[: min(3, int(math.ceil(deficit)))]
             for driver in candidates:
                 used_drivers.add(driver.driver_id)
+                distance_m = (
+                    haversine_m(driver.lat, driver.lng, target_zone["center_lat"], target_zone["center_lng"]) * 1.3
+                )
                 records.append(
                     generate_acceptance_record(
                         driver,
                         target_zone_id,
-                        self.zone_distances[(driver.zone_id, target_zone_id)] * 1.3,
+                        distance_m,
                         float(deficit),
                         timestamp,
                         self.rng,
@@ -313,6 +322,7 @@ class FleetSimulator:
         for target_zone_id, deficit in targets:
             if deficit <= 0:
                 continue
+            target_zone = self.zone_by_id[target_zone_id]
             candidates = [
                 driver
                 for zone_id in self.nearest_zones[target_zone_id]
@@ -329,7 +339,7 @@ class FleetSimulator:
                 candidates,
                 key=lambda driver: expected_acceptance_score(
                     driver,
-                    self.zone_distances[(driver.zone_id, target_zone_id)] * 1.3,
+                    haversine_m(driver.lat, driver.lng, target_zone["center_lat"], target_zone["center_lng"]) * 1.3,
                     float(deficit),
                     timestamp,
                 ),
@@ -337,7 +347,9 @@ class FleetSimulator:
             )
             for driver in ranked[:budget]:
                 used_driver_ids.add(driver.driver_id)
-                distance_m = self.zone_distances[(driver.zone_id, target_zone_id)] * 1.3
+                distance_m = (
+                    haversine_m(driver.lat, driver.lng, target_zone["center_lat"], target_zone["center_lng"]) * 1.3
+                )
                 record = generate_acceptance_record(
                     driver, target_zone_id, distance_m, float(deficit), timestamp, self.rng
                 )
@@ -361,6 +373,8 @@ class FleetSimulator:
             {
                 "driver_id": driver.driver_id,
                 "zone_id": driver.zone_id,
+                "lat": round(driver.lat, 7),
+                "lng": round(driver.lng, 7),
                 "battery_percent": round(driver.battery_percent, 2),
                 "status": driver.status,
                 "destination_zone_id": driver.destination_zone_id,

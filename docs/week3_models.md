@@ -42,11 +42,13 @@ Target: `accepted` trong `acceptance_history`. Feature: `distance_m`, `battery_p
 
 | Tập | Accuracy | AUC | AUC oracle (ground-truth prob) |
 |---|---:|---:|---:|
-| Train | 64,85% | 0,707 | 0,707 |
-| Validation | 63,52% | 0,688 | 0,706 |
-| Test | 62,26% | 0,675 | 0,694 |
+| Train | 64,52% | 0,681 | 0,681 |
+| Validation | 62,99% | 0,666 | 0,683 |
+| Test | 62,41% | 0,664 | 0,683 |
 
-**Nhận định:** AUC model (0,675) rất gần AUC oracle (0,694) trên test — nghĩa là model đã học gần sát mức tối đa có thể học được từ dữ liệu này (phần chênh lệch còn lại là nhiễu Bernoulli không thể khử). Đây là dấu hiệu tốt, nhưng cần nhắc lại giới hạn đã ghi trong [`week2_data_sanity_check.md`](week2_data_sanity_check.md): feature `distance_m` chỉ có 3 giá trị rời rạc do cách sinh vị trí tài xế ở mức tâm zone — nếu sửa vấn đề đó, model có cơ hội học đường cong khoảng cách mượt hơn và AUC có thể cải thiện thêm.
+**Cập nhật (sau khi sửa `distance_m` rời rạc):** đã sửa theo khuyến nghị #1 trong [`week2_data_sanity_check.md`](week2_data_sanity_check.md) mục 4 — driver giờ có toạ độ ngẫu nhiên thật trong polygon zone (`simulator/geo.py`) thay vì gán cứng tâm zone. `distance_m` trong Acceptance History đã từ **3 giá trị cố định** tăng lên **35.608 giá trị khác nhau** (98.441 mẫu, seed 20260717, min 7,9m – max 7.640,3m). Dữ liệu 56 ngày và cả 2 model (Forecast + Acceptance) đã được sinh lại và train lại trên dữ liệu mới; bảng số liệu ở trên là kết quả mới nhất.
+
+**Nhận định:** AUC model (0,664) vẫn rất gần AUC oracle (0,683) trên test — chênh lệch gần như không đổi so với trước khi sửa (0,019 cả hai lần), khớp đúng dự đoán ban đầu: model đã học gần sát mức tối đa có thể học được từ dữ liệu này, nên việc làm `distance_m` liên tục chủ yếu giúp feature **trung thực hơn** (không còn là hàm bậc thang giả), không kỳ vọng AUC tăng mạnh vì phần chênh lệch còn lại là nhiễu Bernoulli không thể khử.
 
 ## 3. Repositioning Suggester
 
