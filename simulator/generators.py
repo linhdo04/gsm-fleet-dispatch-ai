@@ -4,6 +4,7 @@ from typing import Dict, Iterable, List
 
 import numpy as np
 
+from .geo import random_point_in_zone
 from .models import Driver
 
 
@@ -22,11 +23,14 @@ def generate_drivers(
         zone = zones[int(zone_index)]
         battery = float(np.clip(rng.beta(5.0, 2.0) * 100.0, 12.0, 100.0))
         status = "charging" if battery < 20.0 else "idle"
+        lat, lng = random_point_in_zone(zone, rng)
         drivers.append(
             Driver(
                 driver_id=f"D{index:04d}",
                 zone_id=zone["zone_id"],
                 battery_percent=round(battery, 2),
+                lat=lat,
+                lng=lng,
                 status=status,
                 available_at=start_time if status == "idle" else None,
                 idle_since=start_time if status == "idle" else None,

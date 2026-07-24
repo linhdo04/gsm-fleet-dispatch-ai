@@ -36,4 +36,4 @@ ml/mlflow.db
 ml/mlartifacts/
 
 .DS_Store
-Thumbs.db
+__pycache__/

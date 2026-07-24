@@ -44,6 +44,32 @@ class RouteResult:
     is_fallback: bool
 
 
+def decode_polyline(encoded: str) -> list[tuple[float, float]]:
+    """Giải mã encoded polyline (thuật toán chuẩn của Google, precision 5)
+    từ `RouteResult.encoded_polyline` thành danh sách điểm (lat, lng) để vẽ
+    đường đi thật trên bản đồ, thay vì nối thẳng điểm đầu/cuối."""
+    points: list[tuple[float, float]] = []
+    index, lat, lng = 0, 0, 0
+    length = len(encoded)
+    while index < length:
+        for coord in ("lat", "lng"):
+            shift, result = 0, 0
+            while True:
+                b = ord(encoded[index]) - 63
+                index += 1
+                result |= (b & 0x1F) << shift
+                shift += 5
+                if b < 0x20:
+                    break
+            delta = ~(result >> 1) if (result & 1) else (result >> 1)
+            if coord == "lat":
+                lat += delta
+            else:
+                lng += delta
+        points.append((lat / 1e5, lng / 1e5))
+    return points
+
+
 def _haversine_m(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
     radius_m = 6_371_000.0
     phi1, phi2 = math.radians(lat1), math.radians(lat2)

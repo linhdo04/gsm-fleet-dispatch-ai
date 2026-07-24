@@ -69,7 +69,7 @@
 **Tác động:** Acceptance Probability Model vẫn học đúng chiều ảnh hưởng của khoảng cách, nhưng đường cong sẽ là bậc thang 3 điểm thay vì mượt — hơi "giả" hơn so với mô tả trong báo cáo (feature liên tục).
 
 **Khuyến nghị sửa (nếu còn thời gian ở Tuần 2–3):**
-1. Sinh vị trí driver bằng toạ độ ngẫu nhiên trong polygon zone (thay vì gán cứng tâm zone) trước khi tính haversine.
+1. ~~Sinh vị trí driver bằng toạ độ ngẫu nhiên trong polygon zone (thay vì gán cứng tâm zone) trước khi tính haversine.~~ **Đã sửa** — xem `simulator/geo.py` (`random_point_in_zone`), `simulator/models.py`, `simulator/engine.py`. `distance_m` giờ có 35.608 giá trị khác nhau trên 98.441 mẫu (trước đó chỉ 3 giá trị cố định). Chi tiết kết quả sau khi sửa: [`week3_models.md`](week3_models.md) mục 2.
 2. Hoặc mở rộng candidate pool vượt quá top-3 gần nhất để có nhiều mức khoảng cách hơn trong tập train.
 3. Nêu rõ giới hạn này trong phần "Giới hạn" của báo cáo cuối (Tuần 6) nếu không kịp sửa — đây là giả lập có kiểm soát, không phải hành vi khoảng cách thật.
 

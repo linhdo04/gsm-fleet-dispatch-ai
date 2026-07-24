@@ -39,13 +39,25 @@ def rank_candidates(
     timestamp: datetime,
     zone_distances: Dict[tuple, float],
     model,
+    zone_center: Optional[Dict[str, tuple]] = None,
 ) -> pd.DataFrame:
     """Score idle drivers with the trained Acceptance Probability Model and
     return them ranked by p_accept, highest first — the ranking step that
-    replaces plain nearest-distance in report.md's Tuần 3 pseudocode."""
+    replaces plain nearest-distance in report.md's Tuần 3 pseudocode.
+
+    `zone_center` (nếu có, cùng `driver["lat"]`/`driver["lng"]` từ
+    `drivers_final.json`) dùng toạ độ thật của từng driver thay vì tâm zone —
+    né lại vấn đề `distance_m` rời rạc đã sửa ở `simulator/geo.py` cho dữ
+    liệu training, giờ áp dụng luôn cho suggestion hiển thị demo. Thiếu
+    `zone_center` hoặc driver không có lat/lng (dữ liệu cũ) -> fallback về
+    zone-to-zone centroid như trước, không raise lỗi."""
     rows = []
     for driver in candidates:
-        distance_m = zone_distances[(driver["zone_id"], target_zone_id)] * 1.3
+        if zone_center and "lat" in driver and "lng" in driver:
+            target_lat, target_lng = zone_center[target_zone_id]
+            distance_m = _haversine_m(driver["lat"], driver["lng"], target_lat, target_lng) * 1.3
+        else:
+            distance_m = zone_distances[(driver["zone_id"], target_zone_id)] * 1.3
         rows.append(
             {
                 "driver_id": driver["driver_id"],
@@ -72,6 +84,7 @@ def suggest_round(
     model,
     config: dict,
     timestamp: datetime,
+    zone_center: Optional[Dict[str, tuple]] = None,
 ) -> List[dict]:
     """One repositioning round across every zone with deficit > 0, highest
     deficit first. Implements the soft-reserve loop from report.md Tuần 3:
@@ -100,7 +113,9 @@ def suggest_round(
             ]
             if not candidates:
                 break
-            ranked = rank_candidates(candidates, target_zone_id, remaining, timestamp, zone_distances, model)
+            ranked = rank_candidates(
+                candidates, target_zone_id, remaining, timestamp, zone_distances, model, zone_center
+            )
             best = ranked.iloc[0]
             used_driver_ids.add(best["driver_id"])
             p_accept = float(best["p_accept"])
@@ -148,7 +163,8 @@ def demo_live_snapshot(model, config: dict, zones: pd.DataFrame, zone_distances:
     """Run one suggestion round on the shared demo scenario, to show the
     module producing real suggestions end-to-end."""
     idle_drivers, deficits, timestamp = load_demo_scenario(zones)
-    return suggest_round(deficits, idle_drivers, zone_distances, model, config, timestamp)
+    zone_center = dict(zip(zones["zone_id"], zip(zones["center_lat"], zones["center_lng"])))
+    return suggest_round(deficits, idle_drivers, zone_distances, model, config, timestamp, zone_center)
 
 
 def simulate_herding_comparison(ticks: int = 4) -> pd.DataFrame:

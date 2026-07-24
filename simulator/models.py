@@ -8,6 +8,8 @@ class Driver:
     driver_id: str
     zone_id: str
     battery_percent: float
+    lat: float
+    lng: float
     status: str = "idle"
     destination_zone_id: Optional[str] = None
     available_at: Optional[datetime] = None
