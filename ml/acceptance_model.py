@@ -15,6 +15,7 @@ from .common import (
     load_acceptance_history,
     load_config,
 )
+from .mlflow_tracking import log_training_run
 
 FEATURE_COLUMNS = [
     "distance_m",
@@ -83,9 +84,27 @@ def train(output_dir: Path) -> dict:
         "test": evaluate(model, test_df),
     }
 
-    joblib.dump(model, output_dir / "acceptance_model.joblib")
-    (output_dir / "acceptance_metrics.json").write_text(
+    model_path = output_dir / "acceptance_model.joblib"
+    metrics_path = output_dir / "acceptance_metrics.json"
+    joblib.dump(model, model_path)
+    metrics_path.write_text(
         json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    log_training_run(
+        experiment_name="fleet-dispatch-acceptance",
+        run_name="acceptance-logistic-regression",
+        model=model,
+        registered_model_name="fleet-dispatch-acceptance-model",
+        params={
+            "model": "LogisticRegression",
+            "random_seed": seed,
+            "max_iter": 1000,
+            "features": ",".join(FEATURE_COLUMNS),
+        },
+        metrics=metrics,
+        artifacts=[model_path, metrics_path],
+        input_example=test_df[FEATURE_COLUMNS].head(5),
+        pyfunc_predict_fn="predict_proba",
     )
     return metrics
 
