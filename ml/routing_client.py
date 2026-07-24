@@ -154,8 +154,10 @@ class GoogleRoutesClient:
         route = payload["routes"][0]
         traffic_aware_seconds = float(route["duration"].rstrip("s"))
         static_seconds = float(route.get("staticDuration", route["duration"]).rstrip("s"))
+        # Origin == destination -> Google trả "routes": [{"duration": "0s"}], bỏ hẳn
+        # distanceMeters (không phải lỗi định dạng, đã kiểm chứng thật) -> coi là 0m.
         return RouteResult(
-            distance_m=float(route["distanceMeters"]),
+            distance_m=float(route.get("distanceMeters", 0.0)),
             duration_seconds=static_seconds,
             traffic_aware_duration_seconds=traffic_aware_seconds,
             encoded_polyline=route.get("polyline", {}).get("encodedPolyline"),

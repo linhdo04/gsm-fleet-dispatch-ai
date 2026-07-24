@@ -44,7 +44,14 @@ def _route_path(routes_client: GoogleRoutesClient, origin: tuple, dest: tuple) -
     """Toạ độ đường đi thật (đã decode encoded polyline) giữa 2 điểm, hoặc
     None nếu đang chạy fallback Haversine (không có GOOGLE_ROUTES_API_KEY)
     — frontend (MapView.tsx) chỉ vẽ đường minh hoạ nối thẳng khi None, để
-    không giả vờ là route thực tế."""
+    không giả vờ là route thực tế.
+
+    Origin == destination (2 stop cùng zone, ví dụ 2 khách pickup cùng zone
+    trong 1 route ghép chuyến) -> không gọi API: Google trả "duration": "0s"
+    nhưng bỏ hẳn distanceMeters/polyline cho quãng đường 0m, không phải lỗi
+    cần fallback — tự trả về đúng 1 điểm, không tốn quota API."""
+    if origin[0] == dest[0] and origin[1] == dest[1]:
+        return [list(origin)]
     result = routes_client.get_route(origin[0], origin[1], dest[0], dest[1])
     if result.is_fallback or not result.encoded_polyline:
         return None

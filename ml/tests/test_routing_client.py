@@ -85,6 +85,24 @@ class ApiFailureFallsBackTest(unittest.TestCase):
             result = client.get_route(*ORIGIN, *DEST)
         self.assertTrue(result.is_fallback)
 
+    def test_zero_distance_response_defaults_to_zero_not_fallback(self):
+        """Google trả '{"routes": [{"duration": "0s"}]}' (bỏ hẳn
+        distanceMeters/polyline) khi origin == destination — đã kiểm chứng
+        thật qua Routes API, không phải response lỗi cần fallback."""
+        client = GoogleRoutesClient(api_key="fake-key-for-test")
+
+        class FakeResponse:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"routes": [{"duration": "0s"}]}
+
+        with patch("ml.routing_client.requests.post", return_value=FakeResponse()):
+            result = client.get_route(*ORIGIN, *ORIGIN)
+        self.assertFalse(result.is_fallback)
+        self.assertEqual(result.distance_m, 0.0)
+
 
 class DecodePolylineTest(unittest.TestCase):
     """Ví dụ chính thức từ tài liệu Google Encoded Polyline Algorithm Format."""
